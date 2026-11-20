@@ -643,8 +643,8 @@
         "1.0.0.3663": {
           "check": "scanned",
           "ids": {
-            "found": 13,
-            "total": 13
+            "found": 14,
+            "total": 14
           },
           "pattern_counts": {
             "not_found": 0,
@@ -655,8 +655,8 @@
         "1.0.0.3732": {
           "check": "scanned",
           "ids": {
-            "found": 13,
-            "total": 13
+            "found": 14,
+            "total": 14
           },
           "pattern_counts": {
             "not_found": 0,
@@ -694,8 +694,8 @@
         "1.0.0.3663": {
           "check": "scanned",
           "ids": {
-            "found": 12,
-            "total": 12
+            "found": 13,
+            "total": 13
           },
           "pattern_counts": {
             "not_found": 0,
@@ -706,8 +706,8 @@
         "1.0.0.3732": {
           "check": "scanned",
           "ids": {
-            "found": 12,
-            "total": 12
+            "found": 13,
+            "total": 13
           },
           "pattern_counts": {
             "not_found": 0,
@@ -1993,7 +1993,7 @@
       "newest_code_upload": "2026-11-06T19:37:26Z",
       "newest_main_file_upload": "",
       "nexus": "https://www.nexusmods.com/crimsondesert/mods/4024",
-      "nexus_checked": "2026-11-20T16:52:23Z",
+      "nexus_checked": "2026-11-20T17:29:19Z",
       "nexus_updated": "2026-11-06T19:37:30Z",
       "supported": {
         "verdict": "unchecked"
@@ -2104,8 +2104,8 @@
         "1.0.0.3663": {
           "check": "scanned",
           "ids": {
-            "found": 50,
-            "total": 50
+            "found": 51,
+            "total": 51
           },
           "pattern_counts": {
             "not_found": 22,
@@ -2116,8 +2116,8 @@
         "1.0.0.3732": {
           "check": "scanned",
           "ids": {
-            "found": 50,
-            "total": 50
+            "found": 51,
+            "total": 51
           },
           "pattern_counts": {
             "not_found": 24,
@@ -3352,8 +3352,8 @@
         "1.0.0.3663": {
           "check": "scanned",
           "ids": {
-            "found": 38,
-            "total": 38
+            "found": 39,
+            "total": 39
           },
           "pattern_counts": {
             "not_found": 20,
@@ -3364,8 +3364,8 @@
         "1.0.0.3732": {
           "check": "scanned",
           "ids": {
-            "found": 38,
-            "total": 38
+            "found": 39,
+            "total": 39
           },
           "pattern_counts": {
             "not_found": 20,
@@ -7495,8 +7495,8 @@
         "1.0.0.3663": {
           "check": "scanned",
           "ids": {
-            "found": 401,
-            "total": 401
+            "found": 403,
+            "total": 403
           },
           "pattern_counts": {
             "not_found": 185,
@@ -7507,8 +7507,8 @@
         "1.0.0.3732": {
           "check": "scanned",
           "ids": {
-            "found": 401,
-            "total": 401
+            "found": 403,
+            "total": 403
           },
           "pattern_counts": {
             "not_found": 188,
@@ -10772,7 +10772,7 @@
       "newest_code_upload": "2026-04-11T22:01:11Z",
       "newest_main_file_upload": "",
       "nexus": "https://www.nexusmods.com/crimsondesert/mods/1009",
-      "nexus_checked": "2026-11-20T16:52:34Z",
+      "nexus_checked": "2026-11-20T17:29:30Z",
       "nexus_updated": "2026-04-11T22:01:11Z",
       "supported": {
         "verdict": "unchecked"
@@ -11087,8 +11087,8 @@
         "1.0.0.3663": {
           "check": "not_scanned",
           "ids": {
-            "found": 568,
-            "total": 568
+            "found": 569,
+            "total": 569
           },
           "pattern_counts": null,
           "status": "unchecked"
@@ -11096,8 +11096,8 @@
         "1.0.0.3732": {
           "check": "scanned",
           "ids": {
-            "found": 568,
-            "total": 568
+            "found": 569,
+            "total": 569
           },
           "pattern_counts": {
             "not_found": 151,
@@ -12847,7 +12847,7 @@
       "newest_code_upload": "2026-09-23T17:05:42Z",
       "newest_main_file_upload": "",
       "nexus": "https://www.nexusmods.com/crimsondesert/mods/3562",
-      "nexus_checked": "2026-11-20T16:52:36Z",
+      "nexus_checked": "2026-11-20T17:29:32Z",
       "nexus_updated": "2026-09-23T17:05:58Z",
       "supported": {
         "verdict": "unchecked"
@@ -14731,8 +14731,8 @@
         "1.0.0.3663": {
           "check": "scanned",
           "ids": {
-            "found": 93,
-            "total": 93
+            "found": 94,
+            "total": 94
           },
           "pattern_counts": {
             "not_found": 199,
@@ -14743,8 +14743,8 @@
         "1.0.0.3732": {
           "check": "scanned",
           "ids": {
-            "found": 93,
-            "total": 93
+            "found": 94,
+            "total": 94
           },
           "pattern_counts": {
             "not_found": 283,
@@ -14754,11 +14754,11 @@
         }
       },
       "coverage": {
-        "have": 99,
-        "level": "some",
+        "have": 100,
+        "level": "full",
         "missing": 0,
         "total": 100,
-        "use": "ids_pack",
+        "use": "everything",
         "waiting": 0
       },
       "group": "scanned",
@@ -15477,7 +15477,7 @@
       "newest_code_upload": "2026-11-19T14:31:15Z",
       "newest_main_file_upload": "",
       "nexus": "https://www.nexusmods.com/crimsondesert/mods/3482",
-      "nexus_checked": "2026-11-20T16:52:40Z",
+      "nexus_checked": "2026-11-20T17:29:36Z",
       "nexus_updated": "2026-11-19T14:31:15Z",
       "supported": {
         "verdict": "unchecked"
@@ -16305,7 +16305,7 @@
       "newest_code_upload": "2026-09-10T22:19:04Z",
       "newest_main_file_upload": "",
       "nexus": "https://www.nexusmods.com/crimsondesert/mods/3273",
-      "nexus_checked": "2026-11-20T16:52:42Z",
+      "nexus_checked": "2026-11-20T17:29:38Z",
       "nexus_updated": "2026-09-10T22:19:04Z",
       "supported": {
         "verdict": "unchecked"
@@ -17439,8 +17439,8 @@
         "1.0.0.3663": {
           "check": "not_scanned",
           "ids": {
-            "found": 15,
-            "total": 15
+            "found": 16,
+            "total": 16
           },
           "pattern_counts": null,
           "status": "unchecked"
@@ -17448,8 +17448,8 @@
         "1.0.0.3732": {
           "check": "scanned",
           "ids": {
-            "found": 15,
-            "total": 15
+            "found": 16,
+            "total": 16
           },
           "pattern_counts": {
             "not_found": 26,
