@@ -71,8 +71,56 @@
       "newest_code_upload": "2026-10-22T11:01:30Z",
       "newest_main_file_upload": "2026-11-19T21:01:57Z",
       "nexus": "https://www.nexusmods.com/crimsondesert/mods/3768",
-      "nexus_checked": "2026-11-20T07:07:02Z",
+      "nexus_checked": "2026-11-20T08:50:57Z",
       "nexus_updated": "2026-11-19T21:01:57Z",
+      "supported": {
+        "verdict": "unchecked"
+      }
+    },
+    {
+      "author": "Ahplla",
+      "builds": {
+        "1.0.0.3663": {
+          "check": "none",
+          "ids": {
+            "found": 0,
+            "total": 0
+          },
+          "pattern_counts": null,
+          "status": "none"
+        },
+        "1.0.0.3732": {
+          "check": "no_patterns",
+          "ids": {
+            "found": 0,
+            "total": 0
+          },
+          "pattern_counts": {
+            "not_found": 0,
+            "total": 0
+          },
+          "status": "nopatterns"
+        }
+      },
+      "coverage": {
+        "have": 0,
+        "level": "nothing",
+        "missing": 0,
+        "total": 0,
+        "use": "hooks",
+        "waiting": 0
+      },
+      "group": "scanned",
+      "key": "4409-24h-Hour-Clock-No-More-AM-PM",
+      "lab": {
+        "verdict": "untested"
+      },
+      "name": "24h - Hour Clock - No More AM PM",
+      "newest_code_upload": "2026-11-20T06:27:50Z",
+      "newest_main_file_upload": "2026-11-20T06:27:50Z",
+      "nexus": "https://www.nexusmods.com/crimsondesert/mods/4409",
+      "nexus_checked": "2026-11-20T08:51:25Z",
+      "nexus_updated": "2026-11-20T06:30:47Z",
       "supported": {
         "verdict": "unchecked"
       }
@@ -1777,7 +1825,7 @@
       "newest_code_upload": "2026-11-06T19:37:26Z",
       "newest_main_file_upload": "",
       "nexus": "https://www.nexusmods.com/crimsondesert/mods/4024",
-      "nexus_checked": "2026-11-20T07:08:10Z",
+      "nexus_checked": "2026-11-20T09:21:06Z",
       "nexus_updated": "2026-11-06T19:37:30Z",
       "supported": {
         "verdict": "unchecked"
@@ -2031,10 +2079,10 @@
         "verdict": "untested"
       },
       "name": "Business HUD",
-      "newest_code_upload": "2026-11-19T14:07:22Z",
+      "newest_code_upload": "2026-11-20T00:22:37Z",
       "newest_main_file_upload": "2026-11-20T00:22:37Z",
       "nexus": "https://www.nexusmods.com/crimsondesert/mods/4286",
-      "nexus_checked": "2026-11-20T07:08:19Z",
+      "nexus_checked": "2026-11-20T08:51:10Z",
       "nexus_updated": "2026-11-20T00:22:37Z",
       "supported": {
         "verdict": "unchecked"
@@ -2360,6 +2408,54 @@
       }
     },
     {
+      "author": "Fyreon87",
+      "builds": {
+        "1.0.0.3663": {
+          "check": "not_scanned",
+          "ids": {
+            "found": 3,
+            "total": 3
+          },
+          "pattern_counts": null,
+          "status": "unchecked"
+        },
+        "1.0.0.3732": {
+          "check": "scanned",
+          "ids": {
+            "found": 3,
+            "total": 3
+          },
+          "pattern_counts": {
+            "not_found": 3,
+            "total": 6
+          },
+          "status": "partly"
+        }
+      },
+      "coverage": {
+        "have": 3,
+        "level": "full",
+        "missing": 0,
+        "total": 3,
+        "use": "everything",
+        "waiting": 0
+      },
+      "group": "scanned",
+      "key": "3920-Cargo-Guard",
+      "lab": {
+        "verdict": "untested"
+      },
+      "name": "Cargo Guard",
+      "newest_code_upload": "2026-11-20T01:47:38Z",
+      "newest_main_file_upload": "2026-11-20T01:47:38Z",
+      "nexus": "https://www.nexusmods.com/crimsondesert/mods/3920",
+      "nexus_checked": "2026-11-20T08:51:02Z",
+      "nexus_updated": "2026-11-20T01:47:38Z",
+      "supported": {
+        "verdict": "unchecked"
+      }
+    },
+    {
       "author": "yoonfal77",
       "builds": {
         "1.0.0.3663": {
@@ -2610,10 +2706,10 @@
         "verdict": "untested"
       },
       "name": "CDHaptics - DualSense Haptics",
-      "newest_code_upload": "2026-11-19T13:34:44Z",
+      "newest_code_upload": "2026-11-20T01:07:10Z",
       "newest_main_file_upload": "2026-11-20T01:07:10Z",
       "nexus": "https://www.nexusmods.com/crimsondesert/mods/4351",
-      "nexus_checked": "2026-11-20T07:08:37Z",
+      "nexus_checked": "2026-11-20T08:51:09Z",
       "nexus_updated": "2026-11-20T01:07:10Z",
       "supported": {
         "verdict": "unchecked"
@@ -2623,22 +2719,19 @@
       "author": "Khione95",
       "builds": {
         "1.0.0.3663": {
-          "check": "scanned",
+          "check": "not_scanned",
           "ids": {
-            "found": 21,
-            "total": 21
+            "found": 17,
+            "total": 17
           },
-          "pattern_counts": {
-            "not_found": 6,
-            "total": 120
-          },
-          "status": "partly"
+          "pattern_counts": null,
+          "status": "unchecked"
         },
         "1.0.0.3732": {
           "check": "scanned",
           "ids": {
-            "found": 21,
-            "total": 21
+            "found": 17,
+            "total": 17
           },
           "pattern_counts": {
             "not_found": 6,
@@ -2648,10 +2741,10 @@
         }
       },
       "coverage": {
-        "have": 68,
+        "have": 57,
         "level": "full",
         "missing": 0,
-        "total": 68,
+        "total": 57,
         "use": "everything",
         "waiting": 0
       },
@@ -2661,10 +2754,10 @@
         "verdict": "untested"
       },
       "name": "Character Creator",
-      "newest_code_upload": "2026-11-16T15:52:58Z",
+      "newest_code_upload": "2026-11-19T22:28:47Z",
       "newest_main_file_upload": "2026-11-19T22:28:47Z",
       "nexus": "https://www.nexusmods.com/crimsondesert/mods/837",
-      "nexus_checked": "2026-11-20T07:08:39Z",
+      "nexus_checked": "2026-11-20T08:50:41Z",
       "nexus_updated": "2026-11-19T22:28:47Z",
       "supported": {
         "verdict": "unchecked"
@@ -2843,22 +2936,19 @@
       "author": "RitLuke",
       "builds": {
         "1.0.0.3663": {
-          "check": "no_patterns",
+          "check": "none",
           "ids": {
-            "found": 4,
-            "total": 4
-          },
-          "pattern_counts": {
-            "not_found": 0,
+            "found": 0,
             "total": 0
           },
-          "status": "nopatterns"
+          "pattern_counts": null,
+          "status": "none"
         },
         "1.0.0.3732": {
           "check": "no_patterns",
           "ids": {
-            "found": 4,
-            "total": 4
+            "found": 0,
+            "total": 0
           },
           "pattern_counts": {
             "not_found": 0,
@@ -2868,11 +2958,11 @@
         }
       },
       "coverage": {
-        "have": 4,
-        "level": "full",
+        "have": 0,
+        "level": "nothing",
         "missing": 0,
-        "total": 4,
-        "use": "everything",
+        "total": 0,
+        "use": "hooks",
         "waiting": 0
       },
       "group": "scanned",
@@ -2881,10 +2971,10 @@
         "verdict": "untested"
       },
       "name": "Cinematic Visor Toggle",
-      "newest_code_upload": "2026-11-13T11:42:35Z",
+      "newest_code_upload": "2026-11-20T03:40:20Z",
       "newest_main_file_upload": "2026-11-20T03:40:20Z",
       "nexus": "https://www.nexusmods.com/crimsondesert/mods/4085",
-      "nexus_checked": "2026-11-20T07:08:47Z",
+      "nexus_checked": "2026-11-20T08:51:11Z",
       "nexus_updated": "2026-11-20T03:40:20Z",
       "supported": {
         "verdict": "unchecked"
@@ -2988,6 +3078,54 @@
       "nexus": "https://www.nexusmods.com/crimsondesert/mods/3489",
       "nexus_checked": "2026-11-20T07:08:51Z",
       "nexus_updated": "2026-11-14T03:36:01Z",
+      "supported": {
+        "verdict": "unchecked"
+      }
+    },
+    {
+      "author": "lucsOli",
+      "builds": {
+        "1.0.0.3663": {
+          "check": "none",
+          "ids": {
+            "found": 0,
+            "total": 0
+          },
+          "pattern_counts": null,
+          "status": "none"
+        },
+        "1.0.0.3732": {
+          "check": "no_patterns",
+          "ids": {
+            "found": 0,
+            "total": 0
+          },
+          "pattern_counts": {
+            "not_found": 0,
+            "total": 0
+          },
+          "status": "nopatterns"
+        }
+      },
+      "coverage": {
+        "have": 0,
+        "level": "nothing",
+        "missing": 0,
+        "total": 0,
+        "use": "hooks",
+        "waiting": 0
+      },
+      "group": "scanned",
+      "key": "4411-Clean-Adaptive-HUD",
+      "lab": {
+        "verdict": "untested"
+      },
+      "name": "Clean Adaptive HUD",
+      "newest_code_upload": "2026-11-20T08:29:15Z",
+      "newest_main_file_upload": "2026-11-20T08:29:15Z",
+      "nexus": "https://www.nexusmods.com/crimsondesert/mods/4411",
+      "nexus_checked": "2026-11-20T08:51:33Z",
+      "nexus_updated": "2026-11-20T08:37:45Z",
       "supported": {
         "verdict": "unchecked"
       }
@@ -3248,16 +3386,13 @@
       "author": "AlexeySova",
       "builds": {
         "1.0.0.3663": {
-          "check": "no_patterns",
+          "check": "none",
           "ids": {
             "found": 0,
             "total": 0
           },
-          "pattern_counts": {
-            "not_found": 0,
-            "total": 0
-          },
-          "status": "nopatterns"
+          "pattern_counts": null,
+          "status": "none"
         },
         "1.0.0.3732": {
           "check": "no_patterns",
@@ -3286,11 +3421,11 @@
         "verdict": "untested"
       },
       "name": "Crimson Carnage - Ultimate Blood System 1.6",
-      "newest_code_upload": "2026-11-13T18:16:45Z",
+      "newest_code_upload": "2026-11-20T08:46:39Z",
       "newest_main_file_upload": "2026-11-13T18:22:39Z",
       "nexus": "https://www.nexusmods.com/crimsondesert/mods/3609",
-      "nexus_checked": "2026-11-20T07:09:03Z",
-      "nexus_updated": "2026-11-13T18:22:39Z",
+      "nexus_checked": "2026-11-20T08:50:51Z",
+      "nexus_updated": "2026-11-20T08:46:39Z",
       "supported": {
         "verdict": "unchecked"
       }
@@ -4163,6 +4298,54 @@
       "nexus": "https://www.nexusmods.com/crimsondesert/mods/3542",
       "nexus_checked": "2026-11-20T07:09:37Z",
       "nexus_updated": "2026-09-19T15:04:17Z",
+      "supported": {
+        "verdict": "unchecked"
+      }
+    },
+    {
+      "author": "Raseruda",
+      "builds": {
+        "1.0.0.3663": {
+          "check": "none",
+          "ids": {
+            "found": 0,
+            "total": 0
+          },
+          "pattern_counts": null,
+          "status": "none"
+        },
+        "1.0.0.3732": {
+          "check": "no_patterns",
+          "ids": {
+            "found": 0,
+            "total": 0
+          },
+          "pattern_counts": {
+            "not_found": 0,
+            "total": 0
+          },
+          "status": "nopatterns"
+        }
+      },
+      "coverage": {
+        "have": 0,
+        "level": "nothing",
+        "missing": 0,
+        "total": 0,
+        "use": "hooks",
+        "waiting": 0
+      },
+      "group": "scanned",
+      "key": "4407-Crimson-Soft",
+      "lab": {
+        "verdict": "untested"
+      },
+      "name": "Crimson Soft",
+      "newest_code_upload": "2026-11-20T04:36:05Z",
+      "newest_main_file_upload": "2026-11-20T04:36:05Z",
+      "nexus": "https://www.nexusmods.com/crimsondesert/mods/4407",
+      "nexus_checked": "2026-11-20T08:51:27Z",
+      "nexus_updated": "2026-11-20T04:46:06Z",
       "supported": {
         "verdict": "unchecked"
       }
@@ -5796,22 +5979,19 @@
       "author": "RitLuke",
       "builds": {
         "1.0.0.3663": {
-          "check": "no_patterns",
+          "check": "none",
           "ids": {
-            "found": 12,
-            "total": 12
-          },
-          "pattern_counts": {
-            "not_found": 0,
+            "found": 0,
             "total": 0
           },
-          "status": "nopatterns"
+          "pattern_counts": null,
+          "status": "none"
         },
         "1.0.0.3732": {
           "check": "no_patterns",
           "ids": {
-            "found": 12,
-            "total": 12
+            "found": 0,
+            "total": 0
           },
           "pattern_counts": {
             "not_found": 0,
@@ -5821,11 +6001,11 @@
         }
       },
       "coverage": {
-        "have": 12,
-        "level": "full",
+        "have": 0,
+        "level": "nothing",
         "missing": 0,
-        "total": 12,
-        "use": "everything",
+        "total": 0,
+        "use": "hooks",
         "waiting": 0
       },
       "group": "scanned",
@@ -5834,10 +6014,10 @@
         "verdict": "untested"
       },
       "name": "Dynamic Waypoint Display and Hidden Hud-Minimap etc.",
-      "newest_code_upload": "2026-11-15T16:43:11Z",
+      "newest_code_upload": "2026-11-20T03:39:21Z",
       "newest_main_file_upload": "2026-11-20T03:39:21Z",
       "nexus": "https://www.nexusmods.com/crimsondesert/mods/4132",
-      "nexus_checked": "2026-11-20T07:10:42Z",
+      "nexus_checked": "2026-11-20T08:51:14Z",
       "nexus_updated": "2026-11-20T03:39:21Z",
       "supported": {
         "verdict": "unchecked"
@@ -7711,16 +7891,13 @@
       "author": "TASx69",
       "builds": {
         "1.0.0.3663": {
-          "check": "no_patterns",
+          "check": "none",
           "ids": {
             "found": 0,
             "total": 0
           },
-          "pattern_counts": {
-            "not_found": 0,
-            "total": 0
-          },
-          "status": "nopatterns"
+          "pattern_counts": null,
+          "status": "none"
         },
         "1.0.0.3732": {
           "check": "no_patterns",
@@ -7749,10 +7926,10 @@
         "verdict": "untested"
       },
       "name": "Hex Appeal",
-      "newest_code_upload": "2026-11-18T22:49:54Z",
+      "newest_code_upload": "2026-11-20T05:48:57Z",
       "newest_main_file_upload": "2026-11-20T05:48:57Z",
       "nexus": "https://www.nexusmods.com/crimsondesert/mods/4279",
-      "nexus_checked": "2026-11-20T07:11:57Z",
+      "nexus_checked": "2026-11-20T08:51:03Z",
       "nexus_updated": "2026-11-20T05:49:17Z",
       "supported": {
         "verdict": "unchecked"
@@ -8269,22 +8446,19 @@
       "author": "RitLuke",
       "builds": {
         "1.0.0.3663": {
-          "check": "scanned",
+          "check": "not_scanned",
           "ids": {
-            "found": 19,
-            "total": 19
-          },
-          "pattern_counts": {
-            "not_found": 1,
+            "found": 9,
             "total": 9
           },
-          "status": "partly"
+          "pattern_counts": null,
+          "status": "unchecked"
         },
         "1.0.0.3732": {
           "check": "scanned",
           "ids": {
-            "found": 19,
-            "total": 19
+            "found": 9,
+            "total": 9
           },
           "pattern_counts": {
             "not_found": 1,
@@ -8294,10 +8468,10 @@
         }
       },
       "coverage": {
-        "have": 22,
+        "have": 8,
         "level": "full",
         "missing": 0,
-        "total": 22,
+        "total": 8,
         "use": "everything",
         "waiting": 0
       },
@@ -8307,10 +8481,10 @@
         "verdict": "untested"
       },
       "name": "Immersive Gear Toggle Automator - Hidden Collection",
-      "newest_code_upload": "2026-11-14T02:45:22Z",
+      "newest_code_upload": "2026-11-20T03:39:57Z",
       "newest_main_file_upload": "2026-11-20T03:39:57Z",
       "nexus": "https://www.nexusmods.com/crimsondesert/mods/4087",
-      "nexus_checked": "2026-11-20T07:12:19Z",
+      "nexus_checked": "2026-11-20T08:51:16Z",
       "nexus_updated": "2026-11-20T03:39:57Z",
       "supported": {
         "verdict": "unchecked"
@@ -8934,22 +9108,19 @@
       "author": "RitLuke",
       "builds": {
         "1.0.0.3663": {
-          "check": "no_patterns",
+          "check": "none",
           "ids": {
-            "found": 8,
-            "total": 8
-          },
-          "pattern_counts": {
-            "not_found": 0,
+            "found": 0,
             "total": 0
           },
-          "status": "nopatterns"
+          "pattern_counts": null,
+          "status": "none"
         },
         "1.0.0.3732": {
           "check": "no_patterns",
           "ids": {
-            "found": 8,
-            "total": 8
+            "found": 0,
+            "total": 0
           },
           "pattern_counts": {
             "not_found": 0,
@@ -8959,11 +9130,11 @@
         }
       },
       "coverage": {
-        "have": 8,
-        "level": "full",
+        "have": 0,
+        "level": "nothing",
         "missing": 0,
-        "total": 8,
-        "use": "everything",
+        "total": 0,
+        "use": "hooks",
         "waiting": 0
       },
       "group": "scanned",
@@ -8972,10 +9143,10 @@
         "verdict": "untested"
       },
       "name": "Leisure Knight in Towns (Hidden Helm and Gloves)",
-      "newest_code_upload": "2026-11-14T02:44:01Z",
+      "newest_code_upload": "2026-11-20T03:38:58Z",
       "newest_main_file_upload": "2026-11-20T03:38:58Z",
       "nexus": "https://www.nexusmods.com/crimsondesert/mods/4084",
-      "nexus_checked": "2026-11-20T07:12:44Z",
+      "nexus_checked": "2026-11-20T08:51:21Z",
       "nexus_updated": "2026-11-20T03:38:58Z",
       "supported": {
         "verdict": "unchecked"
@@ -9434,6 +9605,54 @@
       "nexus": "https://www.nexusmods.com/crimsondesert/mods/3897",
       "nexus_checked": "2026-11-20T07:13:02Z",
       "nexus_updated": "2026-10-27T14:13:11Z",
+      "supported": {
+        "verdict": "unchecked"
+      }
+    },
+    {
+      "author": "focuc11",
+      "builds": {
+        "1.0.0.3663": {
+          "check": "not_scanned",
+          "ids": {
+            "found": 11,
+            "total": 11
+          },
+          "pattern_counts": null,
+          "status": "unchecked"
+        },
+        "1.0.0.3732": {
+          "check": "scanned",
+          "ids": {
+            "found": 11,
+            "total": 11
+          },
+          "pattern_counts": {
+            "not_found": 3,
+            "total": 13
+          },
+          "status": "partly"
+        }
+      },
+      "coverage": {
+        "have": 9,
+        "level": "some",
+        "missing": 0,
+        "total": 10,
+        "use": "ids_pack",
+        "waiting": 0
+      },
+      "group": "scanned",
+      "key": "4404-Loot-Aura",
+      "lab": {
+        "verdict": "untested"
+      },
+      "name": "Loot Aura",
+      "newest_code_upload": "2026-11-20T01:28:56Z",
+      "newest_main_file_upload": "2026-11-20T01:28:56Z",
+      "nexus": "https://www.nexusmods.com/crimsondesert/mods/4404",
+      "nexus_checked": "2026-11-20T08:51:26Z",
+      "nexus_updated": "2026-11-20T01:29:15Z",
       "supported": {
         "verdict": "unchecked"
       }
@@ -10297,57 +10516,6 @@
       }
     },
     {
-      "author": "Fyreon87",
-      "builds": {
-        "1.0.0.3663": {
-          "check": "scanned",
-          "ids": {
-            "found": 3,
-            "total": 3
-          },
-          "pattern_counts": {
-            "not_found": 3,
-            "total": 6
-          },
-          "status": "partly"
-        },
-        "1.0.0.3732": {
-          "check": "scanned",
-          "ids": {
-            "found": 3,
-            "total": 3
-          },
-          "pattern_counts": {
-            "not_found": 3,
-            "total": 6
-          },
-          "status": "partly"
-        }
-      },
-      "coverage": {
-        "have": 4,
-        "level": "full",
-        "missing": 0,
-        "total": 4,
-        "use": "everything",
-        "waiting": 0
-      },
-      "group": "scanned",
-      "key": "3920-No-Thanks-Yann-Horse-Trading-Mod",
-      "lab": {
-        "verdict": "untested"
-      },
-      "name": "No Thanks Yann - Horse Trading Mod",
-      "newest_code_upload": "2026-11-10T21:52:54Z",
-      "newest_main_file_upload": "2026-11-20T01:47:38Z",
-      "nexus": "https://www.nexusmods.com/crimsondesert/mods/3920",
-      "nexus_checked": "2026-11-20T07:13:37Z",
-      "nexus_updated": "2026-11-20T01:47:38Z",
-      "supported": {
-        "verdict": "unchecked"
-      }
-    },
-    {
       "author": "Gametism",
       "builds": {
         "1.0.0.3663": {
@@ -10436,7 +10604,7 @@
       "newest_code_upload": "2026-04-11T22:01:11Z",
       "newest_main_file_upload": "",
       "nexus": "https://www.nexusmods.com/crimsondesert/mods/1009",
-      "nexus_checked": "2026-11-20T07:13:41Z",
+      "nexus_checked": "2026-11-20T09:21:17Z",
       "nexus_updated": "2026-04-11T22:01:11Z",
       "supported": {
         "verdict": "unchecked"
@@ -10647,13 +10815,13 @@
       }
     },
     {
-      "author": "lucsOli",
+      "author": "Restius",
       "builds": {
         "1.0.0.3663": {
           "check": "no_patterns",
           "ids": {
-            "found": 11,
-            "total": 11
+            "found": 41,
+            "total": 41
           },
           "pattern_counts": {
             "not_found": 0,
@@ -10664,8 +10832,8 @@
         "1.0.0.3732": {
           "check": "no_patterns",
           "ids": {
-            "found": 11,
-            "total": 11
+            "found": 41,
+            "total": 41
           },
           "pattern_counts": {
             "not_found": 0,
@@ -10675,11 +10843,59 @@
         }
       },
       "coverage": {
-        "have": 11,
+        "have": 41,
         "level": "full",
         "missing": 0,
-        "total": 11,
+        "total": 41,
         "use": "everything",
+        "waiting": 0
+      },
+      "group": "scanned",
+      "key": "4284-OUTDATED-White-Crow-Companion",
+      "lab": {
+        "verdict": "untested"
+      },
+      "name": "OUTDATED - White Crow Companion",
+      "newest_code_upload": "2026-11-14T21:45:54Z",
+      "newest_main_file_upload": "2026-11-14T21:45:54Z",
+      "nexus": "https://www.nexusmods.com/crimsondesert/mods/4284",
+      "nexus_checked": "2026-11-20T07:17:55Z",
+      "nexus_updated": "2026-11-14T21:53:30Z",
+      "supported": {
+        "verdict": "unchecked"
+      }
+    },
+    {
+      "author": "lucsOli",
+      "builds": {
+        "1.0.0.3663": {
+          "check": "none",
+          "ids": {
+            "found": 0,
+            "total": 0
+          },
+          "pattern_counts": null,
+          "status": "none"
+        },
+        "1.0.0.3732": {
+          "check": "no_patterns",
+          "ids": {
+            "found": 0,
+            "total": 0
+          },
+          "pattern_counts": {
+            "not_found": 0,
+            "total": 0
+          },
+          "status": "nopatterns"
+        }
+      },
+      "coverage": {
+        "have": 0,
+        "level": "nothing",
+        "missing": 0,
+        "total": 0,
+        "use": "hooks",
         "waiting": 0
       },
       "group": "scanned",
@@ -10688,10 +10904,10 @@
         "verdict": "untested"
       },
       "name": "Outfit Loadouts",
-      "newest_code_upload": "2026-11-17T01:57:06Z",
+      "newest_code_upload": "2026-11-20T00:12:28Z",
       "newest_main_file_upload": "2026-11-20T00:12:28Z",
       "nexus": "https://www.nexusmods.com/crimsondesert/mods/3767",
-      "nexus_checked": "2026-11-20T07:13:51Z",
+      "nexus_checked": "2026-11-20T08:50:58Z",
       "nexus_updated": "2026-11-20T00:12:29Z",
       "supported": {
         "verdict": "unchecked"
@@ -10953,16 +11169,13 @@
       "author": "Quackers24",
       "builds": {
         "1.0.0.3663": {
-          "check": "no_patterns",
+          "check": "none",
           "ids": {
             "found": 0,
             "total": 0
           },
-          "pattern_counts": {
-            "not_found": 0,
-            "total": 0
-          },
-          "status": "nopatterns"
+          "pattern_counts": null,
+          "status": "none"
         },
         "1.0.0.3732": {
           "check": "no_patterns",
@@ -10991,10 +11204,10 @@
         "verdict": "untested"
       },
       "name": "Pet Loot Collection Toggle - Loot Filters",
-      "newest_code_upload": "2026-11-19T05:41:19Z",
+      "newest_code_upload": "2026-11-19T21:44:10Z",
       "newest_main_file_upload": "2026-11-19T21:44:10Z",
       "nexus": "https://www.nexusmods.com/crimsondesert/mods/3479",
-      "nexus_checked": "2026-11-20T07:14:03Z",
+      "nexus_checked": "2026-11-20T08:50:59Z",
       "nexus_updated": "2026-11-19T21:44:10Z",
       "supported": {
         "verdict": "unchecked"
@@ -11259,16 +11472,13 @@
       "author": "seunggil",
       "builds": {
         "1.0.0.3663": {
-          "check": "no_patterns",
+          "check": "none",
           "ids": {
             "found": 0,
             "total": 0
           },
-          "pattern_counts": {
-            "not_found": 0,
-            "total": 0
-          },
-          "status": "nopatterns"
+          "pattern_counts": null,
+          "status": "none"
         },
         "1.0.0.3732": {
           "check": "no_patterns",
@@ -11297,10 +11507,10 @@
         "verdict": "untested"
       },
       "name": "Piwell Mini Game",
-      "newest_code_upload": "2026-11-19T07:28:20Z",
+      "newest_code_upload": "2026-11-20T00:20:21Z",
       "newest_main_file_upload": "2026-11-20T00:20:21Z",
       "nexus": "https://www.nexusmods.com/crimsondesert/mods/4249",
-      "nexus_checked": "2026-11-20T07:14:15Z",
+      "nexus_checked": "2026-11-20T08:51:23Z",
       "nexus_updated": "2026-11-20T00:20:21Z",
       "supported": {
         "verdict": "unchecked"
@@ -11960,15 +12170,63 @@
         "waiting": 0
       },
       "group": "scanned",
+      "key": "4403-Pywel-Board-Game",
+      "lab": {
+        "verdict": "untested"
+      },
+      "name": "Pywel Board Game",
+      "newest_code_upload": "2026-11-20T02:22:25Z",
+      "newest_main_file_upload": "2026-11-20T02:22:25Z",
+      "nexus": "https://www.nexusmods.com/crimsondesert/mods/4403",
+      "nexus_checked": "2026-11-20T08:51:28Z",
+      "nexus_updated": "2026-11-20T02:24:48Z",
+      "supported": {
+        "verdict": "unchecked"
+      }
+    },
+    {
+      "author": "seunggil",
+      "builds": {
+        "1.0.0.3663": {
+          "check": "none",
+          "ids": {
+            "found": 0,
+            "total": 0
+          },
+          "pattern_counts": null,
+          "status": "none"
+        },
+        "1.0.0.3732": {
+          "check": "no_patterns",
+          "ids": {
+            "found": 0,
+            "total": 0
+          },
+          "pattern_counts": {
+            "not_found": 0,
+            "total": 0
+          },
+          "status": "nopatterns"
+        }
+      },
+      "coverage": {
+        "have": 0,
+        "level": "nothing",
+        "missing": 0,
+        "total": 0,
+        "use": "hooks",
+        "waiting": 0
+      },
+      "group": "scanned",
       "key": "4200-Pywel-Casino-gambling",
       "lab": {
         "verdict": "untested"
       },
       "name": "Pywel Casino(gambling)",
-      "newest_code_upload": "2026-11-19T14:12:49Z",
+      "newest_code_upload": "2026-11-20T00:19:24Z",
       "newest_main_file_upload": "2026-11-20T00:19:24Z",
       "nexus": "https://www.nexusmods.com/crimsondesert/mods/4200",
-      "nexus_checked": "2026-11-20T07:14:41Z",
+      "nexus_checked": "2026-11-20T08:51:07Z",
       "nexus_updated": "2026-11-20T00:19:24Z",
       "supported": {
         "verdict": "unchecked"
@@ -12064,10 +12322,10 @@
         "verdict": "untested"
       },
       "name": "Pywel Dominion(Stock Trading)",
-      "newest_code_upload": "2026-11-19T14:13:49Z",
+      "newest_code_upload": "2026-11-20T06:06:49Z",
       "newest_main_file_upload": "2026-11-20T06:06:49Z",
       "nexus": "https://www.nexusmods.com/crimsondesert/mods/4122",
-      "nexus_checked": "2026-11-20T07:14:45Z",
+      "nexus_checked": "2026-11-20T08:51:04Z",
       "nexus_updated": "2026-11-20T06:06:49Z",
       "supported": {
         "verdict": "unchecked"
@@ -12421,7 +12679,7 @@
       "newest_code_upload": "2026-09-23T17:05:42Z",
       "newest_main_file_upload": "",
       "nexus": "https://www.nexusmods.com/crimsondesert/mods/3562",
-      "nexus_checked": "2026-11-20T07:14:59Z",
+      "nexus_checked": "2026-11-20T09:21:19Z",
       "nexus_updated": "2026-09-23T17:05:58Z",
       "supported": {
         "verdict": "unchecked"
@@ -12949,22 +13207,19 @@
       "author": "p0nx77",
       "builds": {
         "1.0.0.3663": {
-          "check": "no_patterns",
+          "check": "none",
           "ids": {
-            "found": 7,
-            "total": 7
-          },
-          "pattern_counts": {
-            "not_found": 0,
+            "found": 0,
             "total": 0
           },
-          "status": "nopatterns"
+          "pattern_counts": null,
+          "status": "none"
         },
         "1.0.0.3732": {
           "check": "no_patterns",
           "ids": {
-            "found": 7,
-            "total": 7
+            "found": 0,
+            "total": 0
           },
           "pattern_counts": {
             "not_found": 0,
@@ -12974,11 +13229,11 @@
         }
       },
       "coverage": {
-        "have": 7,
-        "level": "full",
+        "have": 0,
+        "level": "nothing",
         "missing": 0,
-        "total": 7,
-        "use": "everything",
+        "total": 0,
+        "use": "hooks",
         "waiting": 0
       },
       "group": "scanned",
@@ -12987,10 +13242,10 @@
         "verdict": "untested"
       },
       "name": "Save Shortcuts",
-      "newest_code_upload": "2026-11-14T01:41:51Z",
+      "newest_code_upload": "2026-11-20T00:35:58Z",
       "newest_main_file_upload": "2026-11-20T00:35:58Z",
       "nexus": "https://www.nexusmods.com/crimsondesert/mods/4259",
-      "nexus_checked": "2026-11-20T07:15:21Z",
+      "nexus_checked": "2026-11-20T08:51:20Z",
       "nexus_updated": "2026-11-20T00:35:58Z",
       "supported": {
         "verdict": "unchecked"
@@ -13051,22 +13306,19 @@
       "author": "Khione95",
       "builds": {
         "1.0.0.3663": {
-          "check": "no_patterns",
+          "check": "none",
           "ids": {
-            "found": 3,
-            "total": 3
-          },
-          "pattern_counts": {
-            "not_found": 0,
+            "found": 0,
             "total": 0
           },
-          "status": "nopatterns"
+          "pattern_counts": null,
+          "status": "none"
         },
         "1.0.0.3732": {
           "check": "no_patterns",
           "ids": {
-            "found": 3,
-            "total": 3
+            "found": 0,
+            "total": 0
           },
           "pattern_counts": {
             "not_found": 0,
@@ -13076,11 +13328,11 @@
         }
       },
       "coverage": {
-        "have": 3,
-        "level": "full",
+        "have": 0,
+        "level": "nothing",
         "missing": 0,
-        "total": 3,
-        "use": "everything",
+        "total": 0,
+        "use": "hooks",
         "waiting": 0
       },
       "group": "scanned",
@@ -13089,10 +13341,10 @@
         "verdict": "untested"
       },
       "name": "Seasons of Pywel",
-      "newest_code_upload": "2026-11-16T15:59:48Z",
+      "newest_code_upload": "2026-11-19T22:22:51Z",
       "newest_main_file_upload": "2026-11-19T22:29:41Z",
       "nexus": "https://www.nexusmods.com/crimsondesert/mods/3630",
-      "nexus_checked": "2026-11-20T07:15:25Z",
+      "nexus_checked": "2026-11-20T08:50:52Z",
       "nexus_updated": "2026-11-19T22:29:41Z",
       "supported": {
         "verdict": "unchecked"
@@ -13233,10 +13485,10 @@
         "verdict": "untested"
       },
       "name": "Ship Ahoy",
-      "newest_code_upload": "2026-11-19T19:00:54Z",
+      "newest_code_upload": "2026-11-20T05:53:28Z",
       "newest_main_file_upload": "2026-11-20T05:53:28Z",
       "nexus": "https://www.nexusmods.com/crimsondesert/mods/4400",
-      "nexus_checked": "2026-11-20T07:15:31Z",
+      "nexus_checked": "2026-11-20T08:51:22Z",
       "nexus_updated": "2026-11-20T05:53:28Z",
       "supported": {
         "verdict": "unchecked"
@@ -14111,16 +14363,13 @@
       "author": "Sov3ryn",
       "builds": {
         "1.0.0.3663": {
-          "check": "no_patterns",
+          "check": "none",
           "ids": {
             "found": 0,
             "total": 0
           },
-          "pattern_counts": {
-            "not_found": 0,
-            "total": 0
-          },
-          "status": "nopatterns"
+          "pattern_counts": null,
+          "status": "none"
         },
         "1.0.0.3732": {
           "check": "no_patterns",
@@ -14149,10 +14398,10 @@
         "verdict": "untested"
       },
       "name": "Sov3ryn Armory - Wardrobe - Gear placement - Fixes",
-      "newest_code_upload": "2026-11-15T06:05:21Z",
+      "newest_code_upload": "2026-11-19T20:52:54Z",
       "newest_main_file_upload": "2026-11-19T20:52:54Z",
       "nexus": "https://www.nexusmods.com/crimsondesert/mods/3655",
-      "nexus_checked": "2026-11-20T07:16:06Z",
+      "nexus_checked": "2026-11-20T08:51:00Z",
       "nexus_updated": "2026-11-19T20:53:28Z",
       "supported": {
         "verdict": "unchecked"
@@ -14706,10 +14955,10 @@
         "verdict": "untested"
       },
       "name": "Storage HUD",
-      "newest_code_upload": "2026-11-19T14:08:37Z",
+      "newest_code_upload": "2026-11-20T00:21:08Z",
       "newest_main_file_upload": "2026-11-20T00:21:08Z",
       "nexus": "https://www.nexusmods.com/crimsondesert/mods/4265",
-      "nexus_checked": "2026-11-20T07:16:28Z",
+      "nexus_checked": "2026-11-20T08:51:18Z",
       "nexus_updated": "2026-11-20T00:21:09Z",
       "supported": {
         "verdict": "unchecked"
@@ -14770,16 +15019,13 @@
       "author": "FableKhan",
       "builds": {
         "1.0.0.3663": {
-          "check": "no_patterns",
+          "check": "none",
           "ids": {
             "found": 0,
             "total": 0
           },
-          "pattern_counts": {
-            "not_found": 0,
-            "total": 0
-          },
-          "status": "nopatterns"
+          "pattern_counts": null,
+          "status": "none"
         },
         "1.0.0.3732": {
           "check": "no_patterns",
@@ -14808,10 +15054,10 @@
         "verdict": "untested"
       },
       "name": "SUMMON YOUR HORSE AHEAD OF YOU",
-      "newest_code_upload": "2026-11-18T00:27:32Z",
+      "newest_code_upload": "2026-11-19T23:00:03Z",
       "newest_main_file_upload": "2026-11-19T23:00:03Z",
       "nexus": "https://www.nexusmods.com/crimsondesert/mods/4307",
-      "nexus_checked": "2026-11-20T07:16:31Z",
+      "nexus_checked": "2026-11-20T08:51:05Z",
       "nexus_updated": "2026-11-19T23:00:03Z",
       "supported": {
         "verdict": "unchecked"
@@ -15063,7 +15309,7 @@
       "newest_code_upload": "2026-11-19T14:31:15Z",
       "newest_main_file_upload": "",
       "nexus": "https://www.nexusmods.com/crimsondesert/mods/3482",
-      "nexus_checked": "2026-11-20T07:16:41Z",
+      "nexus_checked": "2026-11-20T09:21:23Z",
       "nexus_updated": "2026-11-19T14:31:15Z",
       "supported": {
         "verdict": "unchecked"
@@ -15523,16 +15769,13 @@
       "author": "Buxunqingmo",
       "builds": {
         "1.0.0.3663": {
-          "check": "no_patterns",
+          "check": "none",
           "ids": {
             "found": 0,
             "total": 0
           },
-          "pattern_counts": {
-            "not_found": 0,
-            "total": 0
-          },
-          "status": "nopatterns"
+          "pattern_counts": null,
+          "status": "none"
         },
         "1.0.0.3732": {
           "check": "no_patterns",
@@ -15561,10 +15804,10 @@
         "verdict": "untested"
       },
       "name": "Trade Map Overlay",
-      "newest_code_upload": "2026-11-18T15:45:23Z",
+      "newest_code_upload": "2026-11-20T04:14:23Z",
       "newest_main_file_upload": "2026-11-20T04:14:23Z",
       "nexus": "https://www.nexusmods.com/crimsondesert/mods/4364",
-      "nexus_checked": "2026-11-20T07:17:01Z",
+      "nexus_checked": "2026-11-20T08:51:19Z",
       "nexus_updated": "2026-11-20T04:14:36Z",
       "supported": {
         "verdict": "unchecked"
@@ -15894,7 +16137,7 @@
       "newest_code_upload": "2026-09-10T22:19:04Z",
       "newest_main_file_upload": "",
       "nexus": "https://www.nexusmods.com/crimsondesert/mods/3273",
-      "nexus_checked": "2026-11-20T07:17:13Z",
+      "nexus_checked": "2026-11-20T09:21:25Z",
       "nexus_updated": "2026-09-10T22:19:04Z",
       "supported": {
         "verdict": "unchecked"
@@ -16022,22 +16265,19 @@
       "author": "AlexeySova",
       "builds": {
         "1.0.0.3663": {
-          "check": "no_patterns",
+          "check": "none",
           "ids": {
-            "found": 3,
-            "total": 3
-          },
-          "pattern_counts": {
-            "not_found": 0,
+            "found": 0,
             "total": 0
           },
-          "status": "nopatterns"
+          "pattern_counts": null,
+          "status": "none"
         },
         "1.0.0.3732": {
           "check": "no_patterns",
           "ids": {
-            "found": 3,
-            "total": 3
+            "found": 0,
+            "total": 0
           },
           "pattern_counts": {
             "not_found": 0,
@@ -16047,11 +16287,11 @@
         }
       },
       "coverage": {
-        "have": 3,
-        "level": "full",
+        "have": 0,
+        "level": "nothing",
         "missing": 0,
-        "total": 3,
-        "use": "everything",
+        "total": 0,
+        "use": "hooks",
         "waiting": 0
       },
       "group": "scanned",
@@ -16060,11 +16300,11 @@
         "verdict": "untested"
       },
       "name": "Two Reasons - Ultimate Full-body Physics",
-      "newest_code_upload": "2026-11-14T18:42:21Z",
-      "newest_main_file_upload": "2026-11-14T18:42:21Z",
+      "newest_code_upload": "2026-11-20T08:45:08Z",
+      "newest_main_file_upload": "2026-11-20T08:44:44Z",
       "nexus": "https://www.nexusmods.com/crimsondesert/mods/3636",
-      "nexus_checked": "2026-11-20T07:17:19Z",
-      "nexus_updated": "2026-11-14T18:42:22Z",
+      "nexus_checked": "2026-11-20T08:50:43Z",
+      "nexus_updated": "2026-11-20T08:45:08Z",
       "supported": {
         "verdict": "unchecked"
       }
@@ -16975,57 +17215,6 @@
       }
     },
     {
-      "author": "Restius",
-      "builds": {
-        "1.0.0.3663": {
-          "check": "no_patterns",
-          "ids": {
-            "found": 41,
-            "total": 41
-          },
-          "pattern_counts": {
-            "not_found": 0,
-            "total": 0
-          },
-          "status": "nopatterns"
-        },
-        "1.0.0.3732": {
-          "check": "no_patterns",
-          "ids": {
-            "found": 41,
-            "total": 41
-          },
-          "pattern_counts": {
-            "not_found": 0,
-            "total": 0
-          },
-          "status": "nopatterns"
-        }
-      },
-      "coverage": {
-        "have": 41,
-        "level": "full",
-        "missing": 0,
-        "total": 41,
-        "use": "everything",
-        "waiting": 0
-      },
-      "group": "scanned",
-      "key": "4284-White-Crow-Companion",
-      "lab": {
-        "verdict": "untested"
-      },
-      "name": "White Crow Companion",
-      "newest_code_upload": "2026-11-14T21:45:54Z",
-      "newest_main_file_upload": "2026-11-14T21:45:54Z",
-      "nexus": "https://www.nexusmods.com/crimsondesert/mods/4284",
-      "nexus_checked": "2026-11-20T07:17:55Z",
-      "nexus_updated": "2026-11-14T21:53:30Z",
-      "supported": {
-        "verdict": "unchecked"
-      }
-    },
-    {
       "author": "him2142",
       "builds": {
         "1.0.0.3663": {
@@ -17260,10 +17449,10 @@
     "scanned": {
       "broken": 28,
       "none": 9,
-      "nopatterns": 217,
+      "nopatterns": 221,
       "ok": 23,
       "outdated": 12,
-      "partly": 48,
+      "partly": 49,
       "unchecked": 0
     }
   }
