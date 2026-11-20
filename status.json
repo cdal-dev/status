@@ -12,10 +12,10 @@
   "credits": {
     "summary": {
       "cdal": 1502,
-      "game_code": 1474,
+      "game_code": 1476,
       "helped": 2270,
-      "total": 4507,
-      "unrecorded": 735
+      "total": 4509,
+      "unrecorded": 737
     }
   },
   "excluded_authors": [
@@ -32,8 +32,8 @@
       "game_version": "2.05.01",
       "game_version_from": "game files",
       "ids": {
-        "found": 4444,
-        "total": 4507
+        "found": 4453,
+        "total": 4509
       },
       "pe_timestamp": "0x6AFDC0CF",
       "size_of_image": "0x13C7E000",
@@ -47,8 +47,8 @@
       "game_version": "2.05.00",
       "game_version_from": "",
       "ids": {
-        "found": 4439,
-        "total": 4507
+        "found": 4453,
+        "total": 4509
       },
       "pe_timestamp": "0x6AF5D198",
       "size_of_image": "0x144E9000",
@@ -63,7 +63,7 @@
       "game_version_from": "",
       "ids": {
         "found": 3828,
-        "total": 4507
+        "total": 4509
       },
       "pe_timestamp": "0x6AED2E85",
       "size_of_image": "0x13CC4000",
@@ -78,7 +78,7 @@
       "game_version_from": "patch notes date",
       "ids": {
         "found": 1992,
-        "total": 4507
+        "total": 4509
       },
       "pe_timestamp": "0x6AEA07A6",
       "size_of_image": "0x13EB2000",
@@ -93,7 +93,7 @@
       "game_version_from": "patch notes date",
       "ids": {
         "found": 1993,
-        "total": 4507
+        "total": 4509
       },
       "pe_timestamp": "0x6AE6E3E8",
       "size_of_image": "0x14073000",
@@ -108,7 +108,7 @@
       "game_version_from": "patch notes date",
       "ids": {
         "found": 1016,
-        "total": 4507
+        "total": 4509
       },
       "pe_timestamp": "0x6AE5F627",
       "size_of_image": "0x13E7F000",
@@ -123,7 +123,7 @@
       "game_version_from": "patch notes date",
       "ids": {
         "found": 1016,
-        "total": 4507
+        "total": 4509
       },
       "pe_timestamp": "0x6AE58024",
       "size_of_image": "0x13EE0000",
@@ -138,7 +138,7 @@
       "game_version_from": "patch notes date",
       "ids": {
         "found": 1015,
-        "total": 4507
+        "total": 4509
       },
       "pe_timestamp": "0x6AE46DD0",
       "size_of_image": "0x14268000",
@@ -153,7 +153,7 @@
       "game_version_from": "patch notes date",
       "ids": {
         "found": 1014,
-        "total": 4507
+        "total": 4509
       },
       "pe_timestamp": "0x6AE387F2",
       "size_of_image": "0x145B9000",
@@ -168,7 +168,7 @@
       "game_version_from": "patch notes date",
       "ids": {
         "found": 1013,
-        "total": 4507
+        "total": 4509
       },
       "pe_timestamp": "0x6AE2C6A6",
       "size_of_image": "0x1435A000",
@@ -183,7 +183,7 @@
       "game_version_from": "",
       "ids": {
         "found": 1130,
-        "total": 4507
+        "total": 4509
       },
       "pe_timestamp": "0x6AB28F00",
       "size_of_image": "0x173AB000",
@@ -1993,7 +1993,7 @@
       "newest_code_upload": "2026-11-06T19:37:26Z",
       "newest_main_file_upload": "",
       "nexus": "https://www.nexusmods.com/crimsondesert/mods/4024",
-      "nexus_checked": "2026-11-20T18:14:45Z",
+      "nexus_checked": "2026-11-20T18:55:50Z",
       "nexus_updated": "2026-11-06T19:37:30Z",
       "supported": {
         "verdict": "unchecked"
@@ -10772,7 +10772,7 @@
       "newest_code_upload": "2026-04-11T22:01:11Z",
       "newest_main_file_upload": "",
       "nexus": "https://www.nexusmods.com/crimsondesert/mods/1009",
-      "nexus_checked": "2026-11-20T18:14:56Z",
+      "nexus_checked": "2026-11-20T18:56:01Z",
       "nexus_updated": "2026-04-11T22:01:11Z",
       "supported": {
         "verdict": "unchecked"
@@ -12847,7 +12847,7 @@
       "newest_code_upload": "2026-09-23T17:05:42Z",
       "newest_main_file_upload": "",
       "nexus": "https://www.nexusmods.com/crimsondesert/mods/3562",
-      "nexus_checked": "2026-11-20T18:14:58Z",
+      "nexus_checked": "2026-11-20T18:56:03Z",
       "nexus_updated": "2026-09-23T17:05:58Z",
       "supported": {
         "verdict": "unchecked"
@@ -15477,7 +15477,7 @@
       "newest_code_upload": "2026-11-19T14:31:15Z",
       "newest_main_file_upload": "",
       "nexus": "https://www.nexusmods.com/crimsondesert/mods/3482",
-      "nexus_checked": "2026-11-20T18:15:03Z",
+      "nexus_checked": "2026-11-20T18:56:08Z",
       "nexus_updated": "2026-11-19T14:31:15Z",
       "supported": {
         "verdict": "unchecked"
@@ -16305,7 +16305,7 @@
       "newest_code_upload": "2026-09-10T22:19:04Z",
       "newest_main_file_upload": "",
       "nexus": "https://www.nexusmods.com/crimsondesert/mods/3273",
-      "nexus_checked": "2026-11-20T18:15:05Z",
+      "nexus_checked": "2026-11-20T18:56:10Z",
       "nexus_updated": "2026-09-10T22:19:04Z",
       "supported": {
         "verdict": "unchecked"
@@ -17586,9 +17586,9 @@
     "date": "2026-11-20",
     "game_version": "2.05.01",
     "ids": {
-      "found": 4444,
+      "found": 4453,
       "lost": 1,
-      "total": 4507
+      "total": 4509
     },
     "lost_why": {
       "changed_meaning": 1,
