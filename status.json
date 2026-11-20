@@ -12,7 +12,7 @@
   "credits": {
     "summary": {
       "cdal": 1502,
-      "game_code": 1472,
+      "game_code": 1474,
       "helped": 2270,
       "total": 4507,
       "unrecorded": 735
@@ -32,7 +32,7 @@
       "game_version": "2.05.01",
       "game_version_from": "game files",
       "ids": {
-        "found": 4445,
+        "found": 4444,
         "total": 4507
       },
       "pe_timestamp": "0x6AFDC0CF",
@@ -47,7 +47,7 @@
       "game_version": "2.05.00",
       "game_version_from": "",
       "ids": {
-        "found": 4440,
+        "found": 4439,
         "total": 4507
       },
       "pe_timestamp": "0x6AF5D198",
@@ -1993,7 +1993,7 @@
       "newest_code_upload": "2026-11-06T19:37:26Z",
       "newest_main_file_upload": "",
       "nexus": "https://www.nexusmods.com/crimsondesert/mods/4024",
-      "nexus_checked": "2026-11-20T17:46:44Z",
+      "nexus_checked": "2026-11-20T18:09:07Z",
       "nexus_updated": "2026-11-06T19:37:30Z",
       "supported": {
         "verdict": "unchecked"
@@ -10772,7 +10772,7 @@
       "newest_code_upload": "2026-04-11T22:01:11Z",
       "newest_main_file_upload": "",
       "nexus": "https://www.nexusmods.com/crimsondesert/mods/1009",
-      "nexus_checked": "2026-11-20T17:51:57Z",
+      "nexus_checked": "2026-11-20T18:09:18Z",
       "nexus_updated": "2026-04-11T22:01:11Z",
       "supported": {
         "verdict": "unchecked"
@@ -12847,7 +12847,7 @@
       "newest_code_upload": "2026-09-23T17:05:42Z",
       "newest_main_file_upload": "",
       "nexus": "https://www.nexusmods.com/crimsondesert/mods/3562",
-      "nexus_checked": "2026-11-20T17:53:07Z",
+      "nexus_checked": "2026-11-20T18:09:20Z",
       "nexus_updated": "2026-09-23T17:05:58Z",
       "supported": {
         "verdict": "unchecked"
@@ -15477,7 +15477,7 @@
       "newest_code_upload": "2026-11-19T14:31:15Z",
       "newest_main_file_upload": "",
       "nexus": "https://www.nexusmods.com/crimsondesert/mods/3482",
-      "nexus_checked": "2026-11-20T17:54:38Z",
+      "nexus_checked": "2026-11-20T18:09:24Z",
       "nexus_updated": "2026-11-19T14:31:15Z",
       "supported": {
         "verdict": "unchecked"
@@ -16305,7 +16305,7 @@
       "newest_code_upload": "2026-09-10T22:19:04Z",
       "newest_main_file_upload": "",
       "nexus": "https://www.nexusmods.com/crimsondesert/mods/3273",
-      "nexus_checked": "2026-11-20T17:55:08Z",
+      "nexus_checked": "2026-11-20T18:09:26Z",
       "nexus_updated": "2026-09-10T22:19:04Z",
       "supported": {
         "verdict": "unchecked"
@@ -17586,7 +17586,7 @@
     "date": "2026-11-20",
     "game_version": "2.05.01",
     "ids": {
-      "found": 4445,
+      "found": 4444,
       "lost": 1,
       "total": 4507
     },
