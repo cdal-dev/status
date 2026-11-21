@@ -2036,7 +2036,7 @@
       "newest_code_upload": "2026-11-06T19:37:26Z",
       "newest_main_file_upload": "",
       "nexus": "https://www.nexusmods.com/crimsondesert/mods/4024",
-      "nexus_checked": "2026-11-21T22:45:18Z",
+      "nexus_checked": "2026-11-21T22:52:52Z",
       "nexus_updated": "2026-11-06T19:37:30Z",
       "supported": {
         "verdict": "unchecked"
@@ -8343,11 +8343,11 @@
       },
       "coverage": {
         "changed": 1,
-        "have": 3,
-        "level": "some",
+        "have": 4,
+        "level": "full",
         "missing": 1,
         "total": 4,
-        "use": "ids_pack",
+        "use": "everything",
         "waiting": 0
       },
       "group": "scanned",
@@ -10810,7 +10810,7 @@
       "newest_code_upload": "2026-04-11T22:01:11Z",
       "newest_main_file_upload": "",
       "nexus": "https://www.nexusmods.com/crimsondesert/mods/1009",
-      "nexus_checked": "2026-11-21T22:45:27Z",
+      "nexus_checked": "2026-11-21T22:53:01Z",
       "nexus_updated": "2026-04-11T22:01:11Z",
       "supported": {
         "verdict": "unchecked"
@@ -12103,11 +12103,11 @@
       },
       "coverage": {
         "changed": 2,
-        "have": 8,
-        "level": "some",
+        "have": 10,
+        "level": "full",
         "missing": 1,
         "total": 10,
-        "use": "ids_pack",
+        "use": "everything",
         "waiting": 0
       },
       "group": "scanned",
@@ -12206,11 +12206,11 @@
       },
       "coverage": {
         "changed": 1,
-        "have": 3,
-        "level": "some",
+        "have": 4,
+        "level": "full",
         "missing": 1,
         "total": 4,
-        "use": "ids_pack",
+        "use": "everything",
         "waiting": 0
       },
       "group": "scanned",
@@ -12921,7 +12921,7 @@
       "newest_code_upload": "2026-09-23T17:05:42Z",
       "newest_main_file_upload": "",
       "nexus": "https://www.nexusmods.com/crimsondesert/mods/3562",
-      "nexus_checked": "2026-11-21T22:45:29Z",
+      "nexus_checked": "2026-11-21T22:53:03Z",
       "nexus_updated": "2026-09-23T17:05:58Z",
       "supported": {
         "verdict": "unchecked"
@@ -15632,7 +15632,7 @@
       "newest_code_upload": "2026-11-19T14:31:15Z",
       "newest_main_file_upload": "",
       "nexus": "https://www.nexusmods.com/crimsondesert/mods/3482",
-      "nexus_checked": "2026-11-21T22:45:33Z",
+      "nexus_checked": "2026-11-21T22:53:07Z",
       "nexus_updated": "2026-11-19T14:31:15Z",
       "supported": {
         "verdict": "unchecked"
@@ -16279,11 +16279,11 @@
       },
       "coverage": {
         "changed": 2,
-        "have": 48,
-        "level": "some",
+        "have": 50,
+        "level": "full",
         "missing": 2,
         "total": 50,
-        "use": "ids_pack",
+        "use": "everything",
         "waiting": 0
       },
       "group": "scanned",
@@ -16464,7 +16464,7 @@
       "newest_code_upload": "2026-09-10T22:19:04Z",
       "newest_main_file_upload": "",
       "nexus": "https://www.nexusmods.com/crimsondesert/mods/3273",
-      "nexus_checked": "2026-11-21T22:45:35Z",
+      "nexus_checked": "2026-11-21T22:53:09Z",
       "nexus_updated": "2026-09-10T22:19:04Z",
       "supported": {
         "verdict": "unchecked"
@@ -16508,11 +16508,11 @@
       },
       "coverage": {
         "changed": 2,
-        "have": 128,
-        "level": "some",
+        "have": 130,
+        "level": "full",
         "missing": 2,
         "total": 130,
-        "use": "ids_pack",
+        "use": "everything",
         "waiting": 0
       },
       "group": "scanned",
