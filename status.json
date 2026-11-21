@@ -1004,6 +1004,7 @@
             "found": 0,
             "total": 0
           },
+          "outdated": "patterns",
           "pattern_counts": {
             "not_found": 1,
             "total": 1
@@ -1661,6 +1662,7 @@
             "found": 0,
             "total": 0
           },
+          "outdated": "patterns",
           "pattern_counts": {
             "not_found": 2,
             "total": 2
@@ -1811,6 +1813,7 @@
             "found": 0,
             "total": 0
           },
+          "outdated": "patterns",
           "pattern_counts": {
             "not_found": 3,
             "total": 3
@@ -2036,7 +2039,7 @@
       "newest_code_upload": "2026-11-06T19:37:26Z",
       "newest_main_file_upload": "",
       "nexus": "https://www.nexusmods.com/crimsondesert/mods/4024",
-      "nexus_checked": "2026-11-21T22:52:52Z",
+      "nexus_checked": "2026-11-21T23:36:02Z",
       "nexus_updated": "2026-11-06T19:37:30Z",
       "supported": {
         "verdict": "unchecked"
@@ -4248,6 +4251,7 @@
             "found": 0,
             "total": 0
           },
+          "outdated": "patterns",
           "pattern_counts": {
             "not_found": 14,
             "total": 14
@@ -4350,6 +4354,7 @@
             "found": 0,
             "total": 0
           },
+          "outdated": "patterns",
           "pattern_counts": {
             "not_found": 6,
             "total": 6
@@ -4643,6 +4648,7 @@
             "found": 0,
             "total": 0
           },
+          "outdated": "patterns",
           "pattern_counts": {
             "not_found": 3,
             "total": 3
@@ -7575,6 +7581,7 @@
             "found": 0,
             "total": 0
           },
+          "outdated": "patterns",
           "pattern_counts": {
             "not_found": 2,
             "total": 2
@@ -7725,6 +7732,7 @@
             "found": 9,
             "total": 9
           },
+          "outdated": "patterns",
           "pattern_counts": {
             "not_found": 1,
             "total": 1
@@ -7776,6 +7784,7 @@
             "found": 0,
             "total": 0
           },
+          "outdated": "patterns",
           "pattern_counts": {
             "not_found": 3,
             "total": 3
@@ -9573,6 +9582,7 @@
             "found": 0,
             "total": 0
           },
+          "outdated": "patterns",
           "pattern_counts": {
             "not_found": 2,
             "total": 2
@@ -10810,7 +10820,7 @@
       "newest_code_upload": "2026-04-11T22:01:11Z",
       "newest_main_file_upload": "",
       "nexus": "https://www.nexusmods.com/crimsondesert/mods/1009",
-      "nexus_checked": "2026-11-21T22:53:01Z",
+      "nexus_checked": "2026-11-21T23:36:11Z",
       "nexus_updated": "2026-04-11T22:01:11Z",
       "supported": {
         "verdict": "unchecked"
@@ -12594,6 +12604,7 @@
             "found": 0,
             "total": 0
           },
+          "outdated": "patterns",
           "pattern_counts": {
             "not_found": 2,
             "total": 2
@@ -12921,7 +12932,7 @@
       "newest_code_upload": "2026-09-23T17:05:42Z",
       "newest_main_file_upload": "",
       "nexus": "https://www.nexusmods.com/crimsondesert/mods/3562",
-      "nexus_checked": "2026-11-21T22:53:03Z",
+      "nexus_checked": "2026-11-21T23:36:13Z",
       "nexus_updated": "2026-09-23T17:05:58Z",
       "supported": {
         "verdict": "unchecked"
@@ -13401,6 +13412,7 @@
             "found": 0,
             "total": 0
           },
+          "outdated": "patterns",
           "pattern_counts": {
             "not_found": 3,
             "total": 3
@@ -15632,7 +15644,7 @@
       "newest_code_upload": "2026-11-19T14:31:15Z",
       "newest_main_file_upload": "",
       "nexus": "https://www.nexusmods.com/crimsondesert/mods/3482",
-      "nexus_checked": "2026-11-21T22:53:07Z",
+      "nexus_checked": "2026-11-21T23:36:17Z",
       "nexus_updated": "2026-11-19T14:31:15Z",
       "supported": {
         "verdict": "unchecked"
@@ -16464,7 +16476,7 @@
       "newest_code_upload": "2026-09-10T22:19:04Z",
       "newest_main_file_upload": "",
       "nexus": "https://www.nexusmods.com/crimsondesert/mods/3273",
-      "nexus_checked": "2026-11-21T22:53:09Z",
+      "nexus_checked": "2026-11-21T23:36:19Z",
       "nexus_updated": "2026-09-10T22:19:04Z",
       "supported": {
         "verdict": "unchecked"
@@ -17760,6 +17772,10 @@
       "needs_ids": 4,
       "other": 0
     }
+  },
+  "pattern_mods": {
+    "total": 347,
+    "with": 112
   },
   "summary": {
     "enrolled": {
