@@ -384,10 +384,10 @@
       },
       "name": "Abyss Gear and Gold - Unlimited Stacks",
       "newest_code_upload": "2026-11-19T16:08:21Z",
-      "newest_main_file_upload": "2026-11-19T16:08:21Z",
+      "newest_main_file_upload": "2026-11-21T08:03:16Z",
       "nexus": "https://www.nexusmods.com/crimsondesert/mods/4256",
-      "nexus_checked": "2026-11-21T06:59:56Z",
-      "nexus_updated": "2026-11-19T16:08:21Z",
+      "nexus_checked": "2026-11-21T08:51:05Z",
+      "nexus_updated": "2026-11-21T08:03:16Z",
       "supported": {
         "verdict": "unchecked"
       }
@@ -1327,11 +1327,11 @@
         "verdict": "untested"
       },
       "name": "Bank Deposit Reminder",
-      "newest_code_upload": "2026-11-19T12:19:26Z",
-      "newest_main_file_upload": "2026-11-19T12:19:26Z",
+      "newest_code_upload": "2026-11-21T07:19:29Z",
+      "newest_main_file_upload": "2026-11-21T07:19:29Z",
       "nexus": "https://www.nexusmods.com/crimsondesert/mods/4021",
-      "nexus_checked": "2026-11-21T07:00:35Z",
-      "nexus_updated": "2026-11-19T12:19:26Z",
+      "nexus_checked": "2026-11-21T08:51:09Z",
+      "nexus_updated": "2026-11-21T07:19:29Z",
       "supported": {
         "verdict": "unchecked"
       }
@@ -1753,10 +1753,7 @@
             "found": 0,
             "total": 0
           },
-          "pattern_counts": {
-            "not_found": 3,
-            "total": 3
-          },
+          "pattern_counts": null,
           "status": "none"
         },
         "1.0.0.3732": {
@@ -1786,11 +1783,11 @@
         "verdict": "untested"
       },
       "name": "Boss Reinforcements",
-      "newest_code_upload": "2026-11-13T19:35:34Z",
-      "newest_main_file_upload": "2026-11-13T19:35:34Z",
+      "newest_code_upload": "2026-11-21T08:16:57Z",
+      "newest_main_file_upload": "2026-11-21T08:16:57Z",
       "nexus": "https://www.nexusmods.com/crimsondesert/mods/3516",
-      "nexus_checked": "2026-11-21T07:00:53Z",
-      "nexus_updated": "2026-11-13T19:35:34Z",
+      "nexus_checked": "2026-11-21T08:51:00Z",
+      "nexus_updated": "2026-11-21T08:16:57Z",
       "supported": {
         "verdict": "unchecked"
       }
@@ -1990,7 +1987,7 @@
       "newest_code_upload": "2026-11-06T19:37:26Z",
       "newest_main_file_upload": "",
       "nexus": "https://www.nexusmods.com/crimsondesert/mods/4024",
-      "nexus_checked": "2026-11-21T07:01:01Z",
+      "nexus_checked": "2026-11-21T09:20:57Z",
       "nexus_updated": "2026-11-06T19:37:30Z",
       "supported": {
         "verdict": "unchecked"
@@ -2415,22 +2412,19 @@
       "author": "AlexeySova",
       "builds": {
         "1.0.0.3663": {
-          "check": "scanned",
+          "check": "not_scanned",
           "ids": {
-            "found": 99,
-            "total": 99
+            "found": 91,
+            "total": 91
           },
-          "pattern_counts": {
-            "not_found": 280,
-            "total": 644
-          },
-          "status": "partly"
+          "pattern_counts": null,
+          "status": "unchecked"
         },
         "1.0.0.3732": {
           "check": "scanned",
           "ids": {
-            "found": 99,
-            "total": 99
+            "found": 91,
+            "total": 91
           },
           "pattern_counts": {
             "not_found": 284,
@@ -2440,10 +2434,10 @@
         }
       },
       "coverage": {
-        "have": 112,
+        "have": 90,
         "level": "full",
         "missing": 0,
-        "total": 112,
+        "total": 90,
         "use": "everything",
         "waiting": 0
       },
@@ -2453,21 +2447,13 @@
         "verdict": "untested"
       },
       "name": "Camp Happens Enhanced",
-      "newest_code_upload": "2026-11-14T14:27:19Z",
+      "newest_code_upload": "2026-11-20T08:37:58Z",
       "newest_main_file_upload": "2026-11-20T08:33:19Z",
       "nexus": "https://www.nexusmods.com/crimsondesert/mods/4093",
-      "nexus_checked": "2026-11-21T07:01:17Z",
+      "nexus_checked": "2026-11-21T08:50:57Z",
       "nexus_updated": "2026-11-20T08:37:58Z",
       "supported": {
         "verdict": "unchecked"
-      },
-      "update": {
-        "fixable": 4,
-        "lost": 4,
-        "misplaced": 4,
-        "no_address": 0,
-        "no_id": 0,
-        "verdict": "fixable"
       }
     },
     {
@@ -3286,10 +3272,10 @@
         "verdict": "untested"
       },
       "name": "Clean Adaptive HUD",
-      "newest_code_upload": "2026-11-20T20:31:42Z",
+      "newest_code_upload": "2026-11-21T06:35:53Z",
       "newest_main_file_upload": "2026-11-21T06:35:53Z",
       "nexus": "https://www.nexusmods.com/crimsondesert/mods/4411",
-      "nexus_checked": "2026-11-21T07:01:47Z",
+      "nexus_checked": "2026-11-21T08:51:16Z",
       "nexus_updated": "2026-11-21T06:35:53Z",
       "supported": {
         "verdict": "unchecked"
@@ -4165,16 +4151,13 @@
       "author": "aiaidd",
       "builds": {
         "1.0.0.3663": {
-          "check": "no_patterns",
+          "check": "none",
           "ids": {
             "found": 0,
             "total": 0
           },
-          "pattern_counts": {
-            "not_found": 0,
-            "total": 0
-          },
-          "status": "nopatterns"
+          "pattern_counts": null,
+          "status": "none"
         },
         "1.0.0.3732": {
           "check": "no_patterns",
@@ -4203,10 +4186,10 @@
         "verdict": "untested"
       },
       "name": "Crimson Desert Trade Route Planner",
-      "newest_code_upload": "2026-11-15T17:51:47Z",
+      "newest_code_upload": "2026-11-21T00:40:54Z",
       "newest_main_file_upload": "2026-11-21T00:40:54Z",
       "nexus": "https://www.nexusmods.com/crimsondesert/mods/3893",
-      "nexus_checked": "2026-11-21T07:02:24Z",
+      "nexus_checked": "2026-11-21T08:51:11Z",
       "nexus_updated": "2026-11-21T00:40:54Z",
       "supported": {
         "verdict": "unchecked"
@@ -6281,7 +6264,7 @@
       "newest_code_upload": "2026-11-15T13:40:53Z",
       "newest_main_file_upload": "2026-11-15T13:40:53Z",
       "nexus": "https://www.nexusmods.com/crimsondesert/mods/4305",
-      "nexus_checked": "2026-11-21T07:03:45Z",
+      "nexus_checked": "2026-11-21T08:51:08Z",
       "nexus_updated": "2026-11-21T03:56:22Z",
       "supported": {
         "verdict": "unchecked"
@@ -8088,11 +8071,11 @@
         "verdict": "untested"
       },
       "name": "Hex Appeal",
-      "newest_code_upload": "2026-11-20T05:48:57Z",
-      "newest_main_file_upload": "2026-11-20T05:48:57Z",
+      "newest_code_upload": "2026-11-21T08:25:07Z",
+      "newest_main_file_upload": "2026-11-21T08:25:07Z",
       "nexus": "https://www.nexusmods.com/crimsondesert/mods/4279",
-      "nexus_checked": "2026-11-21T07:04:56Z",
-      "nexus_updated": "2026-11-20T05:49:17Z",
+      "nexus_checked": "2026-11-21T08:50:59Z",
+      "nexus_updated": "2026-11-21T08:25:07Z",
       "supported": {
         "verdict": "unchecked"
       }
@@ -8854,16 +8837,13 @@
       "author": "AlexeySova",
       "builds": {
         "1.0.0.3663": {
-          "check": "no_patterns",
+          "check": "none",
           "ids": {
             "found": 0,
             "total": 0
           },
-          "pattern_counts": {
-            "not_found": 0,
-            "total": 0
-          },
-          "status": "nopatterns"
+          "pattern_counts": null,
+          "status": "none"
         },
         "1.0.0.3732": {
           "check": "no_patterns",
@@ -8892,10 +8872,10 @@
         "verdict": "untested"
       },
       "name": "Instant Surgery - Ultimate Body Editor",
-      "newest_code_upload": "2026-11-14T18:39:40Z",
+      "newest_code_upload": "2026-11-20T08:42:10Z",
       "newest_main_file_upload": "2026-11-20T08:42:10Z",
       "nexus": "https://www.nexusmods.com/crimsondesert/mods/3660",
-      "nexus_checked": "2026-11-21T07:05:28Z",
+      "nexus_checked": "2026-11-21T08:50:43Z",
       "nexus_updated": "2026-11-20T08:42:10Z",
       "supported": {
         "verdict": "unchecked"
@@ -10814,7 +10794,7 @@
       "newest_code_upload": "2026-04-11T22:01:11Z",
       "newest_main_file_upload": "",
       "nexus": "https://www.nexusmods.com/crimsondesert/mods/1009",
-      "nexus_checked": "2026-11-21T07:06:43Z",
+      "nexus_checked": "2026-11-21T09:21:06Z",
       "nexus_updated": "2026-04-11T22:01:11Z",
       "supported": {
         "verdict": "unchecked"
@@ -11727,54 +11707,6 @@
       }
     },
     {
-      "author": "seunggil",
-      "builds": {
-        "1.0.0.3663": {
-          "check": "none",
-          "ids": {
-            "found": 0,
-            "total": 0
-          },
-          "pattern_counts": null,
-          "status": "none"
-        },
-        "1.0.0.3732": {
-          "check": "no_patterns",
-          "ids": {
-            "found": 0,
-            "total": 0
-          },
-          "pattern_counts": {
-            "not_found": 0,
-            "total": 0
-          },
-          "status": "nopatterns"
-        }
-      },
-      "coverage": {
-        "have": 0,
-        "level": "nothing",
-        "missing": 0,
-        "total": 0,
-        "use": "hooks",
-        "waiting": 0
-      },
-      "group": "scanned",
-      "key": "4249-Piwell-Mini-Game",
-      "lab": {
-        "verdict": "untested"
-      },
-      "name": "Piwell Mini Game",
-      "newest_code_upload": "2026-11-20T18:23:17Z",
-      "newest_main_file_upload": "2026-11-21T02:46:12Z",
-      "nexus": "https://www.nexusmods.com/crimsondesert/mods/4249",
-      "nexus_checked": "2026-11-21T07:07:21Z",
-      "nexus_updated": "2026-11-21T02:46:12Z",
-      "supported": {
-        "verdict": "unchecked"
-      }
-    },
-    {
       "author": "ZombiesYrd",
       "builds": {
         "1.0.0.3663": {
@@ -11880,16 +11812,13 @@
       "author": "Created by Orcax1399 and Updated by sreerajjay",
       "builds": {
         "1.0.0.3663": {
-          "check": "scanned",
+          "check": "not_scanned",
           "ids": {
             "found": 36,
             "total": 36
           },
-          "pattern_counts": {
-            "not_found": 40,
-            "total": 75
-          },
-          "status": "broken"
+          "pattern_counts": null,
+          "status": "unchecked"
         },
         "1.0.0.3732": {
           "check": "scanned",
@@ -11918,21 +11847,13 @@
         "verdict": "untested"
       },
       "name": "Player Status Modifier (Updated)",
-      "newest_code_upload": "2026-11-18T18:37:03Z",
-      "newest_main_file_upload": "2026-11-18T18:37:03Z",
+      "newest_code_upload": "2026-11-21T08:17:39Z",
+      "newest_main_file_upload": "2026-11-21T08:17:39Z",
       "nexus": "https://www.nexusmods.com/crimsondesert/mods/2356",
-      "nexus_checked": "2026-11-21T07:07:27Z",
-      "nexus_updated": "2026-11-18T18:37:03Z",
+      "nexus_checked": "2026-11-21T08:50:48Z",
+      "nexus_updated": "2026-11-21T08:17:39Z",
       "supported": {
         "verdict": "unchecked"
-      },
-      "update": {
-        "fixable": 0,
-        "lost": 0,
-        "misplaced": 2,
-        "no_address": 0,
-        "no_id": 0,
-        "verdict": "fixable"
       }
     },
     {
@@ -12433,10 +12354,10 @@
         "verdict": "untested"
       },
       "name": "Pywel Board Game",
-      "newest_code_upload": "2026-11-20T18:15:49Z",
+      "newest_code_upload": "2026-11-21T02:49:02Z",
       "newest_main_file_upload": "2026-11-21T02:49:02Z",
       "nexus": "https://www.nexusmods.com/crimsondesert/mods/4403",
-      "nexus_checked": "2026-11-21T07:07:47Z",
+      "nexus_checked": "2026-11-21T08:51:26Z",
       "nexus_updated": "2026-11-21T02:49:02Z",
       "supported": {
         "verdict": "unchecked"
@@ -12481,10 +12402,10 @@
         "verdict": "untested"
       },
       "name": "Pywel Casino(gambling)",
-      "newest_code_upload": "2026-11-20T18:22:19Z",
+      "newest_code_upload": "2026-11-21T02:42:09Z",
       "newest_main_file_upload": "2026-11-21T02:42:09Z",
       "nexus": "https://www.nexusmods.com/crimsondesert/mods/4200",
-      "nexus_checked": "2026-11-21T07:07:49Z",
+      "nexus_checked": "2026-11-21T08:51:13Z",
       "nexus_updated": "2026-11-21T02:42:09Z",
       "supported": {
         "verdict": "unchecked"
@@ -12580,11 +12501,59 @@
         "verdict": "untested"
       },
       "name": "Pywel Dominion(Stock Trading)",
-      "newest_code_upload": "2026-11-20T18:17:27Z",
+      "newest_code_upload": "2026-11-21T02:40:49Z",
       "newest_main_file_upload": "2026-11-21T02:40:49Z",
       "nexus": "https://www.nexusmods.com/crimsondesert/mods/4122",
-      "nexus_checked": "2026-11-21T07:07:53Z",
+      "nexus_checked": "2026-11-21T08:51:07Z",
       "nexus_updated": "2026-11-21T02:40:49Z",
+      "supported": {
+        "verdict": "unchecked"
+      }
+    },
+    {
+      "author": "seunggil",
+      "builds": {
+        "1.0.0.3663": {
+          "check": "none",
+          "ids": {
+            "found": 0,
+            "total": 0
+          },
+          "pattern_counts": null,
+          "status": "none"
+        },
+        "1.0.0.3732": {
+          "check": "no_patterns",
+          "ids": {
+            "found": 0,
+            "total": 0
+          },
+          "pattern_counts": {
+            "not_found": 0,
+            "total": 0
+          },
+          "status": "nopatterns"
+        }
+      },
+      "coverage": {
+        "have": 0,
+        "level": "nothing",
+        "missing": 0,
+        "total": 0,
+        "use": "hooks",
+        "waiting": 0
+      },
+      "group": "scanned",
+      "key": "4249-Pywel-mini-game",
+      "lab": {
+        "verdict": "untested"
+      },
+      "name": "Pywel mini game",
+      "newest_code_upload": "2026-11-21T02:46:12Z",
+      "newest_main_file_upload": "2026-11-21T02:46:12Z",
+      "nexus": "https://www.nexusmods.com/crimsondesert/mods/4249",
+      "nexus_checked": "2026-11-21T08:51:20Z",
+      "nexus_updated": "2026-11-21T02:46:12Z",
       "supported": {
         "verdict": "unchecked"
       }
@@ -12937,7 +12906,7 @@
       "newest_code_upload": "2026-09-23T17:05:42Z",
       "newest_main_file_upload": "",
       "nexus": "https://www.nexusmods.com/crimsondesert/mods/3562",
-      "nexus_checked": "2026-11-21T07:08:07Z",
+      "nexus_checked": "2026-11-21T09:21:08Z",
       "nexus_updated": "2026-09-23T17:05:58Z",
       "supported": {
         "verdict": "unchecked"
@@ -13250,6 +13219,54 @@
       }
     },
     {
+      "author": "qmffn960503",
+      "builds": {
+        "1.0.0.3663": {
+          "check": "none",
+          "ids": {
+            "found": 0,
+            "total": 0
+          },
+          "pattern_counts": null,
+          "status": "none"
+        },
+        "1.0.0.3732": {
+          "check": "no_patterns",
+          "ids": {
+            "found": 0,
+            "total": 0
+          },
+          "pattern_counts": {
+            "not_found": 0,
+            "total": 0
+          },
+          "status": "nopatterns"
+        }
+      },
+      "coverage": {
+        "have": 0,
+        "level": "nothing",
+        "missing": 0,
+        "total": 0,
+        "use": "hooks",
+        "waiting": 0
+      },
+      "group": "scanned",
+      "key": "4420-Ring-Of-Body-Changer",
+      "lab": {
+        "verdict": "untested"
+      },
+      "name": "Ring Of Body Changer",
+      "newest_code_upload": "2026-11-21T03:00:51Z",
+      "newest_main_file_upload": "2026-11-21T03:00:51Z",
+      "nexus": "https://www.nexusmods.com/crimsondesert/mods/4420",
+      "nexus_checked": "2026-11-21T08:51:28Z",
+      "nexus_updated": "2026-11-21T03:00:51Z",
+      "supported": {
+        "verdict": "unchecked"
+      }
+    },
+    {
       "author": "MrNocturnall",
       "builds": {
         "1.0.0.3663": {
@@ -13296,6 +13313,54 @@
       "nexus": "https://www.nexusmods.com/crimsondesert/mods/3921",
       "nexus_checked": "2026-11-21T07:08:21Z",
       "nexus_updated": "2026-10-30T19:08:55Z",
+      "supported": {
+        "verdict": "unchecked"
+      }
+    },
+    {
+      "author": "AzzyKlown",
+      "builds": {
+        "1.0.0.3663": {
+          "check": "none",
+          "ids": {
+            "found": 0,
+            "total": 0
+          },
+          "pattern_counts": null,
+          "status": "none"
+        },
+        "1.0.0.3732": {
+          "check": "no_patterns",
+          "ids": {
+            "found": 0,
+            "total": 0
+          },
+          "pattern_counts": {
+            "not_found": 0,
+            "total": 0
+          },
+          "status": "nopatterns"
+        }
+      },
+      "coverage": {
+        "have": 0,
+        "level": "nothing",
+        "missing": 0,
+        "total": 0,
+        "use": "hooks",
+        "waiting": 0
+      },
+      "group": "scanned",
+      "key": "4382-Ross-s-Outfit-Cost-To-1",
+      "lab": {
+        "verdict": "untested"
+      },
+      "name": "Ross's Outfit Cost To 1",
+      "newest_code_upload": "2026-11-20T21:50:03Z",
+      "newest_main_file_upload": "2026-11-20T21:50:03Z",
+      "nexus": "https://www.nexusmods.com/crimsondesert/mods/4382",
+      "nexus_checked": "2026-11-21T08:51:27Z",
+      "nexus_updated": "2026-11-20T21:51:45Z",
       "supported": {
         "verdict": "unchecked"
       }
@@ -14503,11 +14568,11 @@
         "verdict": "untested"
       },
       "name": "SmartLoad",
-      "newest_code_upload": "2026-11-19T12:13:31Z",
-      "newest_main_file_upload": "2026-11-19T12:13:31Z",
+      "newest_code_upload": "2026-11-21T07:32:42Z",
+      "newest_main_file_upload": "2026-11-21T07:32:42Z",
       "nexus": "https://www.nexusmods.com/crimsondesert/mods/4312",
-      "nexus_checked": "2026-11-21T07:09:08Z",
-      "nexus_updated": "2026-11-19T12:13:31Z",
+      "nexus_checked": "2026-11-21T08:51:02Z",
+      "nexus_updated": "2026-11-21T07:32:42Z",
       "supported": {
         "verdict": "unchecked"
       }
@@ -14666,22 +14731,19 @@
       "author": "vherok",
       "builds": {
         "1.0.0.3663": {
-          "check": "no_patterns",
+          "check": "none",
           "ids": {
-            "found": 4,
-            "total": 4
-          },
-          "pattern_counts": {
-            "not_found": 0,
+            "found": 0,
             "total": 0
           },
-          "status": "nopatterns"
+          "pattern_counts": null,
+          "status": "none"
         },
         "1.0.0.3732": {
           "check": "no_patterns",
           "ids": {
-            "found": 4,
-            "total": 4
+            "found": 0,
+            "total": 0
           },
           "pattern_counts": {
             "not_found": 0,
@@ -14691,11 +14753,11 @@
         }
       },
       "coverage": {
-        "have": 4,
-        "level": "full",
+        "have": 0,
+        "level": "nothing",
         "missing": 0,
-        "total": 4,
-        "use": "everything",
+        "total": 0,
+        "use": "hooks",
         "waiting": 0
       },
       "group": "scanned",
@@ -14704,11 +14766,11 @@
         "verdict": "untested"
       },
       "name": "Spa Day",
-      "newest_code_upload": "2026-11-18T07:39:50Z",
-      "newest_main_file_upload": "2026-11-21T06:04:32Z",
+      "newest_code_upload": "2026-11-21T08:36:31Z",
+      "newest_main_file_upload": "2026-11-21T08:36:31Z",
       "nexus": "https://www.nexusmods.com/crimsondesert/mods/4334",
-      "nexus_checked": "2026-11-21T07:09:16Z",
-      "nexus_updated": "2026-11-21T06:04:32Z",
+      "nexus_checked": "2026-11-21T08:50:56Z",
+      "nexus_updated": "2026-11-21T08:36:32Z",
       "supported": {
         "verdict": "unchecked"
       }
@@ -15424,16 +15486,13 @@
       "author": "Created by Bambozu and updated by sreerajjay",
       "builds": {
         "1.0.0.3663": {
-          "check": "scanned",
+          "check": "not_scanned",
           "ids": {
             "found": 11,
             "total": 11
           },
-          "pattern_counts": {
-            "not_found": 0,
-            "total": 11
-          },
-          "status": "ok"
+          "pattern_counts": null,
+          "status": "unchecked"
         },
         "1.0.0.3732": {
           "check": "scanned",
@@ -15462,11 +15521,11 @@
         "verdict": "untested"
       },
       "name": "Super Axiom Force (Updated)",
-      "newest_code_upload": "2026-11-18T18:36:09Z",
-      "newest_main_file_upload": "2026-11-18T18:36:09Z",
+      "newest_code_upload": "2026-11-21T08:19:35Z",
+      "newest_main_file_upload": "2026-11-21T08:19:35Z",
       "nexus": "https://www.nexusmods.com/crimsondesert/mods/2852",
-      "nexus_checked": "2026-11-21T07:09:45Z",
-      "nexus_updated": "2026-11-18T18:36:09Z",
+      "nexus_checked": "2026-11-21T08:50:45Z",
+      "nexus_updated": "2026-11-21T08:19:35Z",
       "supported": {
         "verdict": "unchecked"
       }
@@ -15564,7 +15623,7 @@
       "newest_code_upload": "2026-11-19T14:31:15Z",
       "newest_main_file_upload": "",
       "nexus": "https://www.nexusmods.com/crimsondesert/mods/3482",
-      "nexus_checked": "2026-11-21T07:09:49Z",
+      "nexus_checked": "2026-11-21T09:21:12Z",
       "nexus_updated": "2026-11-19T14:31:15Z",
       "supported": {
         "verdict": "unchecked"
@@ -15634,13 +15693,16 @@
           "status": "none"
         },
         "1.0.0.3732": {
-          "check": "none",
+          "check": "no_patterns",
           "ids": {
             "found": 0,
             "total": 0
           },
-          "pattern_counts": null,
-          "status": "none"
+          "pattern_counts": {
+            "not_found": 0,
+            "total": 0
+          },
+          "status": "nopatterns"
         }
       },
       "coverage": {
@@ -15660,8 +15722,8 @@
       "newest_code_upload": "2026-11-19T10:52:04Z",
       "newest_main_file_upload": "2026-11-19T10:52:04Z",
       "nexus": "https://www.nexusmods.com/crimsondesert/mods/3041",
-      "nexus_checked": "2026-11-21T07:09:53Z",
-      "nexus_updated": "2026-11-19T10:52:04Z",
+      "nexus_checked": "2026-11-21T08:51:01Z",
+      "nexus_updated": "2026-11-21T08:19:09Z",
       "supported": {
         "verdict": "unchecked"
       }
@@ -16392,7 +16454,7 @@
       "newest_code_upload": "2026-09-10T22:19:04Z",
       "newest_main_file_upload": "",
       "nexus": "https://www.nexusmods.com/crimsondesert/mods/3273",
-      "nexus_checked": "2026-11-21T07:10:21Z",
+      "nexus_checked": "2026-11-21T09:21:14Z",
       "nexus_updated": "2026-09-10T22:19:04Z",
       "supported": {
         "verdict": "unchecked"
@@ -16568,22 +16630,19 @@
       "author": "AlexeySova",
       "builds": {
         "1.0.0.3663": {
-          "check": "no_patterns",
+          "check": "none",
           "ids": {
-            "found": 3,
-            "total": 3
-          },
-          "pattern_counts": {
-            "not_found": 0,
+            "found": 0,
             "total": 0
           },
-          "status": "nopatterns"
+          "pattern_counts": null,
+          "status": "none"
         },
         "1.0.0.3732": {
           "check": "no_patterns",
           "ids": {
-            "found": 3,
-            "total": 3
+            "found": 0,
+            "total": 0
           },
           "pattern_counts": {
             "not_found": 0,
@@ -16593,11 +16652,11 @@
         }
       },
       "coverage": {
-        "have": 3,
-        "level": "full",
+        "have": 0,
+        "level": "nothing",
         "missing": 0,
-        "total": 3,
-        "use": "everything",
+        "total": 0,
+        "use": "hooks",
         "waiting": 0
       },
       "group": "scanned",
@@ -16606,10 +16665,10 @@
         "verdict": "untested"
       },
       "name": "Ultimate Barefoot Sounds",
-      "newest_code_upload": "2026-11-15T08:01:22Z",
+      "newest_code_upload": "2026-11-20T08:11:28Z",
       "newest_main_file_upload": "2026-11-20T08:11:28Z",
       "nexus": "https://www.nexusmods.com/crimsondesert/mods/4299",
-      "nexus_checked": "2026-11-21T07:10:29Z",
+      "nexus_checked": "2026-11-21T08:51:03Z",
       "nexus_updated": "2026-11-20T08:11:28Z",
       "supported": {
         "verdict": "unchecked"
@@ -17686,7 +17745,7 @@
     "previous": "1.0.0.3663",
     "previous_game_version": "2.05.00",
     "rescue": {
-      "fixable": 16,
+      "fixable": 14,
       "needs_ids": 4,
       "other": 0
     }
@@ -17703,8 +17762,8 @@
     },
     "scanned": {
       "broken": 28,
-      "none": 8,
-      "nopatterns": 224,
+      "none": 7,
+      "nopatterns": 227,
       "ok": 23,
       "outdated": 12,
       "partly": 49,
