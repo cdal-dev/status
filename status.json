@@ -391,16 +391,16 @@
       "author": "joytk",
       "builds": {
         "1.0.0.3663": {
-          "check": "no_code",
+          "check": "none",
           "ids": {
             "found": 0,
             "total": 0
           },
           "pattern_counts": null,
-          "status": "ok"
+          "status": "none"
         },
         "1.0.0.3732": {
-          "check": "no_code",
+          "check": "no_patterns",
           "ids": {
             "found": 0,
             "total": 0
@@ -409,17 +409,17 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ok"
+          "status": "nopatterns"
         }
       },
       "coverage": {
         "checked": "2026-11-22",
         "have": 0,
         "how": "memory_data",
-        "level": "nocode",
+        "level": "data",
         "missing": 0,
         "total": 0,
-        "use": "hooks",
+        "use": "unknown",
         "waiting": 0
       },
       "group": "scanned",
@@ -680,7 +680,7 @@
         "level": "nothing",
         "missing": 0,
         "total": 0,
-        "use": "hooks"
+        "use": "unknown"
       },
       "group": "scanned",
       "key": "3339-Adaptive-HUD",
@@ -2570,7 +2570,7 @@
       "newest_code_upload": "2026-11-06T19:37:26Z",
       "newest_main_file_upload": "",
       "nexus": "https://www.nexusmods.com/crimsondesert/mods/4024",
-      "nexus_checked": "2026-11-22T15:02:07Z",
+      "nexus_checked": "2026-11-22T15:15:58Z",
       "nexus_updated": "2026-11-06T19:37:30Z",
       "supported": {
         "addresses": {
@@ -4457,7 +4457,7 @@
       "author": "pdhenklein",
       "builds": {
         "1.0.0.3663": {
-          "check": "no_code",
+          "check": "no_patterns",
           "ids": {
             "found": 0,
             "total": 0
@@ -4466,10 +4466,10 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ok"
+          "status": "nopatterns"
         },
         "1.0.0.3732": {
-          "check": "no_code",
+          "check": "no_patterns",
           "ids": {
             "found": 0,
             "total": 0
@@ -4478,17 +4478,17 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ok"
+          "status": "nopatterns"
         }
       },
       "coverage": {
         "checked": "2026-11-22",
         "have": 0,
         "how": "memory_data",
-        "level": "nocode",
+        "level": "data",
         "missing": 0,
         "total": 0,
-        "use": "hooks",
+        "use": "unknown",
         "waiting": 0
       },
       "group": "scanned",
@@ -4621,7 +4621,7 @@
         "level": "nothing",
         "missing": 0,
         "total": 0,
-        "use": "hooks",
+        "use": "unknown",
         "waiting": 0
       },
       "group": "scanned",
@@ -5027,7 +5027,7 @@
         "level": "nothing",
         "missing": 0,
         "total": 0,
-        "use": "hooks",
+        "use": "unknown",
         "waiting": 0
       },
       "group": "scanned",
@@ -5867,7 +5867,7 @@
         "level": "nothing",
         "missing": 0,
         "total": 0,
-        "use": "hooks",
+        "use": "unknown",
         "waiting": 0
       },
       "group": "scanned",
@@ -5987,7 +5987,7 @@
         "level": "nothing",
         "missing": 0,
         "total": 0,
-        "use": "hooks"
+        "use": "unknown"
       },
       "group": "scanned",
       "key": "632-Crimson-Weather",
@@ -6494,7 +6494,7 @@
         "level": "nothing",
         "missing": 0,
         "total": 0,
-        "use": "hooks",
+        "use": "unknown",
         "waiting": 0
       },
       "group": "scanned",
@@ -8507,7 +8507,7 @@
         "level": "nothing",
         "missing": 0,
         "total": 0,
-        "use": "hooks"
+        "use": "unknown"
       },
       "group": "scanned",
       "key": "2281-Expanded-Vendor-Inventory-All-Craft-Materials-Abyss-Gear-Dye",
@@ -10520,7 +10520,7 @@
         "level": "nothing",
         "missing": 0,
         "total": 0,
-        "use": "hooks",
+        "use": "unknown",
         "waiting": 0
       },
       "group": "scanned",
@@ -11365,16 +11365,16 @@
       "author": "joytk",
       "builds": {
         "1.0.0.3663": {
-          "check": "no_code",
+          "check": "none",
           "ids": {
             "found": 0,
             "total": 0
           },
           "pattern_counts": null,
-          "status": "ok"
+          "status": "none"
         },
         "1.0.0.3732": {
-          "check": "no_code",
+          "check": "no_patterns",
           "ids": {
             "found": 0,
             "total": 0
@@ -11383,17 +11383,17 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ok"
+          "status": "nopatterns"
         }
       },
       "coverage": {
         "checked": "2026-11-22",
         "have": 0,
         "how": "memory_data",
-        "level": "nocode",
+        "level": "data",
         "missing": 0,
         "total": 0,
-        "use": "hooks",
+        "use": "unknown",
         "waiting": 0
       },
       "group": "scanned",
@@ -12323,7 +12323,7 @@
         "level": "nothing",
         "missing": 0,
         "total": 0,
-        "use": "hooks"
+        "use": "unknown"
       },
       "group": "scanned",
       "key": "356-lemonheads-Unlimited-Dragon-Flying",
@@ -14170,7 +14170,7 @@
         "level": "nothing",
         "missing": 0,
         "total": 0,
-        "use": "hooks"
+        "use": "unknown"
       },
       "group": "scanned",
       "key": "1009-NPC-Armor-Mod",
@@ -14181,7 +14181,7 @@
       "newest_code_upload": "2026-04-11T22:01:11Z",
       "newest_main_file_upload": "",
       "nexus": "https://www.nexusmods.com/crimsondesert/mods/1009",
-      "nexus_checked": "2026-11-22T15:02:16Z",
+      "nexus_checked": "2026-11-22T15:16:07Z",
       "nexus_updated": "2026-04-11T22:01:11Z",
       "supported": {
         "verdict": "unchecked"
@@ -16974,7 +16974,7 @@
       "newest_code_upload": "2026-09-23T17:05:42Z",
       "newest_main_file_upload": "",
       "nexus": "https://www.nexusmods.com/crimsondesert/mods/3562",
-      "nexus_checked": "2026-11-22T15:02:19Z",
+      "nexus_checked": "2026-11-22T15:16:10Z",
       "nexus_updated": "2026-09-23T17:05:58Z",
       "supported": {
         "addresses": {
@@ -17469,7 +17469,7 @@
       "author": "MrNocturnall",
       "builds": {
         "1.0.0.3663": {
-          "check": "no_code",
+          "check": "no_patterns",
           "ids": {
             "found": 0,
             "total": 0
@@ -17478,10 +17478,10 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ok"
+          "status": "nopatterns"
         },
         "1.0.0.3732": {
-          "check": "no_code",
+          "check": "no_patterns",
           "ids": {
             "found": 0,
             "total": 0
@@ -17490,17 +17490,17 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ok"
+          "status": "nopatterns"
         }
       },
       "coverage": {
         "checked": "2026-11-22",
         "have": 0,
         "how": "memory_data",
-        "level": "nocode",
+        "level": "data",
         "missing": 0,
         "total": 0,
-        "use": "hooks",
+        "use": "unknown",
         "waiting": 0
       },
       "group": "scanned",
@@ -17538,16 +17538,16 @@
       "author": "AzzyKlown",
       "builds": {
         "1.0.0.3663": {
-          "check": "no_code",
+          "check": "none",
           "ids": {
             "found": 0,
             "total": 0
           },
           "pattern_counts": null,
-          "status": "ok"
+          "status": "none"
         },
         "1.0.0.3732": {
-          "check": "no_code",
+          "check": "no_patterns",
           "ids": {
             "found": 0,
             "total": 0
@@ -17556,17 +17556,17 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ok"
+          "status": "nopatterns"
         }
       },
       "coverage": {
         "checked": "2026-11-22",
         "have": 0,
         "how": "memory_data",
-        "level": "nocode",
+        "level": "data",
         "missing": 0,
         "total": 0,
-        "use": "hooks",
+        "use": "unknown",
         "waiting": 0
       },
       "group": "scanned",
@@ -19191,7 +19191,7 @@
       "author": "SmokingBone",
       "builds": {
         "1.0.0.3663": {
-          "check": "no_code",
+          "check": "no_patterns",
           "ids": {
             "found": 0,
             "total": 0
@@ -19200,10 +19200,10 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ok"
+          "status": "nopatterns"
         },
         "1.0.0.3732": {
-          "check": "no_code",
+          "check": "no_patterns",
           "ids": {
             "found": 0,
             "total": 0
@@ -19212,17 +19212,17 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ok"
+          "status": "nopatterns"
         }
       },
       "coverage": {
         "checked": "2026-11-22",
         "have": 0,
         "how": "memory_data",
-        "level": "nocode",
+        "level": "data",
         "missing": 0,
         "total": 0,
-        "use": "hooks",
+        "use": "unknown",
         "waiting": 0
       },
       "group": "scanned",
@@ -19289,7 +19289,7 @@
         "level": "nothing",
         "missing": 0,
         "total": 0,
-        "use": "hooks",
+        "use": "unknown",
         "waiting": 0
       },
       "group": "scanned",
@@ -20573,7 +20573,7 @@
       "newest_code_upload": "2026-11-19T14:31:15Z",
       "newest_main_file_upload": "",
       "nexus": "https://www.nexusmods.com/crimsondesert/mods/3482",
-      "nexus_checked": "2026-11-22T15:02:23Z",
+      "nexus_checked": "2026-11-22T15:16:14Z",
       "nexus_updated": "2026-11-19T14:31:15Z",
       "supported": {
         "addresses": {
@@ -21673,7 +21673,7 @@
       "newest_code_upload": "2026-09-10T22:19:04Z",
       "newest_main_file_upload": "",
       "nexus": "https://www.nexusmods.com/crimsondesert/mods/3273",
-      "nexus_checked": "2026-11-22T15:02:25Z",
+      "nexus_checked": "2026-11-22T15:16:16Z",
       "nexus_updated": "2026-09-10T22:19:04Z",
       "supported": {
         "addresses": {
@@ -21873,7 +21873,7 @@
         "level": "nothing",
         "missing": 0,
         "total": 0,
-        "use": "hooks",
+        "use": "unknown",
         "waiting": 0
       },
       "group": "scanned",
@@ -23401,8 +23401,8 @@
     "scanned": {
       "broken": 28,
       "none": 7,
-      "nopatterns": 108,
-      "ok": 139,
+      "nopatterns": 114,
+      "ok": 133,
       "outdated": 15,
       "partly": 51,
       "unchecked": 1
