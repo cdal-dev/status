@@ -238,7 +238,7 @@
         "build": "1.0.0.3732",
         "cdal": "0.7.8",
         "date": "2026-11-22",
-        "verdict": "ran"
+        "verdict": "problem"
       },
       "name": "Crimson FastLoad",
       "newest_code_upload": "2026-10-22T11:01:30Z",
@@ -251,11 +251,7 @@
         "build": "1.0.0.3732",
         "cdal": "0.7.8",
         "date": "2026-11-22",
-        "features": {
-          "available": 2,
-          "total": 2
-        },
-        "verdict": "supported"
+        "verdict": "problem"
       }
     },
     {
@@ -1657,7 +1653,7 @@
       "group": "scanned",
       "key": "4383-Background-Mute",
       "lab": {
-        "alone": true,
+        "alone": false,
         "build": "1.0.0.3732",
         "cdal": "0.7.8",
         "date": "2026-11-22",
@@ -1674,7 +1670,7 @@
           "total": 0,
           "with_id": 0
         },
-        "alone": true,
+        "alone": false,
         "build": "1.0.0.3732",
         "cdal": "0.7.8",
         "date": "2026-11-22",
@@ -2574,7 +2570,7 @@
       "newest_code_upload": "2026-11-06T19:37:26Z",
       "newest_main_file_upload": "",
       "nexus": "https://www.nexusmods.com/crimsondesert/mods/4024",
-      "nexus_checked": "2026-11-22T14:46:34Z",
+      "nexus_checked": "2026-11-22T15:02:07Z",
       "nexus_updated": "2026-11-06T19:37:30Z",
       "supported": {
         "addresses": {
@@ -7375,13 +7371,11 @@
         }
       },
       "coverage": {
-        "checked": "2026-11-22",
         "have": 0,
-        "how": "runtime",
-        "level": "unseen",
+        "level": "none",
         "missing": 0,
-        "total": 0,
-        "use": "unknown",
+        "total": 1,
+        "use": "pack",
         "waiting": 0
       },
       "group": "scanned",
@@ -14187,7 +14181,7 @@
       "newest_code_upload": "2026-04-11T22:01:11Z",
       "newest_main_file_upload": "",
       "nexus": "https://www.nexusmods.com/crimsondesert/mods/1009",
-      "nexus_checked": "2026-11-22T14:46:43Z",
+      "nexus_checked": "2026-11-22T15:02:16Z",
       "nexus_updated": "2026-04-11T22:01:11Z",
       "supported": {
         "verdict": "unchecked"
@@ -15440,7 +15434,7 @@
       "group": "scanned",
       "key": "3894-Planet-Diving-Suit-7th-V2-for-Damiane",
       "lab": {
-        "alone": true,
+        "alone": false,
         "build": "1.0.0.3732",
         "cdal": "0.7.8",
         "date": "2026-11-22",
@@ -15457,7 +15451,7 @@
           "total": 0,
           "with_id": 0
         },
-        "alone": true,
+        "alone": false,
         "build": "1.0.0.3732",
         "cdal": "0.7.8",
         "date": "2026-11-22",
@@ -16980,7 +16974,7 @@
       "newest_code_upload": "2026-09-23T17:05:42Z",
       "newest_main_file_upload": "",
       "nexus": "https://www.nexusmods.com/crimsondesert/mods/3562",
-      "nexus_checked": "2026-11-22T14:46:46Z",
+      "nexus_checked": "2026-11-22T15:02:19Z",
       "nexus_updated": "2026-09-23T17:05:58Z",
       "supported": {
         "addresses": {
@@ -20579,7 +20573,7 @@
       "newest_code_upload": "2026-11-19T14:31:15Z",
       "newest_main_file_upload": "",
       "nexus": "https://www.nexusmods.com/crimsondesert/mods/3482",
-      "nexus_checked": "2026-11-22T14:46:50Z",
+      "nexus_checked": "2026-11-22T15:02:23Z",
       "nexus_updated": "2026-11-19T14:31:15Z",
       "supported": {
         "addresses": {
@@ -21207,35 +21201,34 @@
       "author": "Buxunqingmo",
       "builds": {
         "1.0.0.3663": {
-          "check": "none",
+          "check": "not_scanned",
           "ids": {
-            "found": 0,
-            "total": 0
+            "found": 1,
+            "total": 1
           },
           "pattern_counts": null,
-          "status": "none"
+          "status": "unchecked"
         },
         "1.0.0.3732": {
-          "check": "no_patterns",
+          "check": "same_places",
           "ids": {
-            "found": 0,
-            "total": 0
+            "found": 1,
+            "total": 1
           },
           "pattern_counts": {
             "not_found": 0,
             "total": 0
           },
-          "status": "nopatterns"
+          "places": 1,
+          "status": "ok"
         }
       },
       "coverage": {
-        "checked": "2026-11-22",
-        "have": 0,
-        "how": "other_code",
-        "level": "unseen",
+        "have": 1,
+        "level": "full",
         "missing": 0,
-        "total": 0,
-        "use": "unknown",
+        "total": 1,
+        "use": "everything",
         "waiting": 0
       },
       "group": "scanned",
@@ -21255,18 +21248,18 @@
       "nexus_updated": "2026-11-22T01:12:08Z",
       "supported": {
         "addresses": {
-          "total": 0,
-          "with_id": 0
+          "total": 1,
+          "with_id": 1
         },
         "alone": false,
         "build": "1.0.0.3732",
         "cdal": "0.7.8",
         "date": "2026-11-22",
         "ids": {
-          "found": 0,
-          "total": 0
+          "found": 1,
+          "total": 1
         },
-        "verdict": "runs"
+        "verdict": "supported"
       }
     },
     {
@@ -21680,7 +21673,7 @@
       "newest_code_upload": "2026-09-10T22:19:04Z",
       "newest_main_file_upload": "",
       "nexus": "https://www.nexusmods.com/crimsondesert/mods/3273",
-      "nexus_checked": "2026-11-22T14:46:52Z",
+      "nexus_checked": "2026-11-22T15:02:25Z",
       "nexus_updated": "2026-09-10T22:19:04Z",
       "supported": {
         "addresses": {
@@ -23408,8 +23401,8 @@
     "scanned": {
       "broken": 28,
       "none": 7,
-      "nopatterns": 109,
-      "ok": 138,
+      "nopatterns": 108,
+      "ok": 139,
       "outdated": 15,
       "partly": 51,
       "unchecked": 1
