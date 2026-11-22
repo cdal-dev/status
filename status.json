@@ -347,8 +347,10 @@
         }
       },
       "coverage": {
+        "checked": "2026-11-22",
         "have": 0,
-        "level": "nothing",
+        "how": "system_only",
+        "level": "nocode",
         "missing": 0,
         "total": 0,
         "use": "hooks",
@@ -411,8 +413,10 @@
         }
       },
       "coverage": {
+        "checked": "2026-11-22",
         "have": 0,
-        "level": "nothing",
+        "how": "memory_data",
+        "level": "nocode",
         "missing": 0,
         "total": 0,
         "use": "hooks",
@@ -784,11 +788,13 @@
         }
       },
       "coverage": {
+        "checked": "2026-11-22",
         "have": 0,
-        "level": "nothing",
+        "how": "fixed",
+        "level": "unseen",
         "missing": 0,
         "total": 0,
-        "use": "hooks",
+        "use": "unknown",
         "waiting": 0
       },
       "group": "scanned",
@@ -1049,11 +1055,13 @@
         }
       },
       "coverage": {
+        "checked": "2026-11-22",
         "have": 0,
-        "level": "nothing",
+        "how": "byte_patch",
+        "level": "unseen",
         "missing": 0,
         "total": 0,
-        "use": "hooks",
+        "use": "unknown",
         "waiting": 0
       },
       "group": "scanned",
@@ -1293,11 +1301,13 @@
         }
       },
       "coverage": {
+        "checked": "2026-11-22",
         "have": 0,
-        "level": "nothing",
+        "how": "fixed",
+        "level": "unseen",
         "missing": 0,
         "total": 0,
-        "use": "hooks",
+        "use": "unknown",
         "waiting": 0
       },
       "group": "scanned",
@@ -1491,8 +1501,10 @@
         }
       },
       "coverage": {
+        "checked": "2026-11-22",
         "have": 0,
-        "level": "nothing",
+        "how": "system_only",
+        "level": "nocode",
         "missing": 0,
         "total": 0,
         "use": "hooks",
@@ -1625,8 +1637,10 @@
         }
       },
       "coverage": {
+        "checked": "2026-11-22",
         "have": 0,
-        "level": "nothing",
+        "how": "system_only",
+        "level": "nocode",
         "missing": 0,
         "total": 0,
         "use": "hooks",
@@ -1689,11 +1703,13 @@
         }
       },
       "coverage": {
+        "checked": "2026-11-22",
         "have": 0,
-        "level": "nothing",
+        "how": "class_tables",
+        "level": "unseen",
         "missing": 0,
         "total": 0,
-        "use": "hooks",
+        "use": "unknown",
         "waiting": 0
       },
       "group": "scanned",
@@ -2524,11 +2540,13 @@
         }
       },
       "coverage": {
+        "checked": "2026-11-22",
         "have": 0,
-        "level": "nothing",
+        "how": "fixed",
+        "level": "unseen",
         "missing": 0,
         "total": 0,
-        "use": "hooks",
+        "use": "unknown",
         "waiting": 0
       },
       "group": "scanned",
@@ -2544,7 +2562,7 @@
       "newest_code_upload": "2026-11-06T19:37:26Z",
       "newest_main_file_upload": "",
       "nexus": "https://www.nexusmods.com/crimsondesert/mods/4024",
-      "nexus_checked": "2026-11-22T13:55:59Z",
+      "nexus_checked": "2026-11-22T14:10:29Z",
       "nexus_updated": "2026-11-06T19:37:30Z",
       "supported": {
         "addresses": {
@@ -2655,11 +2673,13 @@
         }
       },
       "coverage": {
+        "checked": "2026-11-22",
         "have": 0,
-        "level": "nothing",
+        "how": "other_code",
+        "level": "unseen",
         "missing": 0,
         "total": 0,
-        "use": "hooks",
+        "use": "unknown",
         "waiting": 0
       },
       "group": "scanned",
@@ -2901,11 +2921,13 @@
         }
       },
       "coverage": {
+        "checked": "2026-11-22",
         "have": 0,
-        "level": "nothing",
+        "how": "other_code",
+        "level": "unseen",
         "missing": 0,
         "total": 0,
-        "use": "hooks",
+        "use": "unknown",
         "waiting": 0
       },
       "group": "scanned",
@@ -2965,11 +2987,13 @@
         }
       },
       "coverage": {
+        "checked": "2026-11-22",
         "have": 0,
-        "level": "nothing",
+        "how": "patterns",
+        "level": "unseen",
         "missing": 0,
         "total": 0,
-        "use": "hooks",
+        "use": "unknown",
         "waiting": 0
       },
       "group": "scanned",
@@ -3168,11 +3192,13 @@
         }
       },
       "coverage": {
+        "checked": "2026-11-22",
         "have": 0,
-        "level": "nothing",
+        "how": "class_tables",
+        "level": "unseen",
         "missing": 0,
         "total": 0,
-        "use": "hooks",
+        "use": "unknown",
         "waiting": 0
       },
       "group": "scanned",
@@ -3235,11 +3261,13 @@
         }
       },
       "coverage": {
+        "checked": "2026-11-22",
         "have": 0,
-        "level": "nothing",
+        "how": "fixed",
+        "level": "unseen",
         "missing": 0,
         "total": 0,
-        "use": "hooks",
+        "use": "unknown",
         "waiting": 0
       },
       "group": "scanned",
@@ -3500,11 +3528,13 @@
         }
       },
       "coverage": {
+        "checked": "2026-11-22",
         "have": 0,
-        "level": "nothing",
+        "how": "fixed",
+        "level": "unseen",
         "missing": 0,
         "total": 0,
-        "use": "hooks",
+        "use": "unknown",
         "waiting": 0
       },
       "group": "scanned",
@@ -3912,11 +3942,13 @@
         }
       },
       "coverage": {
+        "checked": "2026-11-22",
         "have": 0,
-        "level": "nothing",
+        "how": "runtime",
+        "level": "unseen",
         "missing": 0,
         "total": 0,
-        "use": "hooks",
+        "use": "unknown",
         "waiting": 0
       },
       "group": "scanned",
@@ -4043,8 +4075,10 @@
         }
       },
       "coverage": {
+        "checked": "2026-11-22",
         "have": 0,
-        "level": "nothing",
+        "how": "system_only",
+        "level": "nocode",
         "missing": 0,
         "total": 0,
         "use": "hooks",
@@ -4107,11 +4141,13 @@
         }
       },
       "coverage": {
+        "checked": "2026-11-22",
         "have": 0,
-        "level": "nothing",
+        "how": "fixed",
+        "level": "unseen",
         "missing": 0,
         "total": 0,
-        "use": "hooks",
+        "use": "unknown",
         "waiting": 0
       },
       "group": "scanned",
@@ -4369,11 +4405,13 @@
         }
       },
       "coverage": {
+        "checked": "2026-11-22",
         "have": 0,
-        "level": "nothing",
+        "how": "fixed",
+        "level": "unseen",
         "missing": 0,
         "total": 0,
-        "use": "hooks",
+        "use": "unknown",
         "waiting": 0
       },
       "group": "scanned",
@@ -4436,8 +4474,10 @@
         }
       },
       "coverage": {
+        "checked": "2026-11-22",
         "have": 0,
-        "level": "nothing",
+        "how": "memory_data",
+        "level": "nocode",
         "missing": 0,
         "total": 0,
         "use": "hooks",
@@ -4503,8 +4543,10 @@
         }
       },
       "coverage": {
+        "checked": "2026-11-22",
         "have": 0,
-        "level": "nothing",
+        "how": "system_only",
+        "level": "nocode",
         "missing": 0,
         "total": 0,
         "use": "hooks",
@@ -4701,8 +4743,10 @@
         }
       },
       "coverage": {
+        "checked": "2026-11-22",
         "have": 0,
-        "level": "nothing",
+        "how": "system_only",
+        "level": "nocode",
         "missing": 0,
         "total": 0,
         "use": "hooks",
@@ -5038,8 +5082,10 @@
         }
       },
       "coverage": {
+        "checked": "2026-11-22",
         "have": 0,
-        "level": "nothing",
+        "how": "other_none",
+        "level": "nocode",
         "missing": 0,
         "total": 0,
         "use": "hooks",
@@ -5105,8 +5151,10 @@
         }
       },
       "coverage": {
+        "checked": "2026-11-22",
         "have": 0,
-        "level": "nothing",
+        "how": "loader_only",
+        "level": "nocode",
         "missing": 0,
         "total": 0,
         "use": "hooks",
@@ -5172,11 +5220,13 @@
         }
       },
       "coverage": {
+        "checked": "2026-11-22",
         "have": 0,
-        "level": "nothing",
+        "how": "fixed",
+        "level": "unseen",
         "missing": 0,
         "total": 0,
-        "use": "hooks",
+        "use": "unknown",
         "waiting": 0
       },
       "group": "scanned",
@@ -5306,8 +5356,10 @@
         }
       },
       "coverage": {
+        "checked": "2026-11-22",
         "have": 0,
-        "level": "nothing",
+        "how": "loader_only",
+        "level": "nocode",
         "missing": 0,
         "total": 0,
         "use": "hooks",
@@ -6157,11 +6209,13 @@
         }
       },
       "coverage": {
+        "checked": "2026-11-22",
         "have": 0,
-        "level": "nothing",
+        "how": "fixed",
+        "level": "unseen",
         "missing": 0,
         "total": 0,
-        "use": "hooks",
+        "use": "unknown",
         "waiting": 0
       },
       "group": "scanned",
@@ -6224,8 +6278,10 @@
         }
       },
       "coverage": {
+        "checked": "2026-11-22",
         "have": 0,
-        "level": "nothing",
+        "how": "other_none",
+        "level": "nocode",
         "missing": 0,
         "total": 0,
         "use": "hooks",
@@ -6958,11 +7014,13 @@
         }
       },
       "coverage": {
+        "checked": "2026-11-22",
         "have": 0,
-        "level": "nothing",
+        "how": "fixed",
+        "level": "unseen",
         "missing": 0,
         "total": 0,
-        "use": "hooks",
+        "use": "unknown",
         "waiting": 0
       },
       "group": "scanned",
@@ -7295,11 +7353,13 @@
         }
       },
       "coverage": {
+        "checked": "2026-11-22",
         "have": 0,
-        "level": "nothing",
+        "how": "runtime",
+        "level": "unseen",
         "missing": 0,
         "total": 0,
-        "use": "hooks",
+        "use": "unknown",
         "waiting": 0
       },
       "group": "scanned",
@@ -7354,11 +7414,13 @@
         }
       },
       "coverage": {
+        "checked": "2026-11-22",
         "have": 0,
-        "level": "nothing",
+        "how": "patterns",
+        "level": "unseen",
         "missing": 0,
         "total": 0,
-        "use": "hooks",
+        "use": "unknown",
         "waiting": 0
       },
       "group": "scanned",
@@ -7485,8 +7547,10 @@
         }
       },
       "coverage": {
+        "checked": "2026-11-22",
         "have": 0,
-        "level": "nothing",
+        "how": "other_none",
+        "level": "nocode",
         "missing": 0,
         "total": 0,
         "use": "hooks",
@@ -7887,11 +7951,13 @@
         }
       },
       "coverage": {
+        "checked": "2026-11-22",
         "have": 0,
-        "level": "nothing",
+        "how": "other_code",
+        "level": "unseen",
         "missing": 0,
         "total": 0,
-        "use": "hooks",
+        "use": "unknown",
         "waiting": 0
       },
       "group": "scanned",
@@ -8589,11 +8655,13 @@
         }
       },
       "coverage": {
+        "checked": "2026-11-22",
         "have": 0,
-        "level": "nothing",
+        "how": "patterns",
+        "level": "unseen",
         "missing": 0,
         "total": 0,
-        "use": "hooks",
+        "use": "unknown",
         "waiting": 0
       },
       "group": "scanned",
@@ -8653,8 +8721,10 @@
         }
       },
       "coverage": {
+        "checked": "2026-11-22",
         "have": 0,
-        "level": "nothing",
+        "how": "other_none",
+        "level": "nocode",
         "missing": 0,
         "total": 0,
         "use": "hooks",
@@ -9244,11 +9314,13 @@
         }
       },
       "coverage": {
+        "checked": "2026-11-22",
         "have": 0,
-        "level": "nothing",
+        "how": "other_code",
+        "level": "unseen",
         "missing": 0,
         "total": 0,
-        "use": "hooks",
+        "use": "unknown",
         "waiting": 0
       },
       "group": "scanned",
@@ -9375,8 +9447,10 @@
         }
       },
       "coverage": {
+        "checked": "2026-11-22",
         "have": 0,
-        "level": "nothing",
+        "how": "system_only",
+        "level": "nocode",
         "missing": 0,
         "total": 0,
         "use": "hooks",
@@ -9640,11 +9714,13 @@
         }
       },
       "coverage": {
+        "checked": "2026-11-22",
         "have": 0,
-        "level": "nothing",
+        "how": "other_code",
+        "level": "unseen",
         "missing": 0,
         "total": 0,
-        "use": "hooks",
+        "use": "unknown",
         "waiting": 0
       },
       "group": "scanned",
@@ -10065,11 +10141,13 @@
         }
       },
       "coverage": {
+        "checked": "2026-11-22",
         "have": 0,
-        "level": "nothing",
+        "how": "patterns",
+        "level": "unseen",
         "missing": 0,
         "total": 0,
-        "use": "hooks",
+        "use": "unknown",
         "waiting": 0
       },
       "group": "scanned",
@@ -10199,8 +10277,10 @@
         }
       },
       "coverage": {
+        "checked": "2026-11-22",
         "have": 0,
-        "level": "nothing",
+        "how": "system_only",
+        "level": "nocode",
         "missing": 0,
         "total": 0,
         "use": "hooks",
@@ -10266,11 +10346,13 @@
         }
       },
       "coverage": {
+        "checked": "2026-11-22",
         "have": 0,
-        "level": "nothing",
+        "how": "byte_patch",
+        "level": "unseen",
         "missing": 0,
         "total": 0,
-        "use": "hooks",
+        "use": "unknown",
         "waiting": 0
       },
       "group": "scanned",
@@ -10595,8 +10677,10 @@
         }
       },
       "coverage": {
+        "checked": "2026-11-22",
         "have": 0,
-        "level": "nothing",
+        "how": "system_only",
+        "level": "nocode",
         "missing": 0,
         "total": 0,
         "use": "hooks",
@@ -10798,8 +10882,10 @@
         }
       },
       "coverage": {
+        "checked": "2026-11-22",
         "have": 0,
-        "level": "nothing",
+        "how": "system_only",
+        "level": "nocode",
         "missing": 0,
         "total": 0,
         "use": "hooks",
@@ -10865,11 +10951,13 @@
         }
       },
       "coverage": {
+        "checked": "2026-11-22",
         "have": 0,
-        "level": "nothing",
+        "how": "fixed",
+        "level": "unseen",
         "missing": 0,
         "total": 0,
-        "use": "hooks",
+        "use": "unknown",
         "waiting": 0
       },
       "group": "scanned",
@@ -11191,11 +11279,13 @@
         }
       },
       "coverage": {
+        "checked": "2026-11-22",
         "have": 0,
-        "level": "nothing",
+        "how": "fixed",
+        "level": "unseen",
         "missing": 0,
         "total": 0,
-        "use": "hooks",
+        "use": "unknown",
         "waiting": 0
       },
       "group": "scanned",
@@ -11255,8 +11345,10 @@
         }
       },
       "coverage": {
+        "checked": "2026-11-22",
         "have": 0,
-        "level": "nothing",
+        "how": "memory_data",
+        "level": "nocode",
         "missing": 0,
         "total": 0,
         "use": "hooks",
@@ -11655,8 +11747,10 @@
         }
       },
       "coverage": {
+        "checked": "2026-11-22",
         "have": 0,
-        "level": "nothing",
+        "how": "system_only",
+        "level": "nocode",
         "missing": 0,
         "total": 0,
         "use": "hooks",
@@ -11719,11 +11813,13 @@
         }
       },
       "coverage": {
+        "checked": "2026-11-22",
         "have": 0,
-        "level": "nothing",
+        "how": "class_tables",
+        "level": "unseen",
         "missing": 0,
         "total": 0,
-        "use": "hooks",
+        "use": "unknown",
         "waiting": 0
       },
       "group": "scanned",
@@ -12047,11 +12143,13 @@
         }
       },
       "coverage": {
+        "checked": "2026-11-22",
         "have": 0,
-        "level": "nothing",
+        "how": "fixed",
+        "level": "unseen",
         "missing": 0,
         "total": 0,
-        "use": "hooks",
+        "use": "unknown",
         "waiting": 0
       },
       "group": "scanned",
@@ -12345,8 +12443,10 @@
         }
       },
       "coverage": {
+        "checked": "2026-11-22",
         "have": 0,
-        "level": "nothing",
+        "how": "other_none",
+        "level": "nocode",
         "missing": 0,
         "total": 0,
         "use": "hooks",
@@ -12805,8 +12905,10 @@
         }
       },
       "coverage": {
+        "checked": "2026-11-22",
         "have": 0,
-        "level": "nothing",
+        "how": "other_none",
+        "level": "nocode",
         "missing": 0,
         "total": 0,
         "use": "hooks",
@@ -12872,11 +12974,13 @@
         }
       },
       "coverage": {
+        "checked": "2026-11-22",
         "have": 0,
-        "level": "nothing",
+        "how": "other_code",
+        "level": "unseen",
         "missing": 0,
         "total": 0,
-        "use": "hooks",
+        "use": "unknown",
         "waiting": 0
       },
       "group": "scanned",
@@ -13268,8 +13372,10 @@
         }
       },
       "coverage": {
+        "checked": "2026-11-22",
         "have": 0,
-        "level": "nothing",
+        "how": "loader_only",
+        "level": "nocode",
         "missing": 0,
         "total": 0,
         "use": "hooks",
@@ -13536,11 +13642,13 @@
         }
       },
       "coverage": {
+        "checked": "2026-11-22",
         "have": 0,
-        "level": "nothing",
+        "how": "class_tables",
+        "level": "unseen",
         "missing": 0,
         "total": 0,
-        "use": "hooks",
+        "use": "unknown",
         "waiting": 0
       },
       "group": "scanned",
@@ -13801,11 +13909,13 @@
         }
       },
       "coverage": {
+        "checked": "2026-11-22",
         "have": 0,
-        "level": "nothing",
+        "how": "fixed",
+        "level": "unseen",
         "missing": 0,
         "total": 0,
-        "use": "hooks",
+        "use": "unknown",
         "waiting": 0
       },
       "group": "scanned",
@@ -13935,8 +14045,10 @@
         }
       },
       "coverage": {
+        "checked": "2026-11-22",
         "have": 0,
-        "level": "nothing",
+        "how": "other_none",
+        "level": "nocode",
         "missing": 0,
         "total": 0,
         "use": "hooks",
@@ -14011,7 +14123,7 @@
       "newest_code_upload": "2026-04-11T22:01:11Z",
       "newest_main_file_upload": "",
       "nexus": "https://www.nexusmods.com/crimsondesert/mods/1009",
-      "nexus_checked": "2026-11-22T13:56:36Z",
+      "nexus_checked": "2026-11-22T14:10:38Z",
       "nexus_updated": "2026-04-11T22:01:11Z",
       "supported": {
         "verdict": "unchecked"
@@ -14046,11 +14158,13 @@
         }
       },
       "coverage": {
+        "checked": "2026-11-22",
         "have": 0,
-        "level": "nothing",
+        "how": "other_code",
+        "level": "unseen",
         "missing": 0,
         "total": 0,
-        "use": "hooks",
+        "use": "unknown",
         "waiting": 0
       },
       "group": "scanned",
@@ -14113,11 +14227,13 @@
         }
       },
       "coverage": {
+        "checked": "2026-11-22",
         "have": 0,
-        "level": "nothing",
+        "how": "fixed",
+        "level": "unseen",
         "missing": 0,
         "total": 0,
-        "use": "hooks",
+        "use": "unknown",
         "waiting": 0
       },
       "group": "scanned",
@@ -14974,11 +15090,13 @@
         }
       },
       "coverage": {
+        "checked": "2026-11-22",
         "have": 0,
-        "level": "nothing",
+        "how": "patterns",
+        "level": "unseen",
         "missing": 0,
         "total": 0,
-        "use": "hooks",
+        "use": "unknown",
         "waiting": 0
       },
       "group": "scanned",
@@ -15239,8 +15357,10 @@
         }
       },
       "coverage": {
+        "checked": "2026-11-22",
         "have": 0,
-        "level": "nothing",
+        "how": "loader_only",
+        "level": "nocode",
         "missing": 0,
         "total": 0,
         "use": "hooks",
@@ -15908,11 +16028,13 @@
         }
       },
       "coverage": {
+        "checked": "2026-11-22",
         "have": 0,
-        "level": "nothing",
+        "how": "fixed",
+        "level": "unseen",
         "missing": 0,
         "total": 0,
-        "use": "hooks",
+        "use": "unknown",
         "waiting": 0
       },
       "group": "scanned",
@@ -16170,8 +16292,10 @@
         }
       },
       "coverage": {
+        "checked": "2026-11-22",
         "have": 0,
-        "level": "nothing",
+        "how": "system_only",
+        "level": "nocode",
         "missing": 0,
         "total": 0,
         "use": "hooks",
@@ -16414,11 +16538,13 @@
         }
       },
       "coverage": {
+        "checked": "2026-11-22",
         "have": 0,
-        "level": "nothing",
+        "how": "fixed",
+        "level": "unseen",
         "missing": 0,
         "total": 0,
-        "use": "hooks",
+        "use": "unknown",
         "waiting": 0
       },
       "group": "scanned",
@@ -16481,11 +16607,13 @@
         }
       },
       "coverage": {
+        "checked": "2026-11-22",
         "have": 0,
-        "level": "nothing",
+        "how": "fixed",
+        "level": "unseen",
         "missing": 0,
         "total": 0,
-        "use": "hooks",
+        "use": "unknown",
         "waiting": 0
       },
       "group": "scanned",
@@ -16769,7 +16897,7 @@
       "newest_code_upload": "2026-09-23T17:05:42Z",
       "newest_main_file_upload": "",
       "nexus": "https://www.nexusmods.com/crimsondesert/mods/3562",
-      "nexus_checked": "2026-11-22T13:56:43Z",
+      "nexus_checked": "2026-11-22T14:10:41Z",
       "nexus_updated": "2026-09-23T17:05:58Z",
       "supported": {
         "addresses": {
@@ -16950,11 +17078,13 @@
         }
       },
       "coverage": {
+        "checked": "2026-11-22",
         "have": 0,
-        "level": "nothing",
+        "how": "class_tables",
+        "level": "unseen",
         "missing": 0,
         "total": 0,
-        "use": "hooks",
+        "use": "unknown",
         "waiting": 0
       },
       "group": "scanned",
@@ -17017,11 +17147,13 @@
         }
       },
       "coverage": {
+        "checked": "2026-11-22",
         "have": 0,
-        "level": "nothing",
+        "how": "fixed",
+        "level": "unseen",
         "missing": 0,
         "total": 0,
-        "use": "hooks",
+        "use": "unknown",
         "waiting": 0
       },
       "group": "scanned",
@@ -17215,11 +17347,13 @@
         }
       },
       "coverage": {
+        "checked": "2026-11-22",
         "have": 0,
-        "level": "nothing",
+        "how": "fixed",
+        "level": "unseen",
         "missing": 0,
         "total": 0,
-        "use": "hooks",
+        "use": "unknown",
         "waiting": 0
       },
       "group": "scanned",
@@ -17282,8 +17416,10 @@
         }
       },
       "coverage": {
+        "checked": "2026-11-22",
         "have": 0,
-        "level": "nothing",
+        "how": "memory_data",
+        "level": "nocode",
         "missing": 0,
         "total": 0,
         "use": "hooks",
@@ -17346,8 +17482,10 @@
         }
       },
       "coverage": {
+        "checked": "2026-11-22",
         "have": 0,
-        "level": "nothing",
+        "how": "memory_data",
+        "level": "nocode",
         "missing": 0,
         "total": 0,
         "use": "hooks",
@@ -17660,8 +17798,10 @@
         }
       },
       "coverage": {
+        "checked": "2026-11-22",
         "have": 0,
-        "level": "nothing",
+        "how": "system_only",
+        "level": "nocode",
         "missing": 0,
         "total": 0,
         "use": "hooks",
@@ -17980,11 +18120,13 @@
         }
       },
       "coverage": {
+        "checked": "2026-11-22",
         "have": 0,
-        "level": "nothing",
+        "how": "fixed",
+        "level": "unseen",
         "missing": 0,
         "total": 0,
-        "use": "hooks",
+        "use": "unknown",
         "waiting": 0
       },
       "group": "scanned",
@@ -18392,11 +18534,13 @@
         }
       },
       "coverage": {
+        "checked": "2026-11-22",
         "have": 0,
-        "level": "nothing",
+        "how": "other_code",
+        "level": "unseen",
         "missing": 0,
         "total": 0,
-        "use": "hooks",
+        "use": "unknown",
         "waiting": 0
       },
       "group": "scanned",
@@ -18721,8 +18865,10 @@
         }
       },
       "coverage": {
+        "checked": "2026-11-22",
         "have": 0,
-        "level": "nothing",
+        "how": "system_only",
+        "level": "nocode",
         "missing": 0,
         "total": 0,
         "use": "hooks",
@@ -18785,8 +18931,10 @@
         }
       },
       "coverage": {
+        "checked": "2026-11-22",
         "have": 0,
-        "level": "nothing",
+        "how": "system_only",
+        "level": "nocode",
         "missing": 0,
         "total": 0,
         "use": "hooks",
@@ -18913,11 +19061,13 @@
         }
       },
       "coverage": {
+        "checked": "2026-11-22",
         "have": 0,
-        "level": "nothing",
+        "how": "fixed",
+        "level": "unseen",
         "missing": 0,
         "total": 0,
-        "use": "hooks",
+        "use": "unknown",
         "waiting": 0
       },
       "group": "scanned",
@@ -18980,8 +19130,10 @@
         }
       },
       "coverage": {
+        "checked": "2026-11-22",
         "have": 0,
-        "level": "nothing",
+        "how": "memory_data",
+        "level": "nocode",
         "missing": 0,
         "total": 0,
         "use": "hooks",
@@ -19710,11 +19862,13 @@
         }
       },
       "coverage": {
+        "checked": "2026-11-22",
         "have": 0,
-        "level": "nothing",
+        "how": "fixed",
+        "level": "unseen",
         "missing": 0,
         "total": 0,
-        "use": "hooks",
+        "use": "unknown",
         "waiting": 0
       },
       "group": "scanned",
@@ -20039,11 +20193,13 @@
         }
       },
       "coverage": {
+        "checked": "2026-11-22",
         "have": 0,
-        "level": "nothing",
+        "how": "byte_patch",
+        "level": "unseen",
         "missing": 0,
         "total": 0,
-        "use": "hooks",
+        "use": "unknown",
         "waiting": 0
       },
       "group": "scanned",
@@ -20106,11 +20262,13 @@
         }
       },
       "coverage": {
+        "checked": "2026-11-22",
         "have": 0,
-        "level": "nothing",
+        "how": "fixed",
+        "level": "unseen",
         "missing": 0,
         "total": 0,
-        "use": "hooks",
+        "use": "unknown",
         "waiting": 0
       },
       "group": "scanned",
@@ -20321,7 +20479,7 @@
       "newest_code_upload": "2026-11-19T14:31:15Z",
       "newest_main_file_upload": "",
       "nexus": "https://www.nexusmods.com/crimsondesert/mods/3482",
-      "nexus_checked": "2026-11-22T13:56:51Z",
+      "nexus_checked": "2026-11-22T14:10:45Z",
       "nexus_updated": "2026-11-19T14:31:15Z",
       "supported": {
         "addresses": {
@@ -20368,11 +20526,13 @@
         }
       },
       "coverage": {
+        "checked": "2026-11-22",
         "have": 0,
-        "level": "nothing",
+        "how": "patterns",
+        "level": "unseen",
         "missing": 0,
         "total": 0,
-        "use": "hooks",
+        "use": "unknown",
         "waiting": 0
       },
       "group": "scanned",
@@ -20899,8 +21059,10 @@
         }
       },
       "coverage": {
+        "checked": "2026-11-22",
         "have": 0,
-        "level": "nothing",
+        "how": "system_only",
+        "level": "nocode",
         "missing": 0,
         "total": 0,
         "use": "hooks",
@@ -20963,11 +21125,13 @@
         }
       },
       "coverage": {
+        "checked": "2026-11-22",
         "have": 0,
-        "level": "nothing",
+        "how": "other_code",
+        "level": "unseen",
         "missing": 0,
         "total": 0,
-        "use": "hooks",
+        "use": "unknown",
         "waiting": 0
       },
       "group": "scanned",
@@ -21030,11 +21194,13 @@
         }
       },
       "coverage": {
+        "checked": "2026-11-22",
         "have": 0,
-        "level": "nothing",
+        "how": "class_tables",
+        "level": "unseen",
         "missing": 0,
         "total": 0,
-        "use": "hooks",
+        "use": "unknown",
         "waiting": 0
       },
       "group": "scanned",
@@ -21410,7 +21576,7 @@
       "newest_code_upload": "2026-09-10T22:19:04Z",
       "newest_main_file_upload": "",
       "nexus": "https://www.nexusmods.com/crimsondesert/mods/3273",
-      "nexus_checked": "2026-11-22T13:56:55Z",
+      "nexus_checked": "2026-11-22T14:10:47Z",
       "nexus_updated": "2026-09-10T22:19:04Z",
       "supported": {
         "addresses": {
@@ -21803,11 +21969,13 @@
         }
       },
       "coverage": {
+        "checked": "2026-11-22",
         "have": 0,
-        "level": "nothing",
+        "how": "patterns",
+        "level": "unseen",
         "missing": 0,
         "total": 0,
-        "use": "hooks",
+        "use": "unknown",
         "waiting": 0
       },
       "group": "scanned",
@@ -22068,8 +22236,10 @@
         }
       },
       "coverage": {
+        "checked": "2026-11-22",
         "have": 0,
-        "level": "nothing",
+        "how": "other_none",
+        "level": "nocode",
         "missing": 0,
         "total": 0,
         "use": "hooks",
@@ -22179,11 +22349,13 @@
         }
       },
       "coverage": {
+        "checked": "2026-11-22",
         "have": 0,
-        "level": "nothing",
+        "how": "runtime",
+        "level": "unseen",
         "missing": 0,
         "total": 0,
-        "use": "hooks",
+        "use": "unknown",
         "waiting": 0
       },
       "group": "scanned",
@@ -22246,11 +22418,13 @@
         }
       },
       "coverage": {
+        "checked": "2026-11-22",
         "have": 0,
-        "level": "nothing",
+        "how": "patterns",
+        "level": "unseen",
         "missing": 0,
         "total": 0,
-        "use": "hooks",
+        "use": "unknown",
         "waiting": 0
       },
       "group": "scanned",
@@ -22578,11 +22752,13 @@
         }
       },
       "coverage": {
+        "checked": "2026-11-22",
         "have": 0,
-        "level": "nothing",
+        "how": "class_tables",
+        "level": "unseen",
         "missing": 0,
         "total": 0,
-        "use": "hooks",
+        "use": "unknown",
         "waiting": 0
       },
       "group": "scanned",

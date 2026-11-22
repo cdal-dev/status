@@ -96,7 +96,7 @@ td { padding:0; border-bottom:1px solid var(--line); }
 .cov { display:inline-flex; align-items:center; gap:7px; max-width:100%; }
 .cov-bar { flex:0 0 44px; height:6px; border-radius:3px; background:var(--line); overflow:hidden; }
 .cov-bar>span { display:block; height:100%; background:var(--warn); }
-.cov.none .cov-text { color:var(--warn); } .cov.nothing .cov-text { color:var(--muted); }
+.cov.none .cov-text { color:var(--warn); } .cov.nothing .cov-text,.cov.nocode .cov-text { color:var(--muted); }
 .cov-text { font-variant-numeric:tabular-nums; overflow:hidden; text-overflow:ellipsis; }
 .cov { flex-wrap:wrap; row-gap:0; }
 .cov-missing { flex-basis:100%; color:var(--warn); font-size:11px; line-height:14px; white-space:normal; }
