@@ -92,7 +92,6 @@ td { padding:0; border-bottom:1px solid var(--line); }
 .mod-name,.mod-author { display:block; overflow:hidden; text-overflow:ellipsis; }
 .mod-row>span:first-child { display:flex; align-items:center; gap:4px; }
 .mod-row>span:first-child>.mod-name { min-width:0; }
-.lab { flex-shrink:0; } .lab .mark svg { width:14px; height:14px; }
 .cov { display:inline-flex; align-items:center; gap:7px; max-width:100%; }
 .cov-bar { flex:0 0 44px; height:6px; border-radius:3px; background:var(--line); overflow:hidden; }
 .cov-bar>span { display:block; height:100%; background:var(--warn); }
@@ -122,7 +121,7 @@ td { padding:0; border-bottom:1px solid var(--line); }
 .mark { display:inline-flex; vertical-align:middle; align-items:center; }
 .mark svg { display:block; width:17px; height:17px; }
 .ok { color:var(--ok); } .partly { color:var(--warn); } .broken,.problem { color:var(--fail); }
-.none,.outdated,.unchecked,.nopatterns { color:var(--muted); } .runs,.ran { color:var(--runs); } .unsupported { color:var(--warn); }
+.none,.outdated,.unchecked,.nopatterns { color:var(--muted); } .runs { color:var(--runs); } .unsupported { color:var(--warn); }
 .rescue { display:inline-block; max-width:calc(100% - 24px); overflow:hidden; text-overflow:ellipsis; vertical-align:middle;
   margin-left:4px; padding:0 5px; border:1px solid currentColor; border-radius:3px; font-size:11px; line-height:16px; }
 .rescue.fixable { color:var(--ok); } .rescue.needs-ids { color:var(--warn); } .rescue.other { color:var(--muted); }

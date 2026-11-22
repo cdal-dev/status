@@ -280,7 +280,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         }
       },
       "coverage": {
@@ -326,7 +326,7 @@
       "author": "JunkieBobRoss",
       "builds": {
         "1.0.0.3663": {
-          "check": "no_patterns",
+          "check": "no_code",
           "ids": {
             "found": 0,
             "total": 0
@@ -335,10 +335,10 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "ok"
         },
         "1.0.0.3732": {
-          "check": "no_patterns",
+          "check": "no_code",
           "ids": {
             "found": 0,
             "total": 0
@@ -347,7 +347,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "ok"
         }
       },
       "coverage": {
@@ -395,16 +395,16 @@
       "author": "joytk",
       "builds": {
         "1.0.0.3663": {
-          "check": "none",
+          "check": "no_code",
           "ids": {
             "found": 0,
             "total": 0
           },
           "pattern_counts": null,
-          "status": "none"
+          "status": "ok"
         },
         "1.0.0.3732": {
-          "check": "no_patterns",
+          "check": "no_code",
           "ids": {
             "found": 0,
             "total": 0
@@ -413,7 +413,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "ok"
         }
       },
       "coverage": {
@@ -473,7 +473,7 @@
           "status": "nopatterns"
         },
         "1.0.0.3732": {
-          "check": "no_patterns",
+          "check": "same_places",
           "ids": {
             "found": 1,
             "total": 1
@@ -482,7 +482,8 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "places": 1,
+          "status": "ok"
         }
       },
       "coverage": {
@@ -528,7 +529,7 @@
       "author": "MJ7L",
       "builds": {
         "1.0.0.3663": {
-          "check": "no_patterns",
+          "check": "same_places",
           "ids": {
             "found": 11,
             "total": 11
@@ -537,7 +538,8 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "places": 11,
+          "status": "ok"
         },
         "1.0.0.3732": {
           "check": "no_patterns",
@@ -549,7 +551,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         }
       },
       "coverage": {
@@ -613,7 +615,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         }
       },
       "coverage": {
@@ -712,7 +714,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         },
         "1.0.0.3732": {
           "check": "no_patterns",
@@ -724,7 +726,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         }
       },
       "coverage": {
@@ -776,7 +778,7 @@
             "total": 0
           },
           "pattern_counts": null,
-          "status": "ran"
+          "status": "none"
         },
         "1.0.0.3732": {
           "check": "no_patterns",
@@ -788,7 +790,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         }
       },
       "coverage": {
@@ -1043,7 +1045,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         },
         "1.0.0.3732": {
           "check": "no_patterns",
@@ -1055,7 +1057,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         }
       },
       "coverage": {
@@ -1164,7 +1166,7 @@
       "author": "p0nx77",
       "builds": {
         "1.0.0.3663": {
-          "check": "no_patterns",
+          "check": "same_places",
           "ids": {
             "found": 5,
             "total": 5
@@ -1173,10 +1175,11 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "places": 5,
+          "status": "ok"
         },
         "1.0.0.3732": {
-          "check": "no_patterns",
+          "check": "same_places",
           "ids": {
             "found": 5,
             "total": 5
@@ -1185,7 +1188,8 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "places": 5,
+          "status": "ok"
         }
       },
       "coverage": {
@@ -1289,7 +1293,7 @@
             "total": 0
           },
           "pattern_counts": null,
-          "status": "ran"
+          "status": "none"
         },
         "1.0.0.3732": {
           "check": "no_patterns",
@@ -1301,7 +1305,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         }
       },
       "coverage": {
@@ -1367,7 +1371,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         }
       },
       "coverage": {
@@ -1422,7 +1426,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         },
         "1.0.0.3732": {
           "check": "no_patterns",
@@ -1434,7 +1438,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         }
       },
       "coverage": {
@@ -1480,7 +1484,7 @@
       "author": "DorianBlade",
       "builds": {
         "1.0.0.3663": {
-          "check": "no_patterns",
+          "check": "no_code",
           "ids": {
             "found": 0,
             "total": 0
@@ -1489,10 +1493,10 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "ok"
         },
         "1.0.0.3732": {
-          "check": "no_patterns",
+          "check": "no_code",
           "ids": {
             "found": 0,
             "total": 0
@@ -1501,7 +1505,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "ok"
         }
       },
       "coverage": {
@@ -1616,7 +1620,7 @@
       "author": "iArkant",
       "builds": {
         "1.0.0.3663": {
-          "check": "no_patterns",
+          "check": "no_code",
           "ids": {
             "found": 0,
             "total": 0
@@ -1625,10 +1629,10 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "nopatterns"
+          "status": "ok"
         },
         "1.0.0.3732": {
-          "check": "no_patterns",
+          "check": "no_code",
           "ids": {
             "found": 0,
             "total": 0
@@ -1637,7 +1641,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "ok"
         }
       },
       "coverage": {
@@ -1691,7 +1695,7 @@
             "total": 0
           },
           "pattern_counts": null,
-          "status": "ran"
+          "status": "none"
         },
         "1.0.0.3732": {
           "check": "no_patterns",
@@ -1703,7 +1707,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         }
       },
       "coverage": {
@@ -1885,7 +1889,7 @@
       "author": "MJ7L",
       "builds": {
         "1.0.0.3663": {
-          "check": "no_patterns",
+          "check": "same_places",
           "ids": {
             "found": 1,
             "total": 1
@@ -1894,7 +1898,8 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "places": 1,
+          "status": "ok"
         },
         "1.0.0.3732": {
           "check": "no_patterns",
@@ -1906,7 +1911,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         }
       },
       "coverage": {
@@ -2019,7 +2024,7 @@
       "author": "MJ7L",
       "builds": {
         "1.0.0.3663": {
-          "check": "no_patterns",
+          "check": "same_places",
           "ids": {
             "found": 2,
             "total": 2
@@ -2028,7 +2033,8 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "places": 2,
+          "status": "ok"
         },
         "1.0.0.3732": {
           "check": "no_patterns",
@@ -2040,7 +2046,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         }
       },
       "coverage": {
@@ -2394,7 +2400,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         },
         "1.0.0.3732": {
           "check": "no_patterns",
@@ -2406,7 +2412,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         }
       },
       "coverage": {
@@ -2452,7 +2458,7 @@
       "author": "Quackers24",
       "builds": {
         "1.0.0.3663": {
-          "check": "no_patterns",
+          "check": "same_places",
           "ids": {
             "found": 10,
             "total": 10
@@ -2461,10 +2467,11 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "places": 10,
+          "status": "ok"
         },
         "1.0.0.3732": {
-          "check": "no_patterns",
+          "check": "same_places",
           "ids": {
             "found": 10,
             "total": 10
@@ -2473,7 +2480,8 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "places": 10,
+          "status": "ok"
         }
       },
       "coverage": {
@@ -2528,7 +2536,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         },
         "1.0.0.3732": {
           "check": "no_patterns",
@@ -2540,7 +2548,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         }
       },
       "coverage": {
@@ -2566,7 +2574,7 @@
       "newest_code_upload": "2026-11-06T19:37:26Z",
       "newest_main_file_upload": "",
       "nexus": "https://www.nexusmods.com/crimsondesert/mods/4024",
-      "nexus_checked": "2026-11-22T14:35:43Z",
+      "nexus_checked": "2026-11-22T14:46:34Z",
       "nexus_updated": "2026-11-06T19:37:30Z",
       "supported": {
         "addresses": {
@@ -2661,7 +2669,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         },
         "1.0.0.3732": {
           "check": "no_patterns",
@@ -2673,7 +2681,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         }
       },
       "coverage": {
@@ -2769,7 +2777,7 @@
       "author": "p0nx77",
       "builds": {
         "1.0.0.3663": {
-          "check": "no_patterns",
+          "check": "same_places",
           "ids": {
             "found": 22,
             "total": 22
@@ -2778,7 +2786,8 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "places": 20,
+          "status": "ok"
         },
         "1.0.0.3732": {
           "check": "no_patterns",
@@ -2790,7 +2799,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         }
       },
       "coverage": {
@@ -2845,7 +2854,7 @@
           "status": "unchecked"
         },
         "1.0.0.3732": {
-          "check": "no_patterns",
+          "check": "same_places",
           "ids": {
             "found": 5,
             "total": 5
@@ -2854,7 +2863,8 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "places": 5,
+          "status": "ok"
         }
       },
       "coverage": {
@@ -2909,7 +2919,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         },
         "1.0.0.3732": {
           "check": "no_patterns",
@@ -2921,7 +2931,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         }
       },
       "coverage": {
@@ -2978,7 +2988,7 @@
           "status": "unchecked"
         },
         "1.0.0.3732": {
-          "check": "no_patterns",
+          "check": "same_places",
           "ids": {
             "found": 1,
             "total": 1
@@ -2987,7 +2997,8 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "places": 1,
+          "status": "ok"
         }
       },
       "coverage": {
@@ -3178,7 +3189,7 @@
             "total": 0
           },
           "pattern_counts": null,
-          "status": "ran"
+          "status": "none"
         },
         "1.0.0.3732": {
           "check": "no_patterns",
@@ -3190,7 +3201,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         }
       },
       "coverage": {
@@ -3247,7 +3258,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         },
         "1.0.0.3732": {
           "check": "no_patterns",
@@ -3259,7 +3270,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         }
       },
       "coverage": {
@@ -3514,7 +3525,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         },
         "1.0.0.3732": {
           "check": "no_patterns",
@@ -3526,7 +3537,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         }
       },
       "coverage": {
@@ -3659,7 +3670,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         }
       },
       "coverage": {
@@ -3928,7 +3939,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         },
         "1.0.0.3732": {
           "check": "no_patterns",
@@ -3940,7 +3951,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         }
       },
       "coverage": {
@@ -3997,7 +4008,7 @@
           "status": "unchecked"
         },
         "1.0.0.3732": {
-          "check": "no_patterns",
+          "check": "same_places",
           "ids": {
             "found": 4,
             "total": 4
@@ -4006,7 +4017,8 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "places": 4,
+          "status": "ok"
         }
       },
       "coverage": {
@@ -4052,7 +4064,7 @@
       "author": "LuizaoDev",
       "builds": {
         "1.0.0.3663": {
-          "check": "no_patterns",
+          "check": "no_code",
           "ids": {
             "found": 0,
             "total": 0
@@ -4061,10 +4073,10 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "nopatterns"
+          "status": "ok"
         },
         "1.0.0.3732": {
-          "check": "no_patterns",
+          "check": "no_code",
           "ids": {
             "found": 0,
             "total": 0
@@ -4073,7 +4085,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "ok"
         }
       },
       "coverage": {
@@ -4127,7 +4139,7 @@
             "total": 0
           },
           "pattern_counts": null,
-          "status": "ran"
+          "status": "none"
         },
         "1.0.0.3732": {
           "check": "no_patterns",
@@ -4139,7 +4151,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         }
       },
       "coverage": {
@@ -4389,7 +4401,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         },
         "1.0.0.3732": {
           "check": "no_patterns",
@@ -4401,7 +4413,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         }
       },
       "coverage": {
@@ -4449,7 +4461,7 @@
       "author": "pdhenklein",
       "builds": {
         "1.0.0.3663": {
-          "check": "no_patterns",
+          "check": "no_code",
           "ids": {
             "found": 0,
             "total": 0
@@ -4458,10 +4470,10 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "ok"
         },
         "1.0.0.3732": {
-          "check": "no_patterns",
+          "check": "no_code",
           "ids": {
             "found": 0,
             "total": 0
@@ -4470,7 +4482,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "ok"
         }
       },
       "coverage": {
@@ -4518,7 +4530,7 @@
       "author": "Amelya",
       "builds": {
         "1.0.0.3663": {
-          "check": "no_patterns",
+          "check": "no_code",
           "ids": {
             "found": 0,
             "total": 0
@@ -4527,10 +4539,10 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "ok"
         },
         "1.0.0.3732": {
-          "check": "no_patterns",
+          "check": "no_code",
           "ids": {
             "found": 0,
             "total": 0
@@ -4539,7 +4551,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "ok"
         }
       },
       "coverage": {
@@ -4593,7 +4605,7 @@
             "total": 0
           },
           "pattern_counts": null,
-          "status": "ran"
+          "status": "none"
         },
         "1.0.0.3732": {
           "check": "no_patterns",
@@ -4605,7 +4617,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         }
       },
       "coverage": {
@@ -4718,7 +4730,7 @@
       "author": "Amelya",
       "builds": {
         "1.0.0.3663": {
-          "check": "no_patterns",
+          "check": "no_code",
           "ids": {
             "found": 0,
             "total": 0
@@ -4727,10 +4739,10 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "ok"
         },
         "1.0.0.3732": {
-          "check": "no_patterns",
+          "check": "no_code",
           "ids": {
             "found": 0,
             "total": 0
@@ -4739,7 +4751,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "ok"
         }
       },
       "coverage": {
@@ -5011,7 +5023,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         }
       },
       "coverage": {
@@ -5057,7 +5069,7 @@
       "author": "Valentina22",
       "builds": {
         "1.0.0.3663": {
-          "check": "no_patterns",
+          "check": "no_code",
           "ids": {
             "found": 0,
             "total": 0
@@ -5066,10 +5078,10 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "ok"
         },
         "1.0.0.3732": {
-          "check": "no_patterns",
+          "check": "no_code",
           "ids": {
             "found": 0,
             "total": 0
@@ -5078,7 +5090,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "ok"
         }
       },
       "coverage": {
@@ -5126,7 +5138,7 @@
       "author": "Johntaber",
       "builds": {
         "1.0.0.3663": {
-          "check": "no_patterns",
+          "check": "no_code",
           "ids": {
             "found": 0,
             "total": 0
@@ -5135,10 +5147,10 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "ok"
         },
         "1.0.0.3732": {
-          "check": "no_patterns",
+          "check": "no_code",
           "ids": {
             "found": 0,
             "total": 0
@@ -5147,7 +5159,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "ok"
         }
       },
       "coverage": {
@@ -5204,7 +5216,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         },
         "1.0.0.3732": {
           "check": "no_patterns",
@@ -5216,7 +5228,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         }
       },
       "coverage": {
@@ -5273,7 +5285,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         },
         "1.0.0.3732": {
           "check": "no_patterns",
@@ -5285,7 +5297,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         }
       },
       "coverage": {
@@ -5331,7 +5343,7 @@
       "author": "Noonetranslator X INFO-Meawtion",
       "builds": {
         "1.0.0.3663": {
-          "check": "no_patterns",
+          "check": "no_code",
           "ids": {
             "found": 0,
             "total": 0
@@ -5340,10 +5352,10 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "ok"
         },
         "1.0.0.3732": {
-          "check": "no_patterns",
+          "check": "no_code",
           "ids": {
             "found": 0,
             "total": 0
@@ -5352,7 +5364,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "ok"
         }
       },
       "coverage": {
@@ -5406,7 +5418,7 @@
             "total": 0
           },
           "pattern_counts": null,
-          "status": "ran"
+          "status": "none"
         },
         "1.0.0.3732": {
           "check": "no_patterns",
@@ -5418,7 +5430,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         }
       },
       "coverage": {
@@ -5719,7 +5731,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         }
       },
       "coverage": {
@@ -5765,7 +5777,7 @@
       "author": "BaseGmb",
       "builds": {
         "1.0.0.3663": {
-          "check": "no_patterns",
+          "check": "same_places",
           "ids": {
             "found": 5,
             "total": 5
@@ -5774,7 +5786,8 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "places": 2,
+          "status": "ok"
         },
         "1.0.0.3732": {
           "check": "scanned",
@@ -5897,7 +5910,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         },
         "1.0.0.3732": {
           "check": "no_patterns",
@@ -5909,7 +5922,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         }
       },
       "coverage": {
@@ -6127,7 +6140,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         },
         "1.0.0.3732": {
           "check": "no_patterns",
@@ -6139,7 +6152,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         }
       },
       "coverage": {
@@ -6194,7 +6207,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         },
         "1.0.0.3732": {
           "check": "no_patterns",
@@ -6206,7 +6219,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         }
       },
       "coverage": {
@@ -6254,7 +6267,7 @@
       "author": "ZappendusterFX",
       "builds": {
         "1.0.0.3663": {
-          "check": "no_patterns",
+          "check": "no_code",
           "ids": {
             "found": 0,
             "total": 0
@@ -6263,10 +6276,10 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "ok"
         },
         "1.0.0.3732": {
-          "check": "no_patterns",
+          "check": "no_code",
           "ids": {
             "found": 0,
             "total": 0
@@ -6275,7 +6288,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "ok"
         }
       },
       "coverage": {
@@ -6323,7 +6336,7 @@
       "author": "Gametism",
       "builds": {
         "1.0.0.3663": {
-          "check": "no_patterns",
+          "check": "same_places",
           "ids": {
             "found": 4,
             "total": 4
@@ -6332,10 +6345,11 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "nopatterns"
+          "places": 4,
+          "status": "ok"
         },
         "1.0.0.3732": {
-          "check": "no_patterns",
+          "check": "same_places",
           "ids": {
             "found": 4,
             "total": 4
@@ -6344,7 +6358,8 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "places": 3,
+          "status": "ok"
         }
       },
       "coverage": {
@@ -6399,7 +6414,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         },
         "1.0.0.3732": {
           "check": "no_patterns",
@@ -6411,7 +6426,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         }
       },
       "coverage": {
@@ -6463,7 +6478,7 @@
             "total": 0
           },
           "pattern_counts": null,
-          "status": "ran"
+          "status": "none"
         },
         "1.0.0.3732": {
           "check": "no_patterns",
@@ -6475,7 +6490,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         }
       },
       "coverage": {
@@ -6530,7 +6545,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         },
         "1.0.0.3732": {
           "check": "no_patterns",
@@ -6542,7 +6557,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         }
       },
       "coverage": {
@@ -6664,7 +6679,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         },
         "1.0.0.3732": {
           "check": "no_patterns",
@@ -6676,7 +6691,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         }
       },
       "coverage": {
@@ -6798,7 +6813,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         },
         "1.0.0.3732": {
           "check": "no_patterns",
@@ -6810,7 +6825,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         }
       },
       "coverage": {
@@ -6865,7 +6880,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         },
         "1.0.0.3732": {
           "check": "no_patterns",
@@ -6877,7 +6892,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         }
       },
       "coverage": {
@@ -6923,7 +6938,7 @@
       "author": "inochisidarta",
       "builds": {
         "1.0.0.3663": {
-          "check": "no_patterns",
+          "check": "same_places",
           "ids": {
             "found": 1,
             "total": 1
@@ -6932,10 +6947,11 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "places": 1,
+          "status": "ok"
         },
         "1.0.0.3732": {
-          "check": "no_patterns",
+          "check": "same_places",
           "ids": {
             "found": 1,
             "total": 1
@@ -6944,7 +6960,8 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "places": 1,
+          "status": "ok"
         }
       },
       "coverage": {
@@ -6999,7 +7016,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         },
         "1.0.0.3732": {
           "check": "no_patterns",
@@ -7011,7 +7028,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         }
       },
       "coverage": {
@@ -7059,7 +7076,7 @@
       "author": "Demigro",
       "builds": {
         "1.0.0.3663": {
-          "check": "no_patterns",
+          "check": "same_places",
           "ids": {
             "found": 9,
             "total": 9
@@ -7068,7 +7085,8 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "places": 9,
+          "status": "ok"
         },
         "1.0.0.3732": {
           "check": "no_patterns",
@@ -7128,7 +7146,7 @@
       "author": "Demigro",
       "builds": {
         "1.0.0.3663": {
-          "check": "no_patterns",
+          "check": "same_places",
           "ids": {
             "found": 2,
             "total": 2
@@ -7137,7 +7155,8 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "places": 2,
+          "status": "ok"
         },
         "1.0.0.3732": {
           "check": "no_patterns",
@@ -7149,7 +7168,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         }
       },
       "coverage": {
@@ -7195,7 +7214,7 @@
       "author": "ghot93",
       "builds": {
         "1.0.0.3663": {
-          "check": "no_patterns",
+          "check": "same_places",
           "ids": {
             "found": 3,
             "total": 3
@@ -7204,10 +7223,11 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "places": 3,
+          "status": "ok"
         },
         "1.0.0.3732": {
-          "check": "no_patterns",
+          "check": "same_places",
           "ids": {
             "found": 3,
             "total": 3
@@ -7216,7 +7236,8 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "places": 3,
+          "status": "ok"
         }
       },
       "coverage": {
@@ -7399,7 +7420,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         },
         "1.0.0.3732": {
           "check": "no_patterns",
@@ -7411,7 +7432,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         }
       },
       "coverage": {
@@ -7459,7 +7480,7 @@
       "author": "Quackers24",
       "builds": {
         "1.0.0.3663": {
-          "check": "no_patterns",
+          "check": "same_places",
           "ids": {
             "found": 7,
             "total": 7
@@ -7468,10 +7489,11 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "places": 7,
+          "status": "ok"
         },
         "1.0.0.3732": {
-          "check": "no_patterns",
+          "check": "same_places",
           "ids": {
             "found": 7,
             "total": 7
@@ -7480,7 +7502,8 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "places": 7,
+          "status": "ok"
         }
       },
       "coverage": {
@@ -7526,16 +7549,16 @@
       "author": "TareliusKosmos",
       "builds": {
         "1.0.0.3663": {
-          "check": "none",
+          "check": "no_code",
           "ids": {
             "found": 0,
             "total": 0
           },
           "pattern_counts": null,
-          "status": "ran"
+          "status": "ok"
         },
         "1.0.0.3732": {
-          "check": "no_patterns",
+          "check": "no_code",
           "ids": {
             "found": 0,
             "total": 0
@@ -7544,7 +7567,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "ok"
         }
       },
       "coverage": {
@@ -7592,7 +7615,7 @@
       "author": "sbabiy",
       "builds": {
         "1.0.0.3663": {
-          "check": "no_patterns",
+          "check": "same_places",
           "ids": {
             "found": 81,
             "total": 81
@@ -7601,10 +7624,11 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "places": 81,
+          "status": "ok"
         },
         "1.0.0.3732": {
-          "check": "no_patterns",
+          "check": "same_places",
           "ids": {
             "found": 81,
             "total": 81
@@ -7613,7 +7637,8 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "places": 81,
+          "status": "ok"
         }
       },
       "coverage": {
@@ -7680,7 +7705,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         }
       },
       "coverage": {
@@ -7802,7 +7827,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         },
         "1.0.0.3732": {
           "check": "no_patterns",
@@ -7814,7 +7839,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         }
       },
       "coverage": {
@@ -7936,7 +7961,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         },
         "1.0.0.3732": {
           "check": "no_patterns",
@@ -7948,7 +7973,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         }
       },
       "coverage": {
@@ -8005,7 +8030,7 @@
           "status": "unchecked"
         },
         "1.0.0.3732": {
-          "check": "no_patterns",
+          "check": "same_places",
           "ids": {
             "found": 12,
             "total": 12
@@ -8014,7 +8039,8 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "places": 12,
+          "status": "ok"
         }
       },
       "coverage": {
@@ -8060,7 +8086,7 @@
       "author": "Quackers24",
       "builds": {
         "1.0.0.3663": {
-          "check": "no_patterns",
+          "check": "same_places",
           "ids": {
             "found": 2,
             "total": 2
@@ -8069,10 +8095,11 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "places": 2,
+          "status": "ok"
         },
         "1.0.0.3732": {
-          "check": "no_patterns",
+          "check": "same_places",
           "ids": {
             "found": 2,
             "total": 2
@@ -8081,7 +8108,8 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "places": 2,
+          "status": "ok"
         }
       },
       "coverage": {
@@ -8136,7 +8164,7 @@
           "status": "unchecked"
         },
         "1.0.0.3732": {
-          "check": "no_patterns",
+          "check": "same_places",
           "ids": {
             "found": 1,
             "total": 1
@@ -8145,7 +8173,8 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "places": 1,
+          "status": "ok"
         }
       },
       "coverage": {
@@ -8258,7 +8287,7 @@
       "author": "Xerib",
       "builds": {
         "1.0.0.3663": {
-          "check": "no_patterns",
+          "check": "same_places",
           "ids": {
             "found": 1,
             "total": 1
@@ -8267,7 +8296,8 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "places": 1,
+          "status": "ok"
         },
         "1.0.0.3732": {
           "check": "no_patterns",
@@ -8279,7 +8309,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         }
       },
       "coverage": {
@@ -8325,7 +8355,7 @@
       "author": "Bambozu",
       "builds": {
         "1.0.0.3663": {
-          "check": "no_patterns",
+          "check": "same_places",
           "ids": {
             "found": 2,
             "total": 2
@@ -8334,7 +8364,8 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "places": 1,
+          "status": "ok"
         },
         "1.0.0.3732": {
           "check": "scanned",
@@ -8512,7 +8543,7 @@
           "status": "unchecked"
         },
         "1.0.0.3732": {
-          "check": "no_patterns",
+          "check": "same_places",
           "ids": {
             "found": 1,
             "total": 1
@@ -8521,7 +8552,8 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "places": 1,
+          "status": "ok"
         }
       },
       "coverage": {
@@ -8576,7 +8608,7 @@
           "status": "unchecked"
         },
         "1.0.0.3732": {
-          "check": "no_patterns",
+          "check": "same_places",
           "ids": {
             "found": 2,
             "total": 2
@@ -8585,7 +8617,8 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "places": 2,
+          "status": "ok"
         }
       },
       "coverage": {
@@ -8640,7 +8673,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         },
         "1.0.0.3732": {
           "check": "no_patterns",
@@ -8652,7 +8685,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         }
       },
       "coverage": {
@@ -8700,16 +8733,16 @@
       "author": "Lopporr",
       "builds": {
         "1.0.0.3663": {
-          "check": "none",
+          "check": "no_code",
           "ids": {
             "found": 0,
             "total": 0
           },
           "pattern_counts": null,
-          "status": "none"
+          "status": "ok"
         },
         "1.0.0.3732": {
-          "check": "no_patterns",
+          "check": "no_code",
           "ids": {
             "found": 0,
             "total": 0
@@ -8718,7 +8751,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "ok"
         }
       },
       "coverage": {
@@ -8775,7 +8808,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         },
         "1.0.0.3732": {
           "check": "no_patterns",
@@ -8787,7 +8820,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         }
       },
       "coverage": {
@@ -8842,7 +8875,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         },
         "1.0.0.3732": {
           "check": "no_patterns",
@@ -8854,7 +8887,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         }
       },
       "coverage": {
@@ -8909,7 +8942,7 @@
           "status": "unchecked"
         },
         "1.0.0.3732": {
-          "check": "no_patterns",
+          "check": "same_places",
           "ids": {
             "found": 1,
             "total": 1
@@ -8918,7 +8951,8 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "places": 1,
+          "status": "ok"
         }
       },
       "coverage": {
@@ -8973,7 +9007,7 @@
           "status": "unchecked"
         },
         "1.0.0.3732": {
-          "check": "no_patterns",
+          "check": "same_places",
           "ids": {
             "found": 3,
             "total": 3
@@ -8982,7 +9016,8 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "places": 3,
+          "status": "ok"
         }
       },
       "coverage": {
@@ -9028,7 +9063,7 @@
       "author": "KingHerru",
       "builds": {
         "1.0.0.3663": {
-          "check": "no_patterns",
+          "check": "same_places",
           "ids": {
             "found": 2,
             "total": 2
@@ -9037,7 +9072,8 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "places": 1,
+          "status": "ok"
         },
         "1.0.0.3732": {
           "check": "scanned",
@@ -9177,7 +9213,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         }
       },
       "coverage": {
@@ -9232,7 +9268,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         },
         "1.0.0.3732": {
           "check": "no_patterns",
@@ -9244,7 +9280,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         }
       },
       "coverage": {
@@ -9299,7 +9335,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         },
         "1.0.0.3732": {
           "check": "no_patterns",
@@ -9311,7 +9347,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         }
       },
       "coverage": {
@@ -9377,7 +9413,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         }
       },
       "coverage": {
@@ -9423,7 +9459,7 @@
       "author": "daznaz",
       "builds": {
         "1.0.0.3663": {
-          "check": "no_patterns",
+          "check": "no_code",
           "ids": {
             "found": 0,
             "total": 0
@@ -9432,10 +9468,10 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "ok"
         },
         "1.0.0.3732": {
-          "check": "no_patterns",
+          "check": "no_code",
           "ids": {
             "found": 0,
             "total": 0
@@ -9444,7 +9480,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "ok"
         }
       },
       "coverage": {
@@ -9501,7 +9537,7 @@
           "status": "unchecked"
         },
         "1.0.0.3732": {
-          "check": "no_patterns",
+          "check": "same_places",
           "ids": {
             "found": 17,
             "total": 17
@@ -9510,7 +9546,8 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "places": 17,
+          "status": "ok"
         }
       },
       "coverage": {
@@ -9556,7 +9593,7 @@
       "author": "azam8",
       "builds": {
         "1.0.0.3663": {
-          "check": "no_patterns",
+          "check": "same_places",
           "ids": {
             "found": 1,
             "total": 1
@@ -9565,10 +9602,11 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "places": 1,
+          "status": "ok"
         },
         "1.0.0.3732": {
-          "check": "no_patterns",
+          "check": "same_places",
           "ids": {
             "found": 1,
             "total": 1
@@ -9577,7 +9615,8 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "places": 1,
+          "status": "ok"
         }
       },
       "coverage": {
@@ -9623,7 +9662,7 @@
       "author": "L00PKING",
       "builds": {
         "1.0.0.3663": {
-          "check": "no_patterns",
+          "check": "same_places",
           "ids": {
             "found": 1,
             "total": 1
@@ -9632,10 +9671,11 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "places": 1,
+          "status": "ok"
         },
         "1.0.0.3732": {
-          "check": "no_patterns",
+          "check": "same_places",
           "ids": {
             "found": 1,
             "total": 1
@@ -9644,7 +9684,8 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "places": 1,
+          "status": "ok"
         }
       },
       "coverage": {
@@ -9699,7 +9740,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         },
         "1.0.0.3732": {
           "check": "no_patterns",
@@ -9711,7 +9752,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         }
       },
       "coverage": {
@@ -9895,7 +9936,7 @@
           "status": "unchecked"
         },
         "1.0.0.3732": {
-          "check": "no_patterns",
+          "check": "same_places",
           "ids": {
             "found": 7,
             "total": 7
@@ -9904,7 +9945,8 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "places": 7,
+          "status": "ok"
         }
       },
       "coverage": {
@@ -9959,7 +10001,7 @@
           "status": "unchecked"
         },
         "1.0.0.3732": {
-          "check": "no_patterns",
+          "check": "same_places",
           "ids": {
             "found": 11,
             "total": 11
@@ -9968,7 +10010,8 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "places": 11,
+          "status": "ok"
         }
       },
       "coverage": {
@@ -10126,7 +10169,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         },
         "1.0.0.3732": {
           "check": "no_patterns",
@@ -10138,7 +10181,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         }
       },
       "coverage": {
@@ -10186,7 +10229,7 @@
       "author": "wumo114",
       "builds": {
         "1.0.0.3663": {
-          "check": "no_patterns",
+          "check": "same_places",
           "ids": {
             "found": 19,
             "total": 19
@@ -10195,10 +10238,11 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "places": 19,
+          "status": "ok"
         },
         "1.0.0.3732": {
-          "check": "no_patterns",
+          "check": "same_places",
           "ids": {
             "found": 19,
             "total": 19
@@ -10207,7 +10251,8 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "places": 19,
+          "status": "ok"
         }
       },
       "coverage": {
@@ -10253,7 +10298,7 @@
       "author": "MJ7L",
       "builds": {
         "1.0.0.3663": {
-          "check": "no_patterns",
+          "check": "no_code",
           "ids": {
             "found": 0,
             "total": 0
@@ -10262,10 +10307,10 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "ok"
         },
         "1.0.0.3732": {
-          "check": "no_patterns",
+          "check": "no_code",
           "ids": {
             "found": 0,
             "total": 0
@@ -10274,7 +10319,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "ok"
         }
       },
       "coverage": {
@@ -10331,7 +10376,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         },
         "1.0.0.3732": {
           "check": "no_patterns",
@@ -10343,7 +10388,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         }
       },
       "coverage": {
@@ -10473,7 +10518,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         }
       },
       "coverage": {
@@ -10528,7 +10573,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         },
         "1.0.0.3732": {
           "check": "scanned",
@@ -10595,7 +10640,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         },
         "1.0.0.3732": {
           "check": "no_patterns",
@@ -10607,7 +10652,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         }
       },
       "coverage": {
@@ -10653,7 +10698,7 @@
       "author": "Detrixos",
       "builds": {
         "1.0.0.3663": {
-          "check": "no_patterns",
+          "check": "no_code",
           "ids": {
             "found": 0,
             "total": 0
@@ -10662,10 +10707,10 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "ok"
         },
         "1.0.0.3732": {
-          "check": "no_patterns",
+          "check": "no_code",
           "ids": {
             "found": 0,
             "total": 0
@@ -10674,7 +10719,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "ok"
         }
       },
       "coverage": {
@@ -10722,7 +10767,7 @@
       "author": "gawein8888",
       "builds": {
         "1.0.0.3663": {
-          "check": "no_patterns",
+          "check": "same_places",
           "ids": {
             "found": 2,
             "total": 2
@@ -10731,7 +10776,8 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "places": 2,
+          "status": "ok"
         },
         "1.0.0.3732": {
           "check": "scanned",
@@ -10798,7 +10844,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         },
         "1.0.0.3732": {
           "check": "no_patterns",
@@ -10810,7 +10856,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         }
       },
       "coverage": {
@@ -10857,7 +10903,7 @@
       "author": "Fyreon87",
       "builds": {
         "1.0.0.3663": {
-          "check": "no_patterns",
+          "check": "no_code",
           "ids": {
             "found": 0,
             "total": 0
@@ -10866,10 +10912,10 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "ok"
         },
         "1.0.0.3732": {
-          "check": "no_patterns",
+          "check": "no_code",
           "ids": {
             "found": 0,
             "total": 0
@@ -10878,7 +10924,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "ok"
         }
       },
       "coverage": {
@@ -10935,7 +10981,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         },
         "1.0.0.3732": {
           "check": "no_patterns",
@@ -10947,7 +10993,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         }
       },
       "coverage": {
@@ -11004,7 +11050,7 @@
           "status": "unchecked"
         },
         "1.0.0.3732": {
-          "check": "no_patterns",
+          "check": "same_places",
           "ids": {
             "found": 6,
             "total": 6
@@ -11013,7 +11059,8 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "places": 6,
+          "status": "ok"
         }
       },
       "coverage": {
@@ -11068,10 +11115,10 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         },
         "1.0.0.3732": {
-          "check": "no_patterns",
+          "check": "same_places",
           "ids": {
             "found": 1,
             "total": 1
@@ -11080,7 +11127,8 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "places": 1,
+          "status": "ok"
         }
       },
       "coverage": {
@@ -11263,7 +11311,7 @@
             "total": 0
           },
           "pattern_counts": null,
-          "status": "ran"
+          "status": "none"
         },
         "1.0.0.3732": {
           "check": "no_patterns",
@@ -11275,7 +11323,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         }
       },
       "coverage": {
@@ -11323,16 +11371,16 @@
       "author": "joytk",
       "builds": {
         "1.0.0.3663": {
-          "check": "none",
+          "check": "no_code",
           "ids": {
             "found": 0,
             "total": 0
           },
           "pattern_counts": null,
-          "status": "none"
+          "status": "ok"
         },
         "1.0.0.3732": {
-          "check": "no_patterns",
+          "check": "no_code",
           "ids": {
             "found": 0,
             "total": 0
@@ -11341,7 +11389,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "ok"
         }
       },
       "coverage": {
@@ -11389,7 +11437,7 @@
       "author": "UnLuckyLust",
       "builds": {
         "1.0.0.3663": {
-          "check": "no_patterns",
+          "check": "same_places",
           "ids": {
             "found": 1,
             "total": 1
@@ -11398,10 +11446,11 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "places": 1,
+          "status": "ok"
         },
         "1.0.0.3732": {
-          "check": "no_patterns",
+          "check": "same_places",
           "ids": {
             "found": 1,
             "total": 1
@@ -11410,7 +11459,8 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "places": 1,
+          "status": "ok"
         }
       },
       "coverage": {
@@ -11532,7 +11582,7 @@
           "status": "unchecked"
         },
         "1.0.0.3732": {
-          "check": "no_patterns",
+          "check": "same_places",
           "ids": {
             "found": 1,
             "total": 1
@@ -11541,7 +11591,8 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "places": 1,
+          "status": "ok"
         }
       },
       "coverage": {
@@ -11596,7 +11647,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         },
         "1.0.0.3732": {
           "check": "no_patterns",
@@ -11608,7 +11659,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         }
       },
       "coverage": {
@@ -11723,7 +11774,7 @@
       "author": "wealdly",
       "builds": {
         "1.0.0.3663": {
-          "check": "no_patterns",
+          "check": "no_code",
           "ids": {
             "found": 0,
             "total": 0
@@ -11732,10 +11783,10 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "ok"
         },
         "1.0.0.3732": {
-          "check": "no_patterns",
+          "check": "no_code",
           "ids": {
             "found": 0,
             "total": 0
@@ -11744,7 +11795,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "ok"
         }
       },
       "coverage": {
@@ -11798,7 +11849,7 @@
             "total": 0
           },
           "pattern_counts": null,
-          "status": "ran"
+          "status": "none"
         },
         "1.0.0.3732": {
           "check": "no_patterns",
@@ -11810,7 +11861,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         }
       },
       "coverage": {
@@ -11995,7 +12046,7 @@
           "status": "unchecked"
         },
         "1.0.0.3732": {
-          "check": "no_patterns",
+          "check": "same_places",
           "ids": {
             "found": 8,
             "total": 8
@@ -12004,7 +12055,8 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "places": 8,
+          "status": "ok"
         }
       },
       "coverage": {
@@ -12050,7 +12102,7 @@
       "author": "xoQuantum",
       "builds": {
         "1.0.0.3663": {
-          "check": "no_patterns",
+          "check": "same_places",
           "ids": {
             "found": 4,
             "total": 4
@@ -12059,7 +12111,8 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "places": 4,
+          "status": "ok"
         },
         "1.0.0.3732": {
           "check": "no_patterns",
@@ -12128,7 +12181,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         },
         "1.0.0.3732": {
           "check": "no_patterns",
@@ -12140,7 +12193,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         }
       },
       "coverage": {
@@ -12197,7 +12250,7 @@
           "status": "unchecked"
         },
         "1.0.0.3732": {
-          "check": "no_patterns",
+          "check": "same_places",
           "ids": {
             "found": 8,
             "total": 8
@@ -12206,7 +12259,8 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "places": 8,
+          "status": "ok"
         }
       },
       "coverage": {
@@ -12422,16 +12476,16 @@
       "author": "Lopporr",
       "builds": {
         "1.0.0.3663": {
-          "check": "none",
+          "check": "no_code",
           "ids": {
             "found": 0,
             "total": 0
           },
           "pattern_counts": null,
-          "status": "none"
+          "status": "ok"
         },
         "1.0.0.3732": {
-          "check": "no_patterns",
+          "check": "no_code",
           "ids": {
             "found": 0,
             "total": 0
@@ -12440,7 +12494,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "ok"
         }
       },
       "coverage": {
@@ -12615,7 +12669,7 @@
       "author": "gawein8888",
       "builds": {
         "1.0.0.3663": {
-          "check": "no_patterns",
+          "check": "same_places",
           "ids": {
             "found": 1,
             "total": 1
@@ -12624,7 +12678,8 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "places": 1,
+          "status": "ok"
         },
         "1.0.0.3732": {
           "check": "no_patterns",
@@ -12636,7 +12691,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         }
       },
       "coverage": {
@@ -12691,7 +12746,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         },
         "1.0.0.3732": {
           "check": "none",
@@ -12703,7 +12758,7 @@
             "not_found": 0,
             "total": 3
           },
-          "status": "ran"
+          "status": "none"
         }
       },
       "coverage": {
@@ -12880,7 +12935,7 @@
       "author": "kindiboy",
       "builds": {
         "1.0.0.3663": {
-          "check": "no_patterns",
+          "check": "no_code",
           "ids": {
             "found": 0,
             "total": 0
@@ -12889,10 +12944,10 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "ok"
         },
         "1.0.0.3732": {
-          "check": "no_patterns",
+          "check": "no_code",
           "ids": {
             "found": 0,
             "total": 0
@@ -12901,7 +12956,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "ok"
         }
       },
       "coverage": {
@@ -12958,7 +13013,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         },
         "1.0.0.3732": {
           "check": "no_patterns",
@@ -12970,7 +13025,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         }
       },
       "coverage": {
@@ -13036,7 +13091,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         }
       },
       "coverage": {
@@ -13155,7 +13210,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         },
         "1.0.0.3732": {
           "check": "no_patterns",
@@ -13167,7 +13222,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         }
       },
       "coverage": {
@@ -13347,7 +13402,7 @@
       "author": "ZombiesYrd",
       "builds": {
         "1.0.0.3663": {
-          "check": "no_patterns",
+          "check": "no_code",
           "ids": {
             "found": 0,
             "total": 0
@@ -13356,10 +13411,10 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "ok"
         },
         "1.0.0.3732": {
-          "check": "no_patterns",
+          "check": "no_code",
           "ids": {
             "found": 0,
             "total": 0
@@ -13368,7 +13423,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "ok"
         }
       },
       "coverage": {
@@ -13416,7 +13471,7 @@
       "author": "gutzufuss1477",
       "builds": {
         "1.0.0.3663": {
-          "check": "no_patterns",
+          "check": "same_places",
           "ids": {
             "found": 4,
             "total": 4
@@ -13425,10 +13480,11 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "places": 4,
+          "status": "ok"
         },
         "1.0.0.3732": {
-          "check": "no_patterns",
+          "check": "same_places",
           "ids": {
             "found": 4,
             "total": 4
@@ -13437,7 +13493,8 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "places": 4,
+          "status": "ok"
         }
       },
       "coverage": {
@@ -13550,7 +13607,7 @@
       "author": "han7683",
       "builds": {
         "1.0.0.3663": {
-          "check": "no_patterns",
+          "check": "same_places",
           "ids": {
             "found": 1,
             "total": 1
@@ -13559,10 +13616,11 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "places": 1,
+          "status": "ok"
         },
         "1.0.0.3732": {
-          "check": "no_patterns",
+          "check": "same_places",
           "ids": {
             "found": 1,
             "total": 1
@@ -13571,7 +13629,8 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "places": 1,
+          "status": "ok"
         }
       },
       "coverage": {
@@ -13626,7 +13685,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         },
         "1.0.0.3732": {
           "check": "no_patterns",
@@ -13638,7 +13697,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         }
       },
       "coverage": {
@@ -13686,7 +13745,7 @@
       "author": "Strahlimeier - Claude Anthropic",
       "builds": {
         "1.0.0.3663": {
-          "check": "no_patterns",
+          "check": "same_places",
           "ids": {
             "found": 3,
             "total": 3
@@ -13695,10 +13754,11 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "places": 3,
+          "status": "ok"
         },
         "1.0.0.3732": {
-          "check": "no_patterns",
+          "check": "same_places",
           "ids": {
             "found": 3,
             "total": 3
@@ -13707,7 +13767,8 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "places": 3,
+          "status": "ok"
         }
       },
       "coverage": {
@@ -13753,7 +13814,7 @@
       "author": "BusChaser",
       "builds": {
         "1.0.0.3663": {
-          "check": "no_patterns",
+          "check": "same_places",
           "ids": {
             "found": 2,
             "total": 2
@@ -13762,10 +13823,11 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "places": 2,
+          "status": "ok"
         },
         "1.0.0.3732": {
-          "check": "no_patterns",
+          "check": "same_places",
           "ids": {
             "found": 2,
             "total": 2
@@ -13774,7 +13836,8 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "places": 2,
+          "status": "ok"
         }
       },
       "coverage": {
@@ -13829,7 +13892,7 @@
           "status": "unchecked"
         },
         "1.0.0.3732": {
-          "check": "no_patterns",
+          "check": "same_places",
           "ids": {
             "found": 1,
             "total": 1
@@ -13838,7 +13901,8 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "places": 1,
+          "status": "ok"
         }
       },
       "coverage": {
@@ -13893,7 +13957,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         },
         "1.0.0.3732": {
           "check": "no_patterns",
@@ -13905,7 +13969,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         }
       },
       "coverage": {
@@ -14020,7 +14084,7 @@
       "author": "Gametism",
       "builds": {
         "1.0.0.3663": {
-          "check": "no_patterns",
+          "check": "no_code",
           "ids": {
             "found": 0,
             "total": 0
@@ -14029,10 +14093,10 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "ok"
         },
         "1.0.0.3732": {
-          "check": "no_patterns",
+          "check": "no_code",
           "ids": {
             "found": 0,
             "total": 0
@@ -14041,7 +14105,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "ok"
         }
       },
       "coverage": {
@@ -14123,7 +14187,7 @@
       "newest_code_upload": "2026-04-11T22:01:11Z",
       "newest_main_file_upload": "",
       "nexus": "https://www.nexusmods.com/crimsondesert/mods/1009",
-      "nexus_checked": "2026-11-22T14:35:52Z",
+      "nexus_checked": "2026-11-22T14:46:43Z",
       "nexus_updated": "2026-04-11T22:01:11Z",
       "supported": {
         "verdict": "unchecked"
@@ -14142,7 +14206,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         },
         "1.0.0.3732": {
           "check": "no_patterns",
@@ -14154,7 +14218,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         }
       },
       "coverage": {
@@ -14211,7 +14275,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         },
         "1.0.0.3732": {
           "check": "no_patterns",
@@ -14223,7 +14287,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         }
       },
       "coverage": {
@@ -14271,7 +14335,7 @@
       "author": "sm1ly",
       "builds": {
         "1.0.0.3663": {
-          "check": "no_patterns",
+          "check": "same_places",
           "ids": {
             "found": 1,
             "total": 1
@@ -14280,10 +14344,11 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "places": 1,
+          "status": "ok"
         },
         "1.0.0.3732": {
-          "check": "no_patterns",
+          "check": "same_places",
           "ids": {
             "found": 1,
             "total": 1
@@ -14292,7 +14357,8 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "places": 1,
+          "status": "ok"
         }
       },
       "coverage": {
@@ -14405,7 +14471,7 @@
       "author": "Restius",
       "builds": {
         "1.0.0.3663": {
-          "check": "no_patterns",
+          "check": "same_places",
           "ids": {
             "found": 41,
             "total": 41
@@ -14414,7 +14480,8 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "places": 41,
+          "status": "ok"
         },
         "1.0.0.3732": {
           "check": "no_patterns",
@@ -14821,7 +14888,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         }
       },
       "coverage": {
@@ -14876,7 +14943,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         },
         "1.0.0.3732": {
           "check": "scanned",
@@ -14943,7 +15010,7 @@
           "status": "unchecked"
         },
         "1.0.0.3732": {
-          "check": "no_patterns",
+          "check": "same_places",
           "ids": {
             "found": 5,
             "total": 5
@@ -14952,7 +15019,8 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "places": 5,
+          "status": "ok"
         }
       },
       "coverage": {
@@ -15074,7 +15142,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         },
         "1.0.0.3732": {
           "check": "no_patterns",
@@ -15086,7 +15154,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         }
       },
       "coverage": {
@@ -15134,7 +15202,7 @@
       "author": "Laskco",
       "builds": {
         "1.0.0.3663": {
-          "check": "no_patterns",
+          "check": "same_places",
           "ids": {
             "found": 7,
             "total": 7
@@ -15143,7 +15211,8 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "places": 6,
+          "status": "ok"
         },
         "1.0.0.3732": {
           "check": "scanned",
@@ -15265,7 +15334,7 @@
       "author": "Kryptesa",
       "builds": {
         "1.0.0.3663": {
-          "check": "no_patterns",
+          "check": "same_places",
           "ids": {
             "found": 4,
             "total": 4
@@ -15274,10 +15343,11 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "places": 4,
+          "status": "ok"
         },
         "1.0.0.3732": {
-          "check": "no_patterns",
+          "check": "same_places",
           "ids": {
             "found": 4,
             "total": 4
@@ -15286,7 +15356,8 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "places": 4,
+          "status": "ok"
         }
       },
       "coverage": {
@@ -15332,7 +15403,7 @@
       "author": "ZombiesYrd",
       "builds": {
         "1.0.0.3663": {
-          "check": "no_patterns",
+          "check": "no_code",
           "ids": {
             "found": 0,
             "total": 0
@@ -15341,10 +15412,10 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "nopatterns"
+          "status": "ok"
         },
         "1.0.0.3732": {
-          "check": "no_patterns",
+          "check": "no_code",
           "ids": {
             "found": 0,
             "total": 0
@@ -15353,7 +15424,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "ok"
         }
       },
       "coverage": {
@@ -15532,7 +15603,7 @@
       "author": "lucsOli",
       "builds": {
         "1.0.0.3663": {
-          "check": "no_patterns",
+          "check": "same_places",
           "ids": {
             "found": 1,
             "total": 1
@@ -15541,10 +15612,11 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "places": 1,
+          "status": "ok"
         },
         "1.0.0.3732": {
-          "check": "no_patterns",
+          "check": "same_places",
           "ids": {
             "found": 1,
             "total": 1
@@ -15553,7 +15625,8 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "places": 1,
+          "status": "ok"
         }
       },
       "coverage": {
@@ -15599,7 +15672,7 @@
       "author": "MJ7L",
       "builds": {
         "1.0.0.3663": {
-          "check": "no_patterns",
+          "check": "same_places",
           "ids": {
             "found": 1,
             "total": 1
@@ -15608,7 +15681,8 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "places": 1,
+          "status": "ok"
         },
         "1.0.0.3732": {
           "check": "no_patterns",
@@ -15620,7 +15694,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         }
       },
       "coverage": {
@@ -15742,7 +15816,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         },
         "1.0.0.3732": {
           "check": "no_patterns",
@@ -15754,7 +15828,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         }
       },
       "coverage": {
@@ -15800,7 +15874,7 @@
       "author": "sbabiy",
       "builds": {
         "1.0.0.3663": {
-          "check": "no_patterns",
+          "check": "same_places",
           "ids": {
             "found": 5,
             "total": 6
@@ -15809,10 +15883,11 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "places": 5,
+          "status": "ok"
         },
         "1.0.0.3732": {
-          "check": "no_patterns",
+          "check": "same_places",
           "ids": {
             "found": 5,
             "total": 6
@@ -15821,7 +15896,8 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "places": 5,
+          "status": "ok"
         }
       },
       "coverage": {
@@ -15944,7 +16020,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         },
         "1.0.0.3732": {
           "check": "no_patterns",
@@ -15956,7 +16032,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         }
       },
       "coverage": {
@@ -16012,7 +16088,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         },
         "1.0.0.3732": {
           "check": "no_patterns",
@@ -16024,7 +16100,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         }
       },
       "coverage": {
@@ -16148,7 +16224,7 @@
           "status": "unchecked"
         },
         "1.0.0.3732": {
-          "check": "no_patterns",
+          "check": "same_places",
           "ids": {
             "found": 1,
             "total": 1
@@ -16157,7 +16233,8 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "places": 1,
+          "status": "ok"
         }
       },
       "coverage": {
@@ -16212,7 +16289,7 @@
           "status": "unchecked"
         },
         "1.0.0.3732": {
-          "check": "no_patterns",
+          "check": "same_places",
           "ids": {
             "found": 1,
             "total": 1
@@ -16221,7 +16298,8 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "places": 1,
+          "status": "ok"
         }
       },
       "coverage": {
@@ -16267,7 +16345,7 @@
       "author": "jimokulou2",
       "builds": {
         "1.0.0.3663": {
-          "check": "no_patterns",
+          "check": "no_code",
           "ids": {
             "found": 0,
             "total": 0
@@ -16276,10 +16354,10 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "ok"
         },
         "1.0.0.3732": {
-          "check": "no_patterns",
+          "check": "no_code",
           "ids": {
             "found": 0,
             "total": 0
@@ -16288,7 +16366,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "ok"
         }
       },
       "coverage": {
@@ -16345,7 +16423,7 @@
           "status": "unchecked"
         },
         "1.0.0.3732": {
-          "check": "no_patterns",
+          "check": "same_places",
           "ids": {
             "found": 9,
             "total": 9
@@ -16354,7 +16432,8 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "places": 9,
+          "status": "ok"
         }
       },
       "coverage": {
@@ -16409,7 +16488,7 @@
           "status": "unchecked"
         },
         "1.0.0.3732": {
-          "check": "no_patterns",
+          "check": "same_places",
           "ids": {
             "found": 9,
             "total": 9
@@ -16418,7 +16497,8 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "places": 9,
+          "status": "ok"
         }
       },
       "coverage": {
@@ -16522,7 +16602,7 @@
             "total": 0
           },
           "pattern_counts": null,
-          "status": "ran"
+          "status": "none"
         },
         "1.0.0.3732": {
           "check": "no_patterns",
@@ -16534,7 +16614,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         }
       },
       "coverage": {
@@ -16591,7 +16671,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         },
         "1.0.0.3732": {
           "check": "no_patterns",
@@ -16603,7 +16683,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         }
       },
       "coverage": {
@@ -16651,7 +16731,7 @@
       "author": "Stevi",
       "builds": {
         "1.0.0.3663": {
-          "check": "no_patterns",
+          "check": "same_places",
           "ids": {
             "found": 3,
             "total": 3
@@ -16660,10 +16740,11 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "places": 3,
+          "status": "ok"
         },
         "1.0.0.3732": {
-          "check": "no_patterns",
+          "check": "same_places",
           "ids": {
             "found": 3,
             "total": 3
@@ -16672,7 +16753,8 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "places": 3,
+          "status": "ok"
         }
       },
       "coverage": {
@@ -16730,7 +16812,7 @@
           "status": "nopatterns"
         },
         "1.0.0.3732": {
-          "check": "no_patterns",
+          "check": "same_places",
           "ids": {
             "found": 1,
             "total": 1
@@ -16739,7 +16821,8 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "places": 1,
+          "status": "ok"
         }
       },
       "coverage": {
@@ -16861,7 +16944,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         },
         "1.0.0.3732": {
           "check": "no_patterns",
@@ -16873,7 +16956,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         }
       },
       "coverage": {
@@ -16897,7 +16980,7 @@
       "newest_code_upload": "2026-09-23T17:05:42Z",
       "newest_main_file_upload": "",
       "nexus": "https://www.nexusmods.com/crimsondesert/mods/3562",
-      "nexus_checked": "2026-11-22T14:35:55Z",
+      "nexus_checked": "2026-11-22T14:46:46Z",
       "nexus_updated": "2026-09-23T17:05:58Z",
       "supported": {
         "addresses": {
@@ -16986,7 +17069,7 @@
       "author": "namintelvn",
       "builds": {
         "1.0.0.3663": {
-          "check": "no_patterns",
+          "check": "same_places",
           "ids": {
             "found": 4,
             "total": 4
@@ -16995,7 +17078,8 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "places": 3,
+          "status": "ok"
         },
         "1.0.0.3732": {
           "check": "no_patterns",
@@ -17007,7 +17091,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         }
       },
       "coverage": {
@@ -17062,7 +17146,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         },
         "1.0.0.3732": {
           "check": "no_patterns",
@@ -17074,7 +17158,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         }
       },
       "coverage": {
@@ -17131,7 +17215,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         },
         "1.0.0.3732": {
           "check": "no_patterns",
@@ -17143,7 +17227,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         }
       },
       "coverage": {
@@ -17267,7 +17351,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         },
         "1.0.0.3732": {
           "check": "no_patterns",
@@ -17279,7 +17363,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         }
       },
       "coverage": {
@@ -17343,7 +17427,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         }
       },
       "coverage": {
@@ -17391,7 +17475,7 @@
       "author": "MrNocturnall",
       "builds": {
         "1.0.0.3663": {
-          "check": "no_patterns",
+          "check": "no_code",
           "ids": {
             "found": 0,
             "total": 0
@@ -17400,10 +17484,10 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "ok"
         },
         "1.0.0.3732": {
-          "check": "no_patterns",
+          "check": "no_code",
           "ids": {
             "found": 0,
             "total": 0
@@ -17412,7 +17496,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "ok"
         }
       },
       "coverage": {
@@ -17460,16 +17544,16 @@
       "author": "AzzyKlown",
       "builds": {
         "1.0.0.3663": {
-          "check": "none",
+          "check": "no_code",
           "ids": {
             "found": 0,
             "total": 0
           },
           "pattern_counts": null,
-          "status": "none"
+          "status": "ok"
         },
         "1.0.0.3732": {
-          "check": "no_patterns",
+          "check": "no_code",
           "ids": {
             "found": 0,
             "total": 0
@@ -17478,7 +17562,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "ok"
         }
       },
       "coverage": {
@@ -17651,7 +17735,7 @@
             "total": 0
           },
           "pattern_counts": null,
-          "status": "ran"
+          "status": "none"
         },
         "1.0.0.3732": {
           "check": "no_patterns",
@@ -17663,7 +17747,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         }
       },
       "coverage": {
@@ -17718,7 +17802,7 @@
           "status": "unchecked"
         },
         "1.0.0.3732": {
-          "check": "no_patterns",
+          "check": "same_places",
           "ids": {
             "found": 7,
             "total": 7
@@ -17727,7 +17811,8 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "places": 7,
+          "status": "ok"
         }
       },
       "coverage": {
@@ -17773,7 +17858,7 @@
       "author": "daemonnex",
       "builds": {
         "1.0.0.3663": {
-          "check": "no_patterns",
+          "check": "no_code",
           "ids": {
             "found": 0,
             "total": 0
@@ -17782,10 +17867,10 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "ok"
         },
         "1.0.0.3732": {
-          "check": "no_patterns",
+          "check": "no_code",
           "ids": {
             "found": 0,
             "total": 0
@@ -17794,7 +17879,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "ok"
         }
       },
       "coverage": {
@@ -17851,7 +17936,7 @@
           "status": "unchecked"
         },
         "1.0.0.3732": {
-          "check": "no_patterns",
+          "check": "same_places",
           "ids": {
             "found": 3,
             "total": 3
@@ -17860,7 +17945,8 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "places": 3,
+          "status": "ok"
         }
       },
       "coverage": {
@@ -18052,7 +18138,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         }
       },
       "coverage": {
@@ -18107,7 +18193,7 @@
           "status": "unchecked"
         },
         "1.0.0.3732": {
-          "check": "no_patterns",
+          "check": "same_places",
           "ids": {
             "found": 7,
             "total": 7
@@ -18116,7 +18202,8 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "places": 7,
+          "status": "ok"
         }
       },
       "coverage": {
@@ -18171,7 +18258,7 @@
           "status": "unchecked"
         },
         "1.0.0.3732": {
-          "check": "no_patterns",
+          "check": "same_places",
           "ids": {
             "found": 2,
             "total": 2
@@ -18180,7 +18267,8 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "places": 2,
+          "status": "ok"
         }
       },
       "coverage": {
@@ -18310,7 +18398,7 @@
           "status": "unchecked"
         },
         "1.0.0.3732": {
-          "check": "no_patterns",
+          "check": "same_places",
           "ids": {
             "found": 5,
             "total": 5
@@ -18319,7 +18407,8 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "places": 5,
+          "status": "ok"
         }
       },
       "coverage": {
@@ -18449,7 +18538,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         },
         "1.0.0.3732": {
           "check": "scanned",
@@ -18516,7 +18605,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         },
         "1.0.0.3732": {
           "check": "no_patterns",
@@ -18528,7 +18617,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         }
       },
       "coverage": {
@@ -18576,7 +18665,7 @@
       "author": "DaveTheAve",
       "builds": {
         "1.0.0.3663": {
-          "check": "no_patterns",
+          "check": "same_places",
           "ids": {
             "found": 4,
             "total": 4
@@ -18585,10 +18674,11 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "places": 4,
+          "status": "ok"
         },
         "1.0.0.3732": {
-          "check": "no_patterns",
+          "check": "same_places",
           "ids": {
             "found": 4,
             "total": 4
@@ -18597,7 +18687,8 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "places": 4,
+          "status": "ok"
         }
       },
       "coverage": {
@@ -18719,7 +18810,7 @@
           "status": "unchecked"
         },
         "1.0.0.3732": {
-          "check": "no_patterns",
+          "check": "same_places",
           "ids": {
             "found": 1,
             "total": 1
@@ -18728,7 +18819,8 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "places": 1,
+          "status": "ok"
         }
       },
       "coverage": {
@@ -18783,7 +18875,7 @@
           "status": "unchecked"
         },
         "1.0.0.3732": {
-          "check": "no_patterns",
+          "check": "same_places",
           "ids": {
             "found": 9,
             "total": 9
@@ -18792,7 +18884,8 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "places": 9,
+          "status": "ok"
         }
       },
       "coverage": {
@@ -18838,7 +18931,7 @@
       "author": "VDKskk",
       "builds": {
         "1.0.0.3663": {
-          "check": "no_patterns",
+          "check": "no_code",
           "ids": {
             "found": 0,
             "total": 0
@@ -18847,10 +18940,10 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "ok"
         },
         "1.0.0.3732": {
-          "check": "no_patterns",
+          "check": "no_code",
           "ids": {
             "found": 0,
             "total": 0
@@ -18859,7 +18952,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "ok"
         }
       },
       "coverage": {
@@ -18907,16 +19000,16 @@
       "author": "notSupp0rt",
       "builds": {
         "1.0.0.3663": {
-          "check": "none",
+          "check": "no_code",
           "ids": {
             "found": 0,
             "total": 0
           },
           "pattern_counts": null,
-          "status": "ran"
+          "status": "ok"
         },
         "1.0.0.3732": {
-          "check": "no_patterns",
+          "check": "no_code",
           "ids": {
             "found": 0,
             "total": 0
@@ -18925,7 +19018,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "ok"
         }
       },
       "coverage": {
@@ -18982,7 +19075,7 @@
           "status": "unchecked"
         },
         "1.0.0.3732": {
-          "check": "no_patterns",
+          "check": "same_places",
           "ids": {
             "found": 3,
             "total": 3
@@ -18991,7 +19084,8 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "places": 3,
+          "status": "ok"
         }
       },
       "coverage": {
@@ -19043,7 +19137,7 @@
             "total": 0
           },
           "pattern_counts": null,
-          "status": "ran"
+          "status": "none"
         },
         "1.0.0.3732": {
           "check": "no_patterns",
@@ -19055,7 +19149,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         }
       },
       "coverage": {
@@ -19103,7 +19197,7 @@
       "author": "SmokingBone",
       "builds": {
         "1.0.0.3663": {
-          "check": "no_patterns",
+          "check": "no_code",
           "ids": {
             "found": 0,
             "total": 0
@@ -19112,10 +19206,10 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "ok"
         },
         "1.0.0.3732": {
-          "check": "no_patterns",
+          "check": "no_code",
           "ids": {
             "found": 0,
             "total": 0
@@ -19124,7 +19218,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "ok"
         }
       },
       "coverage": {
@@ -19181,7 +19275,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         },
         "1.0.0.3732": {
           "check": "no_patterns",
@@ -19193,7 +19287,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         }
       },
       "coverage": {
@@ -19257,7 +19351,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         }
       },
       "coverage": {
@@ -19312,7 +19406,7 @@
           "status": "unchecked"
         },
         "1.0.0.3732": {
-          "check": "no_patterns",
+          "check": "same_places",
           "ids": {
             "found": 4,
             "total": 4
@@ -19321,7 +19415,8 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "places": 4,
+          "status": "ok"
         }
       },
       "coverage": {
@@ -19768,7 +19863,7 @@
       "author": "han7683",
       "builds": {
         "1.0.0.3663": {
-          "check": "no_patterns",
+          "check": "same_places",
           "ids": {
             "found": 8,
             "total": 8
@@ -19777,10 +19872,11 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "places": 8,
+          "status": "ok"
         },
         "1.0.0.3732": {
-          "check": "no_patterns",
+          "check": "same_places",
           "ids": {
             "found": 8,
             "total": 8
@@ -19789,7 +19885,8 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "places": 6,
+          "status": "ok"
         }
       },
       "coverage": {
@@ -19844,7 +19941,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         },
         "1.0.0.3732": {
           "check": "no_patterns",
@@ -19856,7 +19953,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         }
       },
       "coverage": {
@@ -19904,7 +20001,7 @@
       "author": "MJ7L",
       "builds": {
         "1.0.0.3663": {
-          "check": "no_patterns",
+          "check": "same_places",
           "ids": {
             "found": 8,
             "total": 8
@@ -19913,7 +20010,8 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "places": 8,
+          "status": "ok"
         },
         "1.0.0.3732": {
           "check": "no_patterns",
@@ -19925,7 +20023,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         }
       },
       "coverage": {
@@ -20035,7 +20133,7 @@
       "author": "FableKhan",
       "builds": {
         "1.0.0.3663": {
-          "check": "no_patterns",
+          "check": "same_places",
           "ids": {
             "found": 1,
             "total": 1
@@ -20044,7 +20142,8 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "places": 1,
+          "status": "ok"
         },
         "1.0.0.3732": {
           "check": "no_patterns",
@@ -20056,7 +20155,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         }
       },
       "coverage": {
@@ -20111,7 +20210,7 @@
           "status": "unchecked"
         },
         "1.0.0.3732": {
-          "check": "no_patterns",
+          "check": "same_places",
           "ids": {
             "found": 2,
             "total": 2
@@ -20120,7 +20219,8 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "places": 2,
+          "status": "ok"
         }
       },
       "coverage": {
@@ -20175,10 +20275,10 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         },
         "1.0.0.3732": {
-          "check": "no_patterns",
+          "check": "same_places",
           "ids": {
             "found": 0,
             "total": 0
@@ -20187,7 +20287,8 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "places": 8,
+          "status": "ok"
         }
       },
       "coverage": {
@@ -20244,7 +20345,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         },
         "1.0.0.3732": {
           "check": "no_patterns",
@@ -20256,7 +20357,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         }
       },
       "coverage": {
@@ -20444,7 +20545,7 @@
           "status": "unchecked"
         },
         "1.0.0.3732": {
-          "check": "no_patterns",
+          "check": "same_places",
           "ids": {
             "found": 1,
             "total": 1
@@ -20453,7 +20554,8 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "places": 1,
+          "status": "ok"
         }
       },
       "coverage": {
@@ -20477,7 +20579,7 @@
       "newest_code_upload": "2026-11-19T14:31:15Z",
       "newest_main_file_upload": "",
       "nexus": "https://www.nexusmods.com/crimsondesert/mods/3482",
-      "nexus_checked": "2026-11-22T14:35:59Z",
+      "nexus_checked": "2026-11-22T14:46:50Z",
       "nexus_updated": "2026-11-19T14:31:15Z",
       "supported": {
         "addresses": {
@@ -20508,7 +20610,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         },
         "1.0.0.3732": {
           "check": "no_patterns",
@@ -20520,7 +20622,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         }
       },
       "coverage": {
@@ -20574,7 +20676,7 @@
             "total": 0
           },
           "pattern_counts": null,
-          "status": "ran"
+          "status": "none"
         },
         "1.0.0.3732": {
           "check": "no_patterns",
@@ -20586,7 +20688,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         }
       },
       "coverage": {
@@ -20641,7 +20743,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         },
         "1.0.0.3732": {
           "check": "no_patterns",
@@ -20653,7 +20755,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         }
       },
       "coverage": {
@@ -20710,7 +20812,7 @@
           "status": "unchecked"
         },
         "1.0.0.3732": {
-          "check": "no_patterns",
+          "check": "same_places",
           "ids": {
             "found": 3,
             "total": 3
@@ -20719,7 +20821,8 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "places": 3,
+          "status": "ok"
         }
       },
       "coverage": {
@@ -20966,7 +21069,7 @@
       "author": "Johntaber",
       "builds": {
         "1.0.0.3663": {
-          "check": "no_patterns",
+          "check": "same_places",
           "ids": {
             "found": 1,
             "total": 1
@@ -20975,10 +21078,11 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "places": 1,
+          "status": "ok"
         },
         "1.0.0.3732": {
-          "check": "no_patterns",
+          "check": "same_places",
           "ids": {
             "found": 1,
             "total": 1
@@ -20987,7 +21091,8 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "places": 1,
+          "status": "ok"
         }
       },
       "coverage": {
@@ -21033,7 +21138,7 @@
       "author": "naveen000",
       "builds": {
         "1.0.0.3663": {
-          "check": "no_patterns",
+          "check": "no_code",
           "ids": {
             "found": 0,
             "total": 0
@@ -21042,10 +21147,10 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "ok"
         },
         "1.0.0.3732": {
-          "check": "no_patterns",
+          "check": "no_code",
           "ids": {
             "found": 0,
             "total": 0
@@ -21054,7 +21159,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "ok"
         }
       },
       "coverage": {
@@ -21120,7 +21225,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         }
       },
       "coverage": {
@@ -21177,7 +21282,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         },
         "1.0.0.3732": {
           "check": "no_patterns",
@@ -21189,7 +21294,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         }
       },
       "coverage": {
@@ -21575,7 +21680,7 @@
       "newest_code_upload": "2026-09-10T22:19:04Z",
       "newest_main_file_upload": "",
       "nexus": "https://www.nexusmods.com/crimsondesert/mods/3273",
-      "nexus_checked": "2026-11-22T14:36:01Z",
+      "nexus_checked": "2026-11-22T14:46:52Z",
       "nexus_updated": "2026-09-10T22:19:04Z",
       "supported": {
         "addresses": {
@@ -21748,13 +21853,14 @@
       "author": "AlexeySova",
       "builds": {
         "1.0.0.3663": {
-          "check": "none",
+          "check": "same_places",
           "ids": {
             "found": 0,
             "total": 0
           },
           "pattern_counts": null,
-          "status": "ran"
+          "places": 3,
+          "status": "ok"
         },
         "1.0.0.3732": {
           "check": "no_patterns",
@@ -21766,7 +21872,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         }
       },
       "coverage": {
@@ -21821,7 +21927,7 @@
           "status": "unchecked"
         },
         "1.0.0.3732": {
-          "check": "no_patterns",
+          "check": "same_places",
           "ids": {
             "found": 3,
             "total": 3
@@ -21830,7 +21936,8 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "places": 3,
+          "status": "ok"
         }
       },
       "coverage": {
@@ -21876,7 +21983,7 @@
       "author": "masd775",
       "builds": {
         "1.0.0.3663": {
-          "check": "no_patterns",
+          "check": "same_places",
           "ids": {
             "found": 2,
             "total": 2
@@ -21885,7 +21992,8 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "places": 1,
+          "status": "ok"
         },
         "1.0.0.3732": {
           "check": "scanned",
@@ -21952,7 +22060,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         },
         "1.0.0.3732": {
           "check": "no_patterns",
@@ -21964,7 +22072,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         }
       },
       "coverage": {
@@ -22213,16 +22321,16 @@
       "author": "Lopporr",
       "builds": {
         "1.0.0.3663": {
-          "check": "none",
+          "check": "no_code",
           "ids": {
             "found": 0,
             "total": 0
           },
           "pattern_counts": null,
-          "status": "none"
+          "status": "ok"
         },
         "1.0.0.3732": {
-          "check": "no_patterns",
+          "check": "no_code",
           "ids": {
             "found": 0,
             "total": 0
@@ -22231,7 +22339,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "ok"
         }
       },
       "coverage": {
@@ -22332,7 +22440,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         },
         "1.0.0.3732": {
           "check": "no_patterns",
@@ -22344,7 +22452,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         }
       },
       "coverage": {
@@ -22401,7 +22509,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         },
         "1.0.0.3732": {
           "check": "no_patterns",
@@ -22413,7 +22521,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         }
       },
       "coverage": {
@@ -22537,7 +22645,7 @@
           "status": "unchecked"
         },
         "1.0.0.3732": {
-          "check": "no_patterns",
+          "check": "same_places",
           "ids": {
             "found": 1,
             "total": 1
@@ -22546,7 +22654,8 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "places": 1,
+          "status": "ok"
         }
       },
       "coverage": {
@@ -22601,7 +22710,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         },
         "1.0.0.3732": {
           "check": "no_patterns",
@@ -22613,7 +22722,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         }
       },
       "coverage": {
@@ -22735,7 +22844,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         },
         "1.0.0.3732": {
           "check": "no_patterns",
@@ -22747,7 +22856,7 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "status": "nopatterns"
         }
       },
       "coverage": {
@@ -22795,7 +22904,7 @@
       "author": "UnLuckyLust",
       "builds": {
         "1.0.0.3663": {
-          "check": "no_patterns",
+          "check": "same_places",
           "ids": {
             "found": 3,
             "total": 3
@@ -22804,7 +22913,8 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "places": 3,
+          "status": "ok"
         },
         "1.0.0.3732": {
           "check": "scanned",
@@ -22862,7 +22972,7 @@
       "author": "MJ7L",
       "builds": {
         "1.0.0.3663": {
-          "check": "no_patterns",
+          "check": "same_places",
           "ids": {
             "found": 50,
             "total": 50
@@ -22871,7 +22981,8 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "places": 50,
+          "status": "ok"
         },
         "1.0.0.3732": {
           "check": "no_patterns",
@@ -22931,7 +23042,7 @@
       "author": "p0nx77",
       "builds": {
         "1.0.0.3663": {
-          "check": "no_patterns",
+          "check": "same_places",
           "ids": {
             "found": 11,
             "total": 11
@@ -22940,10 +23051,11 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "places": 11,
+          "status": "ok"
         },
         "1.0.0.3732": {
-          "check": "no_patterns",
+          "check": "same_places",
           "ids": {
             "found": 11,
             "total": 11
@@ -22952,7 +23064,8 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "places": 11,
+          "status": "ok"
         }
       },
       "coverage": {
@@ -23202,7 +23315,7 @@
           "status": "unchecked"
         },
         "1.0.0.3732": {
-          "check": "no_patterns",
+          "check": "same_places",
           "ids": {
             "found": 1,
             "total": 1
@@ -23211,7 +23324,8 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "ran"
+          "places": 1,
+          "status": "ok"
         }
       },
       "coverage": {
@@ -23289,17 +23403,15 @@
       "ok": 1,
       "outdated": 0,
       "partly": 0,
-      "ran": 0,
       "unchecked": 0
     },
     "scanned": {
       "broken": 28,
-      "none": 6,
-      "nopatterns": 2,
-      "ok": 38,
+      "none": 7,
+      "nopatterns": 109,
+      "ok": 138,
       "outdated": 15,
       "partly": 51,
-      "ran": 208,
       "unchecked": 1
     }
   }
