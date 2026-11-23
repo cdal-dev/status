@@ -2571,7 +2571,7 @@
       "newest_code_upload": "2026-11-06T19:37:26Z",
       "newest_main_file_upload": "",
       "nexus": "https://www.nexusmods.com/crimsondesert/mods/4024",
-      "nexus_checked": "2026-11-23T00:02:19Z",
+      "nexus_checked": "2026-11-23T00:20:52Z",
       "nexus_updated": "2026-11-06T19:37:30Z",
       "supported": {
         "addresses": {
@@ -8294,7 +8294,7 @@
           "status": "ok"
         },
         "1.0.0.3732": {
-          "check": "no_patterns",
+          "check": "searches",
           "ids": {
             "found": 1,
             "total": 1
@@ -8303,7 +8303,8 @@
             "not_found": 0,
             "total": 0
           },
-          "status": "nopatterns"
+          "places": 2,
+          "status": "ok"
         }
       },
       "coverage": {
@@ -14179,7 +14180,7 @@
       "newest_code_upload": "2026-04-11T22:01:11Z",
       "newest_main_file_upload": "",
       "nexus": "https://www.nexusmods.com/crimsondesert/mods/1009",
-      "nexus_checked": "2026-11-23T00:02:28Z",
+      "nexus_checked": "2026-11-23T00:21:01Z",
       "nexus_updated": "2026-04-11T22:01:11Z",
       "supported": {
         "verdict": "unchecked"
@@ -16965,7 +16966,7 @@
       "newest_code_upload": "2026-09-23T17:05:42Z",
       "newest_main_file_upload": "",
       "nexus": "https://www.nexusmods.com/crimsondesert/mods/3562",
-      "nexus_checked": "2026-11-23T00:02:30Z",
+      "nexus_checked": "2026-11-23T00:21:03Z",
       "nexus_updated": "2026-09-23T17:05:58Z",
       "supported": {
         "addresses": {
@@ -20566,7 +20567,7 @@
       "newest_code_upload": "2026-11-19T14:31:15Z",
       "newest_main_file_upload": "",
       "nexus": "https://www.nexusmods.com/crimsondesert/mods/3482",
-      "nexus_checked": "2026-11-23T00:02:34Z",
+      "nexus_checked": "2026-11-23T00:21:07Z",
       "nexus_updated": "2026-11-19T14:31:15Z",
       "supported": {
         "addresses": {
@@ -21667,7 +21668,7 @@
       "newest_code_upload": "2026-09-10T22:19:04Z",
       "newest_main_file_upload": "",
       "nexus": "https://www.nexusmods.com/crimsondesert/mods/3273",
-      "nexus_checked": "2026-11-23T00:02:36Z",
+      "nexus_checked": "2026-11-23T00:21:09Z",
       "nexus_updated": "2026-09-10T22:19:04Z",
       "supported": {
         "addresses": {
@@ -23389,8 +23390,8 @@
     "scanned": {
       "broken": 28,
       "none": 6,
-      "nopatterns": 102,
-      "ok": 147,
+      "nopatterns": 101,
+      "ok": 148,
       "outdated": 14,
       "partly": 51,
       "unchecked": 1
