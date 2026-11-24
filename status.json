@@ -2070,6 +2070,54 @@
       }
     },
     {
+      "author": "Caites",
+      "builds": {
+        "1.0.0.3663": {
+          "check": "none",
+          "ids": {
+            "found": 0,
+            "total": 0
+          },
+          "pattern_counts": null,
+          "status": "none"
+        },
+        "1.0.0.3732": {
+          "check": "no_patterns",
+          "ids": {
+            "found": 0,
+            "total": 0
+          },
+          "pattern_counts": {
+            "not_found": 0,
+            "total": 0
+          },
+          "status": "nopatterns"
+        }
+      },
+      "coverage": {
+        "have": 0,
+        "level": "unrun",
+        "missing": 0,
+        "total": 0,
+        "use": "unknown",
+        "waiting": 0
+      },
+      "group": "scanned",
+      "key": "2594-Better-Pets-Ranch-and-Pond-UI",
+      "lab": {
+        "verdict": "untested"
+      },
+      "name": "Better Pets Ranch and Pond UI",
+      "newest_code_upload": "2026-11-24T17:27:39Z",
+      "newest_main_file_upload": "2026-11-24T17:27:39Z",
+      "nexus": "https://www.nexusmods.com/crimsondesert/mods/2594",
+      "nexus_checked": "2026-11-24T20:50:41Z",
+      "nexus_updated": "2026-11-24T17:27:39Z",
+      "supported": {
+        "verdict": "unchecked"
+      }
+    },
+    {
       "author": "bHaptics",
       "builds": {
         "1.0.0.3663": {
@@ -2695,7 +2743,7 @@
       "newest_code_upload": "2026-11-06T19:37:26Z",
       "newest_main_file_upload": "",
       "nexus": "https://www.nexusmods.com/crimsondesert/mods/4024",
-      "nexus_checked": "2026-11-24T20:42:24Z",
+      "nexus_checked": "2026-11-24T22:20:59Z",
       "nexus_updated": "2026-11-06T19:37:30Z",
       "supported": {
         "addresses": {
@@ -9475,10 +9523,10 @@
         "verdict": "ran"
       },
       "name": "Fly Like A Wyvern",
-      "newest_code_upload": "2026-11-24T01:22:50Z",
+      "newest_code_upload": "2026-11-24T09:00:07Z",
       "newest_main_file_upload": "2026-11-24T09:00:07Z",
       "nexus": "https://www.nexusmods.com/crimsondesert/mods/4350",
-      "nexus_checked": "2026-11-24T20:45:45Z",
+      "nexus_checked": "2026-11-24T20:51:17Z",
       "nexus_updated": "2026-11-24T09:00:07Z",
       "supported": {
         "addresses": {
@@ -10744,33 +10792,31 @@
         "1.0.0.3663": {
           "check": "not_scanned",
           "ids": {
-            "found": 31,
-            "total": 31
+            "found": 28,
+            "total": 28
           },
           "pattern_counts": null,
           "status": "unchecked"
         },
         "1.0.0.3732": {
-          "check": "reviewed",
+          "check": "scanned",
           "ids": {
-            "found": 31,
-            "total": 31
+            "found": 28,
+            "total": 28
           },
-          "missing": 0,
           "pattern_counts": {
             "not_found": 0,
-            "total": 0
+            "total": 35
           },
-          "places": 31,
           "status": "ok"
         }
       },
       "coverage": {
-        "have": 31,
-        "level": "full",
+        "have": 29,
+        "level": "some",
         "missing": 0,
-        "total": 31,
-        "use": "everything",
+        "total": 35,
+        "use": "ids_pack",
         "waiting": 0
       },
       "group": "scanned",
@@ -10783,25 +10829,25 @@
         "verdict": "ran"
       },
       "name": "Hex Appeal",
-      "newest_code_upload": "2026-11-23T13:04:01Z",
+      "newest_code_upload": "2026-11-24T16:49:25Z",
       "newest_main_file_upload": "2026-11-24T16:49:25Z",
       "nexus": "https://www.nexusmods.com/crimsondesert/mods/4279",
-      "nexus_checked": "2026-11-24T20:46:25Z",
+      "nexus_checked": "2026-11-24T20:50:44Z",
       "nexus_updated": "2026-11-24T16:49:46Z",
       "supported": {
         "addresses": {
-          "total": 31,
-          "with_id": 31
+          "total": 35,
+          "with_id": 29
         },
         "alone": false,
         "build": "1.0.0.3732",
         "cdal": "0.7.8",
         "date": "2026-11-22",
         "ids": {
-          "found": 31,
-          "total": 31
+          "found": 28,
+          "total": 28
         },
-        "verdict": "supported"
+        "verdict": "partly"
       }
     },
     {
@@ -11328,10 +11374,10 @@
         "verdict": "ran"
       },
       "name": "HuntersGrip",
-      "newest_code_upload": "2026-11-19T20:22:23Z",
+      "newest_code_upload": "2026-11-24T15:36:05Z",
       "newest_main_file_upload": "2026-11-24T15:36:05Z",
       "nexus": "https://www.nexusmods.com/crimsondesert/mods/4257",
-      "nexus_checked": "2026-11-24T20:46:41Z",
+      "nexus_checked": "2026-11-24T20:51:28Z",
       "nexus_updated": "2026-11-24T15:36:05Z",
       "supported": {
         "addresses": {
@@ -12225,8 +12271,8 @@
         "1.0.0.3663": {
           "check": "not_scanned",
           "ids": {
-            "found": 20,
-            "total": 20
+            "found": 21,
+            "total": 21
           },
           "pattern_counts": null,
           "status": "unchecked"
@@ -12234,21 +12280,21 @@
         "1.0.0.3732": {
           "check": "scanned",
           "ids": {
-            "found": 20,
-            "total": 20
+            "found": 21,
+            "total": 21
           },
           "pattern_counts": {
-            "not_found": 11,
+            "not_found": 10,
             "total": 27
           },
           "status": "partly"
         }
       },
       "coverage": {
-        "have": 17,
+        "have": 18,
         "level": "full",
         "missing": 0,
-        "total": 17,
+        "total": 18,
         "use": "everything",
         "waiting": 0
       },
@@ -12262,23 +12308,23 @@
         "verdict": "ran"
       },
       "name": "KC - Kolv'ekya UI",
-      "newest_code_upload": "2026-11-24T00:50:06Z",
+      "newest_code_upload": "2026-11-24T16:40:59Z",
       "newest_main_file_upload": "2026-11-24T16:40:59Z",
       "nexus": "https://www.nexusmods.com/crimsondesert/mods/4378",
-      "nexus_checked": "2026-11-24T20:47:09Z",
+      "nexus_checked": "2026-11-24T20:51:39Z",
       "nexus_updated": "2026-11-24T16:41:00Z",
       "supported": {
         "addresses": {
-          "total": 17,
-          "with_id": 17
+          "total": 18,
+          "with_id": 18
         },
         "alone": false,
         "build": "1.0.0.3732",
         "cdal": "0.7.8",
         "date": "2026-11-22",
         "ids": {
-          "found": 20,
-          "total": 20
+          "found": 21,
+          "total": 21
         },
         "verdict": "supported"
       }
@@ -13980,35 +14026,33 @@
       "author": "Caites",
       "builds": {
         "1.0.0.3663": {
-          "check": "not_scanned",
+          "check": "none",
           "ids": {
-            "found": 5,
-            "total": 5
+            "found": 0,
+            "total": 0
           },
           "pattern_counts": null,
-          "status": "unchecked"
+          "status": "none"
         },
         "1.0.0.3732": {
-          "check": "reviewed",
+          "check": "no_patterns",
           "ids": {
-            "found": 5,
-            "total": 5
+            "found": 0,
+            "total": 0
           },
-          "missing": 0,
           "pattern_counts": {
             "not_found": 0,
             "total": 0
           },
-          "places": 5,
-          "status": "ok"
+          "status": "nopatterns"
         }
       },
       "coverage": {
-        "have": 5,
-        "level": "full",
+        "have": 0,
+        "level": "unrun",
         "missing": 0,
-        "total": 5,
-        "use": "everything",
+        "total": 0,
+        "use": "unknown",
         "waiting": 0
       },
       "group": "scanned",
@@ -14017,10 +14061,10 @@
         "verdict": "untested"
       },
       "name": "More Pets Fish and Livestock",
-      "newest_code_upload": "2026-11-24T00:40:38Z",
+      "newest_code_upload": "2026-11-24T10:41:03Z",
       "newest_main_file_upload": "2026-11-24T10:41:03Z",
       "nexus": "https://www.nexusmods.com/crimsondesert/mods/4489",
-      "nexus_checked": "2026-11-24T20:48:02Z",
+      "nexus_checked": "2026-11-24T20:51:50Z",
       "nexus_updated": "2026-11-24T10:41:03Z",
       "supported": {
         "verdict": "unchecked"
@@ -14491,6 +14535,54 @@
       }
     },
     {
+      "author": "Fyreon87",
+      "builds": {
+        "1.0.0.3663": {
+          "check": "not_scanned",
+          "ids": {
+            "found": 6,
+            "total": 6
+          },
+          "pattern_counts": null,
+          "status": "unchecked"
+        },
+        "1.0.0.3732": {
+          "check": "scanned",
+          "ids": {
+            "found": 6,
+            "total": 6
+          },
+          "pattern_counts": {
+            "not_found": 2,
+            "total": 8
+          },
+          "status": "partly"
+        }
+      },
+      "coverage": {
+        "have": 6,
+        "level": "full",
+        "missing": 0,
+        "total": 6,
+        "use": "everything",
+        "waiting": 0
+      },
+      "group": "scanned",
+      "key": "4511-No-Time-To-Dye-Separate-Inventory-Group-for-Dyes",
+      "lab": {
+        "verdict": "untested"
+      },
+      "name": "No Time To Dye - Separate Inventory Group for Dyes",
+      "newest_code_upload": "2026-11-24T19:55:48Z",
+      "newest_main_file_upload": "2026-11-24T19:55:48Z",
+      "nexus": "https://www.nexusmods.com/crimsondesert/mods/4511",
+      "nexus_checked": "2026-11-24T20:52:11Z",
+      "nexus_updated": "2026-11-24T19:56:03Z",
+      "supported": {
+        "verdict": "unchecked"
+      }
+    },
+    {
       "author": "Gametism",
       "builds": {
         "1.0.0.3663": {
@@ -14597,7 +14689,7 @@
       "newest_code_upload": "2026-04-11T22:01:11Z",
       "newest_main_file_upload": "",
       "nexus": "https://www.nexusmods.com/crimsondesert/mods/1009",
-      "nexus_checked": "2026-11-24T20:48:20Z",
+      "nexus_checked": "2026-11-24T22:21:09Z",
       "nexus_updated": "2026-04-11T22:01:11Z",
       "supported": {
         "verdict": "unchecked"
@@ -17421,7 +17513,7 @@
       "newest_code_upload": "2026-09-23T17:05:42Z",
       "newest_main_file_upload": "",
       "nexus": "https://www.nexusmods.com/crimsondesert/mods/3562",
-      "nexus_checked": "2026-11-24T20:49:46Z",
+      "nexus_checked": "2026-11-24T22:21:11Z",
       "nexus_updated": "2026-09-23T17:05:58Z",
       "supported": {
         "addresses": {
@@ -17721,16 +17813,13 @@
       "author": "Fyreon87",
       "builds": {
         "1.0.0.3663": {
-          "check": "scanned",
+          "check": "not_scanned",
           "ids": {
             "found": 4,
             "total": 4
           },
-          "pattern_counts": {
-            "not_found": 1,
-            "total": 4
-          },
-          "status": "partly"
+          "pattern_counts": null,
+          "status": "unchecked"
         },
         "1.0.0.3732": {
           "check": "scanned",
@@ -17763,10 +17852,10 @@
         "verdict": "ran"
       },
       "name": "Rest Anywhere",
-      "newest_code_upload": "2026-11-18T09:33:06Z",
+      "newest_code_upload": "2026-11-24T09:45:07Z",
       "newest_main_file_upload": "2026-11-24T09:45:07Z",
       "nexus": "https://www.nexusmods.com/crimsondesert/mods/3904",
-      "nexus_checked": "2026-11-24T20:49:56Z",
+      "nexus_checked": "2026-11-24T20:50:43Z",
       "nexus_updated": "2026-11-24T09:45:07Z",
       "supported": {
         "addresses": {
@@ -18299,6 +18388,54 @@
           "total": 7
         },
         "verdict": "supported"
+      }
+    },
+    {
+      "author": "Caites",
+      "builds": {
+        "1.0.0.3663": {
+          "check": "none",
+          "ids": {
+            "found": 0,
+            "total": 0
+          },
+          "pattern_counts": null,
+          "status": "none"
+        },
+        "1.0.0.3732": {
+          "check": "no_patterns",
+          "ids": {
+            "found": 0,
+            "total": 0
+          },
+          "pattern_counts": {
+            "not_found": 0,
+            "total": 0
+          },
+          "status": "nopatterns"
+        }
+      },
+      "coverage": {
+        "have": 0,
+        "level": "unrun",
+        "missing": 0,
+        "total": 0,
+        "use": "unknown",
+        "waiting": 0
+      },
+      "group": "scanned",
+      "key": "4512-Save-Thumbnails-And-More-Info",
+      "lab": {
+        "verdict": "untested"
+      },
+      "name": "Save Thumbnails And More Info",
+      "newest_code_upload": "2026-11-24T20:24:45Z",
+      "newest_main_file_upload": "2026-11-24T20:24:45Z",
+      "nexus": "https://www.nexusmods.com/crimsondesert/mods/4512",
+      "nexus_checked": "2026-11-24T20:52:10Z",
+      "nexus_updated": "2026-11-24T20:25:07Z",
+      "supported": {
+        "verdict": "unchecked"
       }
     },
     {
@@ -21130,10 +21267,10 @@
         "verdict": "ran"
       },
       "name": "Super Glide - Free Flight Done Right",
-      "newest_code_upload": "2026-11-19T14:31:15Z",
+      "newest_code_upload": "2026-11-24T15:47:59Z",
       "newest_main_file_upload": "",
       "nexus": "https://www.nexusmods.com/crimsondesert/mods/3482",
-      "nexus_checked": "2026-11-24T20:51:36Z",
+      "nexus_checked": "2026-11-24T22:21:15Z",
       "nexus_updated": "2026-11-24T15:47:59Z",
       "supported": {
         "addresses": {
@@ -22236,7 +22373,7 @@
       "newest_code_upload": "2026-09-10T22:19:04Z",
       "newest_main_file_upload": "",
       "nexus": "https://www.nexusmods.com/crimsondesert/mods/3273",
-      "nexus_checked": "2026-11-24T20:52:08Z",
+      "nexus_checked": "2026-11-24T22:21:17Z",
       "nexus_updated": "2026-09-10T22:19:04Z",
       "supported": {
         "addresses": {
@@ -23732,35 +23869,33 @@
       "author": "cangmbs",
       "builds": {
         "1.0.0.3663": {
-          "check": "not_scanned",
+          "check": "none",
           "ids": {
-            "found": 19,
-            "total": 19
+            "found": 0,
+            "total": 0
           },
           "pattern_counts": null,
-          "status": "unchecked"
+          "status": "none"
         },
         "1.0.0.3732": {
-          "check": "reviewed",
+          "check": "no_patterns",
           "ids": {
-            "found": 19,
-            "total": 19
+            "found": 0,
+            "total": 0
           },
-          "missing": 0,
           "pattern_counts": {
             "not_found": 0,
             "total": 0
           },
-          "places": 24,
-          "status": "ok"
+          "status": "nopatterns"
         }
       },
       "coverage": {
-        "have": 24,
-        "level": "full",
+        "have": 0,
+        "level": "unrun",
         "missing": 0,
-        "total": 24,
-        "use": "everything",
+        "total": 0,
+        "use": "unknown",
         "waiting": 0
       },
       "group": "scanned",
@@ -23769,7 +23904,7 @@
         "verdict": "untested"
       },
       "name": "Witch companions with magic",
-      "newest_code_upload": "2026-11-23T06:40:25Z",
+      "newest_code_upload": "2026-11-24T12:25:55Z",
       "newest_main_file_upload": "2026-11-24T12:25:55Z",
       "nexus": "https://www.nexusmods.com/crimsondesert/mods/4469",
       "nexus_checked": "2026-11-24T20:52:53Z",
@@ -24001,8 +24136,8 @@
     }
   },
   "pattern_mods": {
-    "total": 360,
-    "with": 147
+    "total": 363,
+    "with": 149
   },
   "summary": {
     "enrolled": {
@@ -24017,10 +24152,10 @@
     "scanned": {
       "broken": 29,
       "none": 7,
-      "nopatterns": 48,
-      "ok": 195,
+      "nopatterns": 52,
+      "ok": 193,
       "outdated": 24,
-      "partly": 56,
+      "partly": 57,
       "unchecked": 1
     }
   }
