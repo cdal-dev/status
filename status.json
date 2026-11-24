@@ -13,16 +13,16 @@
     "summary": {
       "build": "1.0.0.3732",
       "cdal": 1935,
-      "exist": 4854,
-      "game_code": 4855,
-      "game_code_here": 4854,
+      "exist": 4897,
+      "game_code": 4898,
+      "game_code_here": 4897,
       "gone": 56,
       "held": 0,
-      "helped": 2798,
-      "helped_game_code": 2749,
-      "total": 4910,
+      "helped": 2841,
+      "helped_game_code": 2792,
+      "total": 4953,
       "unrecorded": 177,
-      "with_address": 4854
+      "with_address": 4897
     }
   },
   "excluded_authors": [
@@ -39,10 +39,10 @@
       "game_version": "2.05.01",
       "game_version_from": "game files",
       "ids": {
-        "found": 4854,
+        "found": 4897,
         "gone": 56,
         "held": 0,
-        "total": 4854
+        "total": 4897
       },
       "pe_timestamp": "0x6AFDC0CF",
       "size_of_image": "0x13C7E000",
@@ -56,10 +56,10 @@
       "game_version": "2.05.00",
       "game_version_from": "",
       "ids": {
-        "found": 4854,
+        "found": 4897,
         "gone": 55,
         "held": 0,
-        "total": 4855
+        "total": 4898
       },
       "pe_timestamp": "0x6AF5D198",
       "size_of_image": "0x144E9000",
@@ -76,7 +76,7 @@
         "found": 3845,
         "gone": 0,
         "held": 0,
-        "total": 4910
+        "total": 4953
       },
       "pe_timestamp": "0x6AED2E85",
       "size_of_image": "0x13CC4000",
@@ -93,7 +93,7 @@
         "found": 1992,
         "gone": 0,
         "held": 0,
-        "total": 4910
+        "total": 4953
       },
       "pe_timestamp": "0x6AEA07A6",
       "size_of_image": "0x13EB2000",
@@ -110,7 +110,7 @@
         "found": 1993,
         "gone": 0,
         "held": 0,
-        "total": 4910
+        "total": 4953
       },
       "pe_timestamp": "0x6AE6E3E8",
       "size_of_image": "0x14073000",
@@ -127,7 +127,7 @@
         "found": 1016,
         "gone": 0,
         "held": 0,
-        "total": 4910
+        "total": 4953
       },
       "pe_timestamp": "0x6AE5F627",
       "size_of_image": "0x13E7F000",
@@ -144,7 +144,7 @@
         "found": 1016,
         "gone": 0,
         "held": 0,
-        "total": 4910
+        "total": 4953
       },
       "pe_timestamp": "0x6AE58024",
       "size_of_image": "0x13EE0000",
@@ -161,7 +161,7 @@
         "found": 1015,
         "gone": 0,
         "held": 0,
-        "total": 4910
+        "total": 4953
       },
       "pe_timestamp": "0x6AE46DD0",
       "size_of_image": "0x14268000",
@@ -178,7 +178,7 @@
         "found": 1014,
         "gone": 0,
         "held": 0,
-        "total": 4910
+        "total": 4953
       },
       "pe_timestamp": "0x6AE387F2",
       "size_of_image": "0x145B9000",
@@ -195,7 +195,7 @@
         "found": 1013,
         "gone": 0,
         "held": 0,
-        "total": 4910
+        "total": 4953
       },
       "pe_timestamp": "0x6AE2C6A6",
       "size_of_image": "0x1435A000",
@@ -212,7 +212,7 @@
         "found": 1131,
         "gone": 0,
         "held": 0,
-        "total": 4910
+        "total": 4953
       },
       "pe_timestamp": "0x6AB28F00",
       "size_of_image": "0x173AB000",
@@ -620,8 +620,8 @@
         "1.0.0.3663": {
           "check": "not_scanned",
           "ids": {
-            "found": 17,
-            "total": 17
+            "found": 37,
+            "total": 37
           },
           "pattern_counts": null,
           "status": "unchecked"
@@ -629,8 +629,8 @@
         "1.0.0.3732": {
           "check": "reviewed",
           "ids": {
-            "found": 17,
-            "total": 17
+            "found": 37,
+            "total": 37
           },
           "missing": 0,
           "pattern_counts": {
@@ -642,11 +642,11 @@
         }
       },
       "coverage": {
-        "have": 17,
-        "level": "some",
+        "have": 37,
+        "level": "full",
         "missing": 0,
         "total": 37,
-        "use": "ids_pack",
+        "use": "everything",
         "waiting": 0
       },
       "group": "scanned",
@@ -847,8 +847,8 @@
         "1.0.0.3663": {
           "check": "not_scanned",
           "ids": {
-            "found": 12,
-            "total": 12
+            "found": 13,
+            "total": 13
           },
           "pattern_counts": null,
           "status": "unchecked"
@@ -856,22 +856,22 @@
         "1.0.0.3732": {
           "check": "pinned",
           "ids": {
-            "found": 12,
-            "total": 12
+            "found": 13,
+            "total": 13
           },
           "pattern_counts": {
             "not_found": 0,
             "total": 0
           },
-          "places": 12,
+          "places": 13,
           "status": "ok"
         }
       },
       "coverage": {
-        "have": 12,
+        "have": 13,
         "level": "full",
         "missing": 0,
-        "total": 12,
+        "total": 13,
         "use": "everything",
         "waiting": 0
       },
@@ -892,16 +892,16 @@
       "nexus_updated": "2026-11-19T19:21:41Z",
       "supported": {
         "addresses": {
-          "total": 12,
-          "with_id": 12
+          "total": 13,
+          "with_id": 13
         },
         "alone": false,
         "build": "1.0.0.3732",
         "cdal": "0.7.8",
         "date": "2026-11-22",
         "ids": {
-          "found": 12,
-          "total": 12
+          "found": 13,
+          "total": 13
         },
         "verdict": "supported"
       }
@@ -2695,7 +2695,7 @@
       "newest_code_upload": "2026-11-06T19:37:26Z",
       "newest_main_file_upload": "",
       "nexus": "https://www.nexusmods.com/crimsondesert/mods/4024",
-      "nexus_checked": "2026-11-24T19:31:16Z",
+      "nexus_checked": "2026-11-24T20:01:54Z",
       "nexus_updated": "2026-11-06T19:37:30Z",
       "supported": {
         "addresses": {
@@ -2719,8 +2719,8 @@
         "1.0.0.3663": {
           "check": "not_scanned",
           "ids": {
-            "found": 24,
-            "total": 24
+            "found": 25,
+            "total": 25
           },
           "pattern_counts": null,
           "status": "unchecked"
@@ -2728,8 +2728,8 @@
         "1.0.0.3732": {
           "check": "scanned",
           "ids": {
-            "found": 24,
-            "total": 24
+            "found": 25,
+            "total": 25
           },
           "pattern_counts": {
             "not_found": 10,
@@ -2771,8 +2771,8 @@
         "cdal": "0.7.8",
         "date": "2026-11-22",
         "ids": {
-          "found": 24,
-          "total": 24
+          "found": 25,
+          "total": 25
         },
         "verdict": "supported"
       }
@@ -2901,8 +2901,8 @@
         "1.0.0.3663": {
           "check": "same_places",
           "ids": {
-            "found": 65,
-            "total": 65
+            "found": 66,
+            "total": 66
           },
           "pattern_counts": {
             "not_found": 0,
@@ -2914,8 +2914,8 @@
         "1.0.0.3732": {
           "check": "scanned",
           "ids": {
-            "found": 65,
-            "total": 65
+            "found": 66,
+            "total": 66
           },
           "pattern_counts": {
             "not_found": 0,
@@ -2957,8 +2957,8 @@
         "cdal": "0.7.8",
         "date": "2026-11-22",
         "ids": {
-          "found": 65,
-          "total": 65
+          "found": 66,
+          "total": 66
         },
         "verdict": "supported"
       }
@@ -3170,8 +3170,8 @@
         "1.0.0.3663": {
           "check": "scanned",
           "ids": {
-            "found": 42,
-            "total": 42
+            "found": 43,
+            "total": 43
           },
           "pattern_counts": {
             "not_found": 82,
@@ -3182,8 +3182,8 @@
         "1.0.0.3732": {
           "check": "scanned",
           "ids": {
-            "found": 42,
-            "total": 42
+            "found": 43,
+            "total": 43
           },
           "pattern_counts": {
             "not_found": 82,
@@ -3225,8 +3225,8 @@
         "cdal": "0.7.8",
         "date": "2026-11-22",
         "ids": {
-          "found": 42,
-          "total": 42
+          "found": 43,
+          "total": 43
         },
         "verdict": "supported"
       },
@@ -3245,8 +3245,8 @@
         "1.0.0.3663": {
           "check": "not_scanned",
           "ids": {
-            "found": 93,
-            "total": 93
+            "found": 94,
+            "total": 94
           },
           "pattern_counts": null,
           "status": "unchecked"
@@ -3254,8 +3254,8 @@
         "1.0.0.3732": {
           "check": "scanned",
           "ids": {
-            "found": 93,
-            "total": 93
+            "found": 94,
+            "total": 94
           },
           "pattern_counts": {
             "not_found": 284,
@@ -3297,8 +3297,8 @@
         "cdal": "0.7.8",
         "date": "2026-11-22",
         "ids": {
-          "found": 93,
-          "total": 93
+          "found": 94,
+          "total": 94
         },
         "verdict": "supported"
       }
@@ -4329,8 +4329,8 @@
         "1.0.0.3663": {
           "check": "not_scanned",
           "ids": {
-            "found": 24,
-            "total": 24
+            "found": 26,
+            "total": 26
           },
           "pattern_counts": null,
           "status": "unchecked"
@@ -4338,8 +4338,8 @@
         "1.0.0.3732": {
           "check": "scanned",
           "ids": {
-            "found": 24,
-            "total": 24
+            "found": 26,
+            "total": 26
           },
           "pattern_counts": {
             "not_found": 0,
@@ -4381,8 +4381,8 @@
         "cdal": "0.7.8",
         "date": "2026-11-22",
         "ids": {
-          "found": 24,
-          "total": 24
+          "found": 26,
+          "total": 26
         },
         "verdict": "supported"
       }
@@ -5344,8 +5344,8 @@
         "1.0.0.3663": {
           "check": "not_scanned",
           "ids": {
-            "found": 18,
-            "total": 18
+            "found": 20,
+            "total": 20
           },
           "pattern_counts": null,
           "status": "unchecked"
@@ -5353,8 +5353,8 @@
         "1.0.0.3732": {
           "check": "reviewed",
           "ids": {
-            "found": 18,
-            "total": 18
+            "found": 20,
+            "total": 20
           },
           "missing": 0,
           "pattern_counts": {
@@ -5366,11 +5366,11 @@
         }
       },
       "coverage": {
-        "have": 18,
-        "level": "some",
+        "have": 20,
+        "level": "full",
         "missing": 0,
         "total": 20,
-        "use": "ids_pack",
+        "use": "everything",
         "waiting": 0
       },
       "group": "scanned",
@@ -5391,17 +5391,17 @@
       "supported": {
         "addresses": {
           "total": 20,
-          "with_id": 18
+          "with_id": 20
         },
         "alone": false,
         "build": "1.0.0.3732",
         "cdal": "0.7.8",
         "date": "2026-11-22",
         "ids": {
-          "found": 18,
-          "total": 18
+          "found": 20,
+          "total": 20
         },
-        "verdict": "partly"
+        "verdict": "supported"
       }
     },
     {
@@ -7553,22 +7553,23 @@
       "author": "LASENTOS1",
       "builds": {
         "1.0.0.3663": {
-          "check": "no_patterns",
+          "check": "searches",
           "ids": {
-            "found": 0,
-            "total": 0
+            "found": 1,
+            "total": 1
           },
           "pattern_counts": {
             "not_found": 0,
             "total": 0
           },
-          "status": "nopatterns"
+          "places": 1,
+          "status": "ok"
         },
         "1.0.0.3732": {
           "check": "reviewed",
           "ids": {
-            "found": 0,
-            "total": 0
+            "found": 1,
+            "total": 1
           },
           "missing": 0,
           "pattern_counts": {
@@ -7580,11 +7581,11 @@
         }
       },
       "coverage": {
-        "have": 0,
-        "level": "none",
+        "have": 1,
+        "level": "full",
         "missing": 0,
         "total": 1,
-        "use": "pack",
+        "use": "everything",
         "waiting": 0
       },
       "group": "scanned",
@@ -7605,17 +7606,17 @@
       "supported": {
         "addresses": {
           "total": 1,
-          "with_id": 0
+          "with_id": 1
         },
         "alone": false,
         "build": "1.0.0.3732",
         "cdal": "0.7.8",
         "date": "2026-11-22",
         "ids": {
-          "found": 0,
-          "total": 0
+          "found": 1,
+          "total": 1
         },
-        "verdict": "unsupported"
+        "verdict": "supported"
       }
     },
     {
@@ -8298,8 +8299,8 @@
         "1.0.0.3663": {
           "check": "not_scanned",
           "ids": {
-            "found": 18,
-            "total": 18
+            "found": 20,
+            "total": 20
           },
           "pattern_counts": null,
           "status": "unchecked"
@@ -8307,8 +8308,8 @@
         "1.0.0.3732": {
           "check": "scanned",
           "ids": {
-            "found": 18,
-            "total": 18
+            "found": 20,
+            "total": 20
           },
           "pattern_counts": {
             "not_found": 4,
@@ -9568,8 +9569,8 @@
         "1.0.0.3663": {
           "check": "no_patterns",
           "ids": {
-            "found": 10,
-            "total": 10
+            "found": 11,
+            "total": 11
           },
           "pattern_counts": {
             "not_found": 0,
@@ -9580,8 +9581,8 @@
         "1.0.0.3732": {
           "check": "scanned",
           "ids": {
-            "found": 10,
-            "total": 10
+            "found": 11,
+            "total": 11
           },
           "pattern_counts": {
             "not_found": 0,
@@ -9623,8 +9624,8 @@
         "cdal": "0.7.8",
         "date": "2026-11-22",
         "ids": {
-          "found": 10,
-          "total": 10
+          "found": 11,
+          "total": 11
         },
         "verdict": "supported"
       }
@@ -9635,8 +9636,8 @@
         "1.0.0.3663": {
           "check": "not_scanned",
           "ids": {
-            "found": 15,
-            "total": 15
+            "found": 16,
+            "total": 16
           },
           "pattern_counts": null,
           "status": "unchecked"
@@ -9644,8 +9645,8 @@
         "1.0.0.3732": {
           "check": "scanned",
           "ids": {
-            "found": 15,
-            "total": 15
+            "found": 16,
+            "total": 16
           },
           "pattern_counts": {
             "not_found": 0,
@@ -9687,8 +9688,8 @@
         "cdal": "0.7.8",
         "date": "2026-11-22",
         "ids": {
-          "found": 15,
-          "total": 15
+          "found": 16,
+          "total": 16
         },
         "verdict": "supported"
       }
@@ -10040,8 +10041,8 @@
         "1.0.0.3663": {
           "check": "scanned",
           "ids": {
-            "found": 412,
-            "total": 412
+            "found": 416,
+            "total": 416
           },
           "pattern_counts": {
             "not_found": 185,
@@ -10052,8 +10053,8 @@
         "1.0.0.3732": {
           "check": "scanned",
           "ids": {
-            "found": 412,
-            "total": 412
+            "found": 416,
+            "total": 416
           },
           "pattern_counts": {
             "not_found": 183,
@@ -10063,11 +10064,11 @@
         }
       },
       "coverage": {
-        "have": 461,
-        "level": "some",
+        "have": 462,
+        "level": "full",
         "missing": 0,
         "total": 462,
-        "use": "ids_pack",
+        "use": "everything",
         "waiting": 0
       },
       "group": "scanned",
@@ -10088,17 +10089,17 @@
       "supported": {
         "addresses": {
           "total": 462,
-          "with_id": 461
+          "with_id": 462
         },
         "alone": false,
         "build": "1.0.0.3732",
         "cdal": "0.7.8",
         "date": "2026-11-22",
         "ids": {
-          "found": 412,
-          "total": 412
+          "found": 416,
+          "total": 416
         },
-        "verdict": "partly"
+        "verdict": "supported"
       },
       "update": {
         "fixable": 3,
@@ -10679,8 +10680,8 @@
         "1.0.0.3663": {
           "check": "not_scanned",
           "ids": {
-            "found": 58,
-            "total": 58
+            "found": 60,
+            "total": 60
           },
           "pattern_counts": null,
           "status": "unchecked"
@@ -10688,8 +10689,8 @@
         "1.0.0.3732": {
           "check": "scanned",
           "ids": {
-            "found": 58,
-            "total": 58
+            "found": 60,
+            "total": 60
           },
           "pattern_counts": {
             "not_found": 20,
@@ -10731,8 +10732,8 @@
         "cdal": "0.7.8",
         "date": "2026-11-22",
         "ids": {
-          "found": 58,
-          "total": 58
+          "found": 60,
+          "total": 60
         },
         "verdict": "supported"
       }
@@ -10743,8 +10744,8 @@
         "1.0.0.3663": {
           "check": "not_scanned",
           "ids": {
-            "found": 19,
-            "total": 19
+            "found": 31,
+            "total": 31
           },
           "pattern_counts": null,
           "status": "unchecked"
@@ -10752,8 +10753,8 @@
         "1.0.0.3732": {
           "check": "reviewed",
           "ids": {
-            "found": 19,
-            "total": 19
+            "found": 31,
+            "total": 31
           },
           "missing": 0,
           "pattern_counts": {
@@ -10765,11 +10766,11 @@
         }
       },
       "coverage": {
-        "have": 19,
-        "level": "some",
+        "have": 31,
+        "level": "full",
         "missing": 0,
         "total": 31,
-        "use": "ids_pack",
+        "use": "everything",
         "waiting": 0
       },
       "group": "scanned",
@@ -10790,17 +10791,17 @@
       "supported": {
         "addresses": {
           "total": 31,
-          "with_id": 19
+          "with_id": 31
         },
         "alone": false,
         "build": "1.0.0.3732",
         "cdal": "0.7.8",
         "date": "2026-11-22",
         "ids": {
-          "found": 19,
-          "total": 19
+          "found": 31,
+          "total": 31
         },
-        "verdict": "partly"
+        "verdict": "supported"
       }
     },
     {
@@ -12851,8 +12852,8 @@
         "1.0.0.3663": {
           "check": "scanned",
           "ids": {
-            "found": 21,
-            "total": 21
+            "found": 22,
+            "total": 22
           },
           "pattern_counts": {
             "not_found": 87,
@@ -12863,8 +12864,8 @@
         "1.0.0.3732": {
           "check": "scanned",
           "ids": {
-            "found": 21,
-            "total": 21
+            "found": 22,
+            "total": 22
           },
           "pattern_counts": {
             "not_found": 86,
@@ -12906,8 +12907,8 @@
         "cdal": "0.7.8",
         "date": "2026-11-22",
         "ids": {
-          "found": 21,
-          "total": 21
+          "found": 22,
+          "total": 22
         },
         "verdict": "supported"
       },
@@ -13262,8 +13263,8 @@
         "1.0.0.3663": {
           "check": "not_scanned",
           "ids": {
-            "found": 3,
-            "total": 3
+            "found": 6,
+            "total": 6
           },
           "pattern_counts": null,
           "status": "unchecked"
@@ -13271,8 +13272,8 @@
         "1.0.0.3732": {
           "check": "reviewed",
           "ids": {
-            "found": 3,
-            "total": 3
+            "found": 6,
+            "total": 6
           },
           "missing": 0,
           "pattern_counts": {
@@ -13284,11 +13285,11 @@
         }
       },
       "coverage": {
-        "have": 4,
-        "level": "some",
+        "have": 7,
+        "level": "full",
         "missing": 0,
         "total": 7,
-        "use": "ids_pack",
+        "use": "everything",
         "waiting": 0
       },
       "group": "scanned",
@@ -13577,8 +13578,8 @@
         "1.0.0.3663": {
           "check": "scanned",
           "ids": {
-            "found": 21,
-            "total": 21
+            "found": 22,
+            "total": 22
           },
           "pattern_counts": {
             "not_found": 11,
@@ -13589,8 +13590,8 @@
         "1.0.0.3732": {
           "check": "scanned",
           "ids": {
-            "found": 21,
-            "total": 21
+            "found": 22,
+            "total": 22
           },
           "pattern_counts": {
             "not_found": 11,
@@ -13632,8 +13633,8 @@
         "cdal": "0.7.8",
         "date": "2026-11-22",
         "ids": {
-          "found": 21,
-          "total": 21
+          "found": 22,
+          "total": 22
         },
         "verdict": "supported"
       }
@@ -13780,8 +13781,8 @@
         "1.0.0.3663": {
           "check": "same_places",
           "ids": {
-            "found": 21,
-            "total": 21
+            "found": 23,
+            "total": 23
           },
           "pattern_counts": {
             "not_found": 0,
@@ -13793,8 +13794,8 @@
         "1.0.0.3732": {
           "check": "scanned",
           "ids": {
-            "found": 21,
-            "total": 21
+            "found": 23,
+            "total": 23
           },
           "pattern_counts": {
             "not_found": 0,
@@ -13836,8 +13837,8 @@
         "cdal": "0.7.8",
         "date": "2026-11-22",
         "ids": {
-          "found": 21,
-          "total": 21
+          "found": 23,
+          "total": 23
         },
         "verdict": "partly"
       }
@@ -14596,7 +14597,7 @@
       "newest_code_upload": "2026-04-11T22:01:11Z",
       "newest_main_file_upload": "",
       "nexus": "https://www.nexusmods.com/crimsondesert/mods/1009",
-      "nexus_checked": "2026-11-24T19:31:26Z",
+      "nexus_checked": "2026-11-24T20:02:04Z",
       "nexus_updated": "2026-04-11T22:01:11Z",
       "supported": {
         "verdict": "unchecked"
@@ -15069,8 +15070,8 @@
         "1.0.0.3663": {
           "check": "not_scanned",
           "ids": {
-            "found": 605,
-            "total": 605
+            "found": 609,
+            "total": 609
           },
           "pattern_counts": null,
           "status": "unchecked"
@@ -15078,8 +15079,8 @@
         "1.0.0.3732": {
           "check": "scanned",
           "ids": {
-            "found": 605,
-            "total": 605
+            "found": 609,
+            "total": 609
           },
           "pattern_counts": {
             "not_found": 147,
@@ -15089,11 +15090,11 @@
         }
       },
       "coverage": {
-        "have": 783,
-        "level": "some",
+        "have": 784,
+        "level": "full",
         "missing": 0,
         "total": 784,
-        "use": "ids_pack",
+        "use": "everything",
         "waiting": 0
       },
       "group": "scanned",
@@ -15114,17 +15115,17 @@
       "supported": {
         "addresses": {
           "total": 784,
-          "with_id": 783
+          "with_id": 784
         },
         "alone": false,
         "build": "1.0.0.3732",
         "cdal": "0.7.8",
         "date": "2026-11-22",
         "ids": {
-          "found": 605,
-          "total": 605
+          "found": 609,
+          "total": 609
         },
-        "verdict": "partly"
+        "verdict": "supported"
       }
     },
     {
@@ -15591,8 +15592,8 @@
         "1.0.0.3663": {
           "check": "not_scanned",
           "ids": {
-            "found": 27,
-            "total": 27
+            "found": 29,
+            "total": 29
           },
           "pattern_counts": null,
           "status": "unchecked"
@@ -15600,8 +15601,8 @@
         "1.0.0.3732": {
           "check": "scanned",
           "ids": {
-            "found": 27,
-            "total": 27
+            "found": 29,
+            "total": 29
           },
           "pattern_counts": {
             "not_found": 14,
@@ -15643,8 +15644,8 @@
         "cdal": "0.7.8",
         "date": "2026-11-22",
         "ids": {
-          "found": 27,
-          "total": 27
+          "found": 29,
+          "total": 29
         },
         "verdict": "supported"
       }
@@ -15787,8 +15788,8 @@
         "1.0.0.3663": {
           "check": "same_places",
           "ids": {
-            "found": 6,
-            "total": 6
+            "found": 7,
+            "total": 7
           },
           "pattern_counts": {
             "not_found": 0,
@@ -15800,8 +15801,8 @@
         "1.0.0.3732": {
           "check": "scanned",
           "ids": {
-            "found": 6,
-            "total": 6
+            "found": 7,
+            "total": 7
           },
           "pattern_counts": {
             "not_found": 0,
@@ -15811,11 +15812,11 @@
         }
       },
       "coverage": {
-        "have": 6,
-        "level": "some",
+        "have": 7,
+        "level": "full",
         "missing": 0,
         "total": 7,
-        "use": "ids_pack",
+        "use": "everything",
         "waiting": 0
       },
       "group": "scanned",
@@ -15836,17 +15837,17 @@
       "supported": {
         "addresses": {
           "total": 7,
-          "with_id": 6
+          "with_id": 7
         },
         "alone": false,
         "build": "1.0.0.3732",
         "cdal": "0.7.8",
         "date": "2026-11-22",
         "ids": {
-          "found": 6,
-          "total": 6
+          "found": 7,
+          "total": 7
         },
-        "verdict": "partly"
+        "verdict": "supported"
       }
     },
     {
@@ -16389,8 +16390,8 @@
         "1.0.0.3663": {
           "check": "not_scanned",
           "ids": {
-            "found": 19,
-            "total": 19
+            "found": 20,
+            "total": 20
           },
           "pattern_counts": null,
           "status": "unchecked"
@@ -16398,8 +16399,8 @@
         "1.0.0.3732": {
           "check": "scanned",
           "ids": {
-            "found": 19,
-            "total": 19
+            "found": 20,
+            "total": 20
           },
           "pattern_counts": {
             "not_found": 28,
@@ -16441,8 +16442,8 @@
         "cdal": "0.7.8",
         "date": "2026-11-22",
         "ids": {
-          "found": 19,
-          "total": 19
+          "found": 20,
+          "total": 20
         },
         "verdict": "supported"
       }
@@ -17420,7 +17421,7 @@
       "newest_code_upload": "2026-09-23T17:05:42Z",
       "newest_main_file_upload": "",
       "nexus": "https://www.nexusmods.com/crimsondesert/mods/3562",
-      "nexus_checked": "2026-11-24T19:31:28Z",
+      "nexus_checked": "2026-11-24T20:02:06Z",
       "nexus_updated": "2026-09-23T17:05:58Z",
       "supported": {
         "addresses": {
@@ -17444,8 +17445,8 @@
         "1.0.0.3663": {
           "check": "scanned",
           "ids": {
-            "found": 16,
-            "total": 16
+            "found": 17,
+            "total": 17
           },
           "pattern_counts": {
             "not_found": 3,
@@ -17456,8 +17457,8 @@
         "1.0.0.3732": {
           "check": "scanned",
           "ids": {
-            "found": 16,
-            "total": 16
+            "found": 17,
+            "total": 17
           },
           "pattern_counts": {
             "not_found": 2,
@@ -17499,8 +17500,8 @@
         "cdal": "0.7.8",
         "date": "2026-11-22",
         "ids": {
-          "found": 16,
-          "total": 16
+          "found": 17,
+          "total": 17
         },
         "verdict": "supported"
       }
@@ -18109,8 +18110,8 @@
         "1.0.0.3663": {
           "check": "scanned",
           "ids": {
-            "found": 25,
-            "total": 25
+            "found": 26,
+            "total": 26
           },
           "pattern_counts": {
             "not_found": 74,
@@ -18121,8 +18122,8 @@
         "1.0.0.3732": {
           "check": "scanned",
           "ids": {
-            "found": 25,
-            "total": 25
+            "found": 26,
+            "total": 26
           },
           "pattern_counts": {
             "not_found": 74,
@@ -18763,8 +18764,8 @@
         "1.0.0.3663": {
           "check": "scanned",
           "ids": {
-            "found": 22,
-            "total": 22
+            "found": 26,
+            "total": 26
           },
           "pattern_counts": {
             "not_found": 4,
@@ -18775,8 +18776,8 @@
         "1.0.0.3732": {
           "check": "scanned",
           "ids": {
-            "found": 22,
-            "total": 22
+            "found": 26,
+            "total": 26
           },
           "pattern_counts": {
             "not_found": 4,
@@ -18818,8 +18819,8 @@
         "cdal": "0.7.8",
         "date": "2026-11-22",
         "ids": {
-          "found": 22,
-          "total": 22
+          "found": 26,
+          "total": 26
         },
         "verdict": "supported"
       },
@@ -20085,8 +20086,8 @@
         "1.0.0.3663": {
           "check": "not_scanned",
           "ids": {
-            "found": 20,
-            "total": 20
+            "found": 21,
+            "total": 21
           },
           "pattern_counts": null,
           "status": "unchecked"
@@ -20094,8 +20095,8 @@
         "1.0.0.3732": {
           "check": "scanned",
           "ids": {
-            "found": 20,
-            "total": 20
+            "found": 21,
+            "total": 21
           },
           "pattern_counts": {
             "not_found": 6,
@@ -20137,8 +20138,8 @@
         "cdal": "0.7.8",
         "date": "2026-11-22",
         "ids": {
-          "found": 20,
-          "total": 20
+          "found": 21,
+          "total": 21
         },
         "verdict": "supported"
       }
@@ -20149,8 +20150,8 @@
         "1.0.0.3663": {
           "check": "scanned",
           "ids": {
-            "found": 170,
-            "total": 170
+            "found": 171,
+            "total": 171
           },
           "pattern_counts": {
             "not_found": 199,
@@ -20161,8 +20162,8 @@
         "1.0.0.3732": {
           "check": "scanned",
           "ids": {
-            "found": 170,
-            "total": 170
+            "found": 171,
+            "total": 171
           },
           "pattern_counts": {
             "not_found": 283,
@@ -20204,8 +20205,8 @@
         "cdal": "0.7.8",
         "date": "2026-11-22",
         "ids": {
-          "found": 170,
-          "total": 170
+          "found": 171,
+          "total": 171
         },
         "verdict": "supported"
       },
@@ -20892,8 +20893,8 @@
         "1.0.0.3663": {
           "check": "no_patterns",
           "ids": {
-            "found": 7,
-            "total": 7
+            "found": 8,
+            "total": 8
           },
           "pattern_counts": {
             "not_found": 0,
@@ -20904,22 +20905,22 @@
         "1.0.0.3732": {
           "check": "pinned",
           "ids": {
-            "found": 7,
-            "total": 7
+            "found": 8,
+            "total": 8
           },
           "pattern_counts": {
             "not_found": 0,
             "total": 0
           },
-          "places": 7,
+          "places": 8,
           "status": "ok"
         }
       },
       "coverage": {
-        "have": 7,
+        "have": 8,
         "level": "full",
         "missing": 0,
-        "total": 7,
+        "total": 8,
         "use": "everything",
         "waiting": 0
       },
@@ -20940,16 +20941,16 @@
       "nexus_updated": "2026-11-19T05:36:37Z",
       "supported": {
         "addresses": {
-          "total": 7,
-          "with_id": 7
+          "total": 8,
+          "with_id": 8
         },
         "alone": false,
         "build": "1.0.0.3732",
         "cdal": "0.7.8",
         "date": "2026-11-22",
         "ids": {
-          "found": 7,
-          "total": 7
+          "found": 8,
+          "total": 8
         },
         "verdict": "supported"
       }
@@ -21132,7 +21133,7 @@
       "newest_code_upload": "2026-11-19T14:31:15Z",
       "newest_main_file_upload": "",
       "nexus": "https://www.nexusmods.com/crimsondesert/mods/3482",
-      "nexus_checked": "2026-11-24T19:31:32Z",
+      "nexus_checked": "2026-11-24T20:02:10Z",
       "nexus_updated": "2026-11-24T15:47:59Z",
       "supported": {
         "addresses": {
@@ -22235,7 +22236,7 @@
       "newest_code_upload": "2026-09-10T22:19:04Z",
       "newest_main_file_upload": "",
       "nexus": "https://www.nexusmods.com/crimsondesert/mods/3273",
-      "nexus_checked": "2026-11-24T19:31:34Z",
+      "nexus_checked": "2026-11-24T20:02:12Z",
       "nexus_updated": "2026-09-10T22:19:04Z",
       "supported": {
         "addresses": {
@@ -23536,8 +23537,8 @@
         "1.0.0.3663": {
           "check": "not_scanned",
           "ids": {
-            "found": 96,
-            "total": 96
+            "found": 97,
+            "total": 97
           },
           "pattern_counts": null,
           "status": "unchecked"
@@ -23545,8 +23546,8 @@
         "1.0.0.3732": {
           "check": "scanned",
           "ids": {
-            "found": 96,
-            "total": 96
+            "found": 97,
+            "total": 97
           },
           "pattern_counts": {
             "not_found": 0,
@@ -23588,8 +23589,8 @@
         "cdal": "0.7.8",
         "date": "2026-11-22",
         "ids": {
-          "found": 96,
-          "total": 96
+          "found": 97,
+          "total": 97
         },
         "verdict": "supported"
       }
@@ -23733,8 +23734,8 @@
         "1.0.0.3663": {
           "check": "not_scanned",
           "ids": {
-            "found": 17,
-            "total": 17
+            "found": 19,
+            "total": 19
           },
           "pattern_counts": null,
           "status": "unchecked"
@@ -23742,8 +23743,8 @@
         "1.0.0.3732": {
           "check": "reviewed",
           "ids": {
-            "found": 17,
-            "total": 17
+            "found": 19,
+            "total": 19
           },
           "missing": 0,
           "pattern_counts": {
@@ -23755,11 +23756,11 @@
         }
       },
       "coverage": {
-        "have": 22,
-        "level": "some",
+        "have": 24,
+        "level": "full",
         "missing": 0,
         "total": 24,
-        "use": "ids_pack",
+        "use": "everything",
         "waiting": 0
       },
       "group": "scanned",
@@ -23979,11 +23980,11 @@
     "date": "2026-11-24",
     "game_version": "2.05.01",
     "ids": {
-      "found": 4854,
+      "found": 4897,
       "gone": 56,
       "held": 0,
       "lost": 1,
-      "total": 4854
+      "total": 4897
     },
     "lost_why": {
       "changed_meaning": 1,
