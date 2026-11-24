@@ -2,23 +2,23 @@
   "builds": [
     {
       "build": "1.0.0.3732",
-      "date": "2026-11-23"
+      "date": "2026-11-24"
     },
     {
       "build": "1.0.0.3663",
-      "date": "2026-11-23"
+      "date": "2026-11-24"
     }
   ],
   "credits": {
     "summary": {
       "build": "1.0.0.3732",
       "cdal": 1935,
-      "game_code": 4726,
-      "helped": 2711,
-      "helped_game_code": 2633,
-      "total": 4812,
+      "game_code": 4754,
+      "helped": 2713,
+      "helped_game_code": 2659,
+      "total": 4814,
       "unrecorded": 166,
-      "with_address": 4756
+      "with_address": 4758
     }
   },
   "excluded_authors": [
@@ -35,8 +35,8 @@
       "game_version": "2.05.01",
       "game_version_from": "game files",
       "ids": {
-        "found": 4756,
-        "total": 4812
+        "found": 4758,
+        "total": 4814
       },
       "pe_timestamp": "0x6AFDC0CF",
       "size_of_image": "0x13C7E000",
@@ -50,8 +50,8 @@
       "game_version": "2.05.00",
       "game_version_from": "",
       "ids": {
-        "found": 4756,
-        "total": 4812
+        "found": 4758,
+        "total": 4814
       },
       "pe_timestamp": "0x6AF5D198",
       "size_of_image": "0x144E9000",
@@ -66,7 +66,7 @@
       "game_version_from": "",
       "ids": {
         "found": 3845,
-        "total": 4812
+        "total": 4814
       },
       "pe_timestamp": "0x6AED2E85",
       "size_of_image": "0x13CC4000",
@@ -81,7 +81,7 @@
       "game_version_from": "patch notes date",
       "ids": {
         "found": 1992,
-        "total": 4812
+        "total": 4814
       },
       "pe_timestamp": "0x6AEA07A6",
       "size_of_image": "0x13EB2000",
@@ -96,7 +96,7 @@
       "game_version_from": "patch notes date",
       "ids": {
         "found": 1993,
-        "total": 4812
+        "total": 4814
       },
       "pe_timestamp": "0x6AE6E3E8",
       "size_of_image": "0x14073000",
@@ -111,7 +111,7 @@
       "game_version_from": "patch notes date",
       "ids": {
         "found": 1016,
-        "total": 4812
+        "total": 4814
       },
       "pe_timestamp": "0x6AE5F627",
       "size_of_image": "0x13E7F000",
@@ -126,7 +126,7 @@
       "game_version_from": "patch notes date",
       "ids": {
         "found": 1016,
-        "total": 4812
+        "total": 4814
       },
       "pe_timestamp": "0x6AE58024",
       "size_of_image": "0x13EE0000",
@@ -141,7 +141,7 @@
       "game_version_from": "patch notes date",
       "ids": {
         "found": 1015,
-        "total": 4812
+        "total": 4814
       },
       "pe_timestamp": "0x6AE46DD0",
       "size_of_image": "0x14268000",
@@ -156,7 +156,7 @@
       "game_version_from": "patch notes date",
       "ids": {
         "found": 1014,
-        "total": 4812
+        "total": 4814
       },
       "pe_timestamp": "0x6AE387F2",
       "size_of_image": "0x145B9000",
@@ -171,7 +171,7 @@
       "game_version_from": "patch notes date",
       "ids": {
         "found": 1013,
-        "total": 4812
+        "total": 4814
       },
       "pe_timestamp": "0x6AE2C6A6",
       "size_of_image": "0x1435A000",
@@ -186,7 +186,7 @@
       "game_version_from": "",
       "ids": {
         "found": 1131,
-        "total": 4812
+        "total": 4814
       },
       "pe_timestamp": "0x6AB28F00",
       "size_of_image": "0x173AB000",
@@ -2663,7 +2663,7 @@
       "newest_code_upload": "2026-11-06T19:37:26Z",
       "newest_main_file_upload": "",
       "nexus": "https://www.nexusmods.com/crimsondesert/mods/4024",
-      "nexus_checked": "2026-11-23T23:50:54Z",
+      "nexus_checked": "2026-11-24T00:30:51Z",
       "nexus_updated": "2026-11-06T19:37:30Z",
       "supported": {
         "addresses": {
@@ -3471,8 +3471,8 @@
         "1.0.0.3663": {
           "check": "scanned",
           "ids": {
-            "found": 12,
-            "total": 12
+            "found": 13,
+            "total": 13
           },
           "pattern_counts": {
             "not_found": 0,
@@ -3483,8 +3483,8 @@
         "1.0.0.3732": {
           "check": "scanned",
           "ids": {
-            "found": 12,
-            "total": 12
+            "found": 13,
+            "total": 13
           },
           "pattern_counts": {
             "not_found": 0,
@@ -3494,11 +3494,11 @@
         }
       },
       "coverage": {
-        "have": 12,
-        "level": "some",
+        "have": 13,
+        "level": "full",
         "missing": 0,
-        "total": 15,
-        "use": "ids_pack",
+        "total": 13,
+        "use": "everything",
         "waiting": 0
       },
       "group": "scanned",
@@ -3518,18 +3518,18 @@
       "nexus_updated": "2026-11-03T02:03:53Z",
       "supported": {
         "addresses": {
-          "total": 15,
-          "with_id": 12
+          "total": 13,
+          "with_id": 13
         },
         "alone": false,
         "build": "1.0.0.3732",
         "cdal": "0.7.8",
         "date": "2026-11-22",
         "ids": {
-          "found": 12,
-          "total": 12
+          "found": 13,
+          "total": 13
         },
-        "verdict": "partly"
+        "verdict": "supported"
       }
     },
     {
@@ -3538,8 +3538,8 @@
         "1.0.0.3663": {
           "check": "scanned",
           "ids": {
-            "found": 12,
-            "total": 12
+            "found": 13,
+            "total": 13
           },
           "pattern_counts": {
             "not_found": 0,
@@ -3550,8 +3550,8 @@
         "1.0.0.3732": {
           "check": "scanned",
           "ids": {
-            "found": 12,
-            "total": 12
+            "found": 13,
+            "total": 13
           },
           "pattern_counts": {
             "not_found": 0,
@@ -3561,11 +3561,11 @@
         }
       },
       "coverage": {
-        "have": 12,
-        "level": "some",
+        "have": 13,
+        "level": "full",
         "missing": 0,
-        "total": 15,
-        "use": "ids_pack",
+        "total": 13,
+        "use": "everything",
         "waiting": 0
       },
       "group": "scanned",
@@ -3585,18 +3585,18 @@
       "nexus_updated": "2026-11-07T11:03:02Z",
       "supported": {
         "addresses": {
-          "total": 15,
-          "with_id": 12
+          "total": 13,
+          "with_id": 13
         },
         "alone": false,
         "build": "1.0.0.3732",
         "cdal": "0.7.8",
         "date": "2026-11-22",
         "ids": {
-          "found": 12,
-          "total": 12
+          "found": 13,
+          "total": 13
         },
-        "verdict": "partly"
+        "verdict": "supported"
       }
     },
     {
@@ -13726,8 +13726,8 @@
         "1.0.0.3663": {
           "check": "same_places",
           "ids": {
-            "found": 20,
-            "total": 20
+            "found": 21,
+            "total": 21
           },
           "pattern_counts": {
             "not_found": 0,
@@ -13739,8 +13739,8 @@
         "1.0.0.3732": {
           "check": "scanned",
           "ids": {
-            "found": 20,
-            "total": 20
+            "found": 21,
+            "total": 21
           },
           "pattern_counts": {
             "not_found": 0,
@@ -13750,11 +13750,11 @@
         }
       },
       "coverage": {
-        "have": 27,
-        "level": "some",
+        "have": 28,
+        "level": "full",
         "missing": 0,
         "total": 28,
-        "use": "ids_pack",
+        "use": "everything",
         "waiting": 0
       },
       "group": "scanned",
@@ -13775,17 +13775,17 @@
       "supported": {
         "addresses": {
           "total": 28,
-          "with_id": 27
+          "with_id": 28
         },
         "alone": false,
         "build": "1.0.0.3732",
         "cdal": "0.7.8",
         "date": "2026-11-22",
         "ids": {
-          "found": 20,
-          "total": 20
+          "found": 21,
+          "total": 21
         },
-        "verdict": "partly"
+        "verdict": "supported"
       }
     },
     {
@@ -14364,8 +14364,10 @@
         }
       },
       "coverage": {
+        "checked": "2026-11-24",
         "have": 0,
-        "level": "unrun",
+        "how": "fixed",
+        "level": "unseen",
         "missing": 0,
         "total": 0,
         "use": "unknown",
@@ -14493,7 +14495,7 @@
       "newest_code_upload": "2026-04-11T22:01:11Z",
       "newest_main_file_upload": "",
       "nexus": "https://www.nexusmods.com/crimsondesert/mods/1009",
-      "nexus_checked": "2026-11-23T23:56:47Z",
+      "nexus_checked": "2026-11-24T00:31:01Z",
       "nexus_updated": "2026-04-11T22:01:11Z",
       "supported": {
         "verdict": "unchecked"
@@ -17320,7 +17322,7 @@
       "newest_code_upload": "2026-09-23T17:05:42Z",
       "newest_main_file_upload": "",
       "nexus": "https://www.nexusmods.com/crimsondesert/mods/3562",
-      "nexus_checked": "2026-11-23T23:58:14Z",
+      "nexus_checked": "2026-11-24T00:31:03Z",
       "nexus_updated": "2026-09-23T17:05:58Z",
       "supported": {
         "addresses": {
@@ -18424,10 +18426,10 @@
       },
       "coverage": {
         "have": 44,
-        "level": "some",
+        "level": "full",
         "missing": 0,
-        "total": 46,
-        "use": "ids_pack",
+        "total": 44,
+        "use": "everything",
         "waiting": 0
       },
       "group": "scanned",
@@ -18447,7 +18449,7 @@
       "nexus_updated": "2026-11-19T09:18:12Z",
       "supported": {
         "addresses": {
-          "total": 46,
+          "total": 44,
           "with_id": 44
         },
         "alone": false,
@@ -18458,7 +18460,7 @@
           "found": 39,
           "total": 39
         },
-        "verdict": "partly"
+        "verdict": "supported"
       }
     },
     {
@@ -20977,7 +20979,7 @@
       "newest_code_upload": "2026-11-19T14:31:15Z",
       "newest_main_file_upload": "",
       "nexus": "https://www.nexusmods.com/crimsondesert/mods/3482",
-      "nexus_checked": "2026-11-24T00:00:02Z",
+      "nexus_checked": "2026-11-24T00:31:07Z",
       "nexus_updated": "2026-11-19T14:31:15Z",
       "supported": {
         "addresses": {
@@ -22078,7 +22080,7 @@
       "newest_code_upload": "2026-09-10T22:19:04Z",
       "newest_main_file_upload": "",
       "nexus": "https://www.nexusmods.com/crimsondesert/mods/3273",
-      "nexus_checked": "2026-11-24T00:00:35Z",
+      "nexus_checked": "2026-11-24T00:31:09Z",
       "nexus_updated": "2026-09-10T22:19:04Z",
       "supported": {
         "addresses": {
@@ -23810,12 +23812,12 @@
   ],
   "patch": {
     "build": "1.0.0.3732",
-    "date": "2026-11-23",
+    "date": "2026-11-24",
     "game_version": "2.05.01",
     "ids": {
-      "found": 4756,
+      "found": 4758,
       "lost": 1,
-      "total": 4812
+      "total": 4814
     },
     "lost_why": {
       "changed_meaning": 1,
