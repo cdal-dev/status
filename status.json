@@ -2401,16 +2401,18 @@
           "status": "unchecked"
         },
         "1.0.0.3732": {
-          "check": "scanned",
+          "check": "reviewed",
           "ids": {
             "found": 1,
             "total": 1
           },
+          "missing": 0,
           "pattern_counts": {
             "not_found": 2,
             "total": 3
           },
-          "status": "broken"
+          "places": 3,
+          "status": "ok"
         }
       },
       "coverage": {
@@ -2693,7 +2695,7 @@
       "newest_code_upload": "2026-11-06T19:37:26Z",
       "newest_main_file_upload": "",
       "nexus": "https://www.nexusmods.com/crimsondesert/mods/4024",
-      "nexus_checked": "2026-11-24T17:52:30Z",
+      "nexus_checked": "2026-11-24T18:04:07Z",
       "nexus_updated": "2026-11-06T19:37:30Z",
       "supported": {
         "addresses": {
@@ -10353,16 +10355,18 @@
           "status": "unchecked"
         },
         "1.0.0.3732": {
-          "check": "scanned",
+          "check": "reviewed",
           "ids": {
             "found": 1,
             "total": 1
           },
+          "missing": 0,
           "pattern_counts": {
             "not_found": 2,
             "total": 3
           },
-          "status": "broken"
+          "places": 3,
+          "status": "ok"
         }
       },
       "coverage": {
@@ -14592,7 +14596,7 @@
       "newest_code_upload": "2026-04-11T22:01:11Z",
       "newest_main_file_upload": "",
       "nexus": "https://www.nexusmods.com/crimsondesert/mods/1009",
-      "nexus_checked": "2026-11-24T17:52:40Z",
+      "nexus_checked": "2026-11-24T18:04:17Z",
       "nexus_updated": "2026-04-11T22:01:11Z",
       "supported": {
         "verdict": "unchecked"
@@ -16980,37 +16984,38 @@
       "author": "Anlidan00",
       "builds": {
         "1.0.0.3663": {
-          "check": "none",
+          "check": "scanned",
           "ids": {
-            "found": 0,
-            "total": 0
+            "found": 4,
+            "total": 4
           },
           "pattern_counts": {
             "not_found": 2,
             "total": 2
           },
-          "status": "none"
+          "status": "broken"
         },
         "1.0.0.3732": {
-          "check": "none",
+          "check": "reviewed",
           "ids": {
-            "found": 0,
-            "total": 0
+            "found": 4,
+            "total": 4
           },
-          "outdated": "patterns",
+          "missing": 0,
           "pattern_counts": {
             "not_found": 1,
             "total": 1
           },
-          "status": "outdated"
+          "places": 6,
+          "status": "ok"
         }
       },
       "coverage": {
-        "have": 0,
-        "level": "unfound",
+        "have": 4,
+        "level": "some",
         "missing": 0,
-        "total": 0,
-        "use": "unknown",
+        "total": 6,
+        "use": "ids_pack",
         "waiting": 0
       },
       "group": "scanned",
@@ -17415,7 +17420,7 @@
       "newest_code_upload": "2026-09-23T17:05:42Z",
       "newest_main_file_upload": "",
       "nexus": "https://www.nexusmods.com/crimsondesert/mods/3562",
-      "nexus_checked": "2026-11-24T17:52:42Z",
+      "nexus_checked": "2026-11-24T18:04:19Z",
       "nexus_updated": "2026-09-23T17:05:58Z",
       "supported": {
         "addresses": {
@@ -21127,7 +21132,7 @@
       "newest_code_upload": "2026-11-19T14:31:15Z",
       "newest_main_file_upload": "",
       "nexus": "https://www.nexusmods.com/crimsondesert/mods/3482",
-      "nexus_checked": "2026-11-24T17:52:46Z",
+      "nexus_checked": "2026-11-24T18:04:23Z",
       "nexus_updated": "2026-11-24T15:47:59Z",
       "supported": {
         "addresses": {
@@ -22230,7 +22235,7 @@
       "newest_code_upload": "2026-09-10T22:19:04Z",
       "newest_main_file_upload": "",
       "nexus": "https://www.nexusmods.com/crimsondesert/mods/3273",
-      "nexus_checked": "2026-11-24T17:52:48Z",
+      "nexus_checked": "2026-11-24T18:04:25Z",
       "nexus_updated": "2026-09-10T22:19:04Z",
       "supported": {
         "addresses": {
@@ -22403,34 +22408,35 @@
       "author": "AlexeySova",
       "builds": {
         "1.0.0.3663": {
-          "check": "same_places",
+          "check": "not_scanned",
           "ids": {
-            "found": 0,
-            "total": 0
+            "found": 2,
+            "total": 2
           },
           "pattern_counts": null,
-          "places": 3,
-          "status": "ok"
+          "status": "unchecked"
         },
         "1.0.0.3732": {
-          "check": "no_patterns",
+          "check": "reviewed",
           "ids": {
-            "found": 0,
-            "total": 0
+            "found": 2,
+            "total": 2
           },
+          "missing": 0,
           "pattern_counts": {
             "not_found": 0,
             "total": 0
           },
-          "status": "nopatterns"
+          "places": 4,
+          "status": "ok"
         }
       },
       "coverage": {
-        "have": 0,
-        "level": "nothing",
+        "have": 2,
+        "level": "some",
         "missing": 0,
-        "total": 0,
-        "use": "unknown",
+        "total": 4,
+        "use": "ids_pack",
         "waiting": 0
       },
       "group": "scanned",
@@ -22450,18 +22456,18 @@
       "nexus_updated": "2026-11-20T08:45:08Z",
       "supported": {
         "addresses": {
-          "total": 0,
-          "with_id": 0
+          "total": 4,
+          "with_id": 2
         },
         "alone": false,
         "build": "1.0.0.3732",
         "cdal": "0.7.8",
         "date": "2026-11-22",
         "ids": {
-          "found": 0,
-          "total": 0
+          "found": 2,
+          "total": 2
         },
-        "verdict": "runs"
+        "verdict": "partly"
       }
     },
     {
@@ -24008,11 +24014,11 @@
       "unchecked": 0
     },
     "scanned": {
-      "broken": 31,
+      "broken": 29,
       "none": 7,
-      "nopatterns": 49,
-      "ok": 191,
-      "outdated": 25,
+      "nopatterns": 48,
+      "ok": 195,
+      "outdated": 24,
       "partly": 56,
       "unchecked": 1
     }
