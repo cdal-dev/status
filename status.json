@@ -13,16 +13,16 @@
     "summary": {
       "build": "1.0.0.3732",
       "cdal": 1935,
-      "exist": 4899,
-      "game_code": 4900,
-      "game_code_here": 4899,
+      "exist": 4897,
+      "game_code": 4898,
+      "game_code_here": 4897,
       "gone": 56,
       "held": 0,
-      "helped": 2843,
-      "helped_game_code": 2794,
-      "total": 4955,
+      "helped": 2841,
+      "helped_game_code": 2792,
+      "total": 4953,
       "unrecorded": 177,
-      "with_address": 4899
+      "with_address": 4897
     }
   },
   "excluded_authors": [
@@ -39,10 +39,10 @@
       "game_version": "2.05.01",
       "game_version_from": "game files",
       "ids": {
-        "found": 4899,
+        "found": 4897,
         "gone": 56,
         "held": 0,
-        "total": 4899
+        "total": 4897
       },
       "pe_timestamp": "0x6AFDC0CF",
       "size_of_image": "0x13C7E000",
@@ -56,10 +56,10 @@
       "game_version": "2.05.00",
       "game_version_from": "",
       "ids": {
-        "found": 4899,
+        "found": 4897,
         "gone": 55,
         "held": 0,
-        "total": 4900
+        "total": 4898
       },
       "pe_timestamp": "0x6AF5D198",
       "size_of_image": "0x144E9000",
@@ -76,7 +76,7 @@
         "found": 3845,
         "gone": 0,
         "held": 0,
-        "total": 4955
+        "total": 4953
       },
       "pe_timestamp": "0x6AED2E85",
       "size_of_image": "0x13CC4000",
@@ -93,7 +93,7 @@
         "found": 1992,
         "gone": 0,
         "held": 0,
-        "total": 4955
+        "total": 4953
       },
       "pe_timestamp": "0x6AEA07A6",
       "size_of_image": "0x13EB2000",
@@ -110,7 +110,7 @@
         "found": 1993,
         "gone": 0,
         "held": 0,
-        "total": 4955
+        "total": 4953
       },
       "pe_timestamp": "0x6AE6E3E8",
       "size_of_image": "0x14073000",
@@ -127,7 +127,7 @@
         "found": 1016,
         "gone": 0,
         "held": 0,
-        "total": 4955
+        "total": 4953
       },
       "pe_timestamp": "0x6AE5F627",
       "size_of_image": "0x13E7F000",
@@ -144,7 +144,7 @@
         "found": 1016,
         "gone": 0,
         "held": 0,
-        "total": 4955
+        "total": 4953
       },
       "pe_timestamp": "0x6AE58024",
       "size_of_image": "0x13EE0000",
@@ -161,7 +161,7 @@
         "found": 1015,
         "gone": 0,
         "held": 0,
-        "total": 4955
+        "total": 4953
       },
       "pe_timestamp": "0x6AE46DD0",
       "size_of_image": "0x14268000",
@@ -178,7 +178,7 @@
         "found": 1014,
         "gone": 0,
         "held": 0,
-        "total": 4955
+        "total": 4953
       },
       "pe_timestamp": "0x6AE387F2",
       "size_of_image": "0x145B9000",
@@ -195,7 +195,7 @@
         "found": 1013,
         "gone": 0,
         "held": 0,
-        "total": 4955
+        "total": 4953
       },
       "pe_timestamp": "0x6AE2C6A6",
       "size_of_image": "0x1435A000",
@@ -212,7 +212,7 @@
         "found": 1131,
         "gone": 0,
         "held": 0,
-        "total": 4955
+        "total": 4953
       },
       "pe_timestamp": "0x6AB28F00",
       "size_of_image": "0x173AB000",
@@ -677,16 +677,18 @@
           "status": "unchecked"
         },
         "1.0.0.3732": {
-          "check": "no_patterns",
+          "check": "reviewed",
           "ids": {
             "found": 2,
             "total": 2
           },
+          "missing": 0,
           "pattern_counts": {
             "not_found": 0,
             "total": 0
           },
-          "status": "nopatterns"
+          "places": 6,
+          "status": "ok"
         }
       },
       "coverage": {
@@ -1187,13 +1189,15 @@
           "status": "unchecked"
         },
         "1.0.0.3732": {
-          "check": "no_counts",
+          "check": "reviewed",
           "ids": {
             "found": 5,
             "total": 5
           },
+          "missing": 0,
           "pattern_counts": null,
-          "status": "unchecked"
+          "places": 6,
+          "status": "ok"
         }
       },
       "coverage": {
@@ -1490,28 +1494,36 @@
       "author": "Koonie",
       "builds": {
         "1.0.0.3663": {
-          "check": "no_patterns",
+          "check": "reviewed",
           "ids": {
             "found": 9,
             "total": 9
           },
+          "missing": 0,
+          "outdated": "only",
+          "outdated_for": "1.0.0.2976",
           "pattern_counts": {
             "not_found": 0,
             "total": 0
           },
-          "status": "nopatterns"
+          "places": 0,
+          "status": "outdated"
         },
         "1.0.0.3732": {
-          "check": "no_patterns",
+          "check": "reviewed",
           "ids": {
             "found": 9,
             "total": 9
           },
+          "missing": 0,
+          "outdated": "only",
+          "outdated_for": "1.0.0.2976",
           "pattern_counts": {
             "not_found": 0,
             "total": 0
           },
-          "status": "nopatterns"
+          "places": 0,
+          "status": "outdated"
         }
       },
       "coverage": {
@@ -2552,28 +2564,36 @@
       "author": "13Somenumbers",
       "builds": {
         "1.0.0.3663": {
-          "check": "no_patterns",
+          "check": "reviewed",
           "ids": {
             "found": 2,
             "total": 2
           },
+          "missing": 0,
+          "outdated": "only",
+          "outdated_for": "1.0.0.2976",
           "pattern_counts": {
             "not_found": 0,
             "total": 0
           },
-          "status": "nopatterns"
+          "places": 0,
+          "status": "outdated"
         },
         "1.0.0.3732": {
-          "check": "no_patterns",
+          "check": "reviewed",
           "ids": {
             "found": 2,
             "total": 2
           },
+          "missing": 0,
+          "outdated": "only",
+          "outdated_for": "1.0.0.2976",
           "pattern_counts": {
             "not_found": 0,
             "total": 0
           },
-          "status": "nopatterns"
+          "places": 0,
+          "status": "outdated"
         }
       },
       "coverage": {
@@ -2741,7 +2761,7 @@
       "newest_code_upload": "2026-11-06T19:37:26Z",
       "newest_main_file_upload": "",
       "nexus": "https://www.nexusmods.com/crimsondesert/mods/4024",
-      "nexus_checked": "2026-11-25T09:21:03Z",
+      "nexus_checked": "2026-11-25T09:35:37Z",
       "nexus_updated": "2026-11-06T19:37:30Z",
       "supported": {
         "addresses": {
@@ -5449,28 +5469,36 @@
       "author": "ByJunter",
       "builds": {
         "1.0.0.3663": {
-          "check": "no_patterns",
+          "check": "reviewed",
           "ids": {
             "found": 12,
             "total": 12
           },
+          "missing": 0,
+          "outdated": "only",
+          "outdated_for": "1.0.0.2976",
           "pattern_counts": {
             "not_found": 0,
             "total": 0
           },
-          "status": "nopatterns"
+          "places": 0,
+          "status": "outdated"
         },
         "1.0.0.3732": {
-          "check": "no_patterns",
+          "check": "reviewed",
           "ids": {
             "found": 12,
             "total": 12
           },
+          "missing": 0,
+          "outdated": "only",
+          "outdated_for": "1.0.0.2976",
           "pattern_counts": {
             "not_found": 0,
             "total": 0
           },
-          "status": "nopatterns"
+          "places": 0,
+          "status": "outdated"
         }
       },
       "coverage": {
@@ -6076,28 +6104,36 @@
       "author": "Gaidenre",
       "builds": {
         "1.0.0.3663": {
-          "check": "no_patterns",
+          "check": "reviewed",
           "ids": {
             "found": 9,
             "total": 9
           },
+          "missing": 0,
+          "outdated": "only",
+          "outdated_for": "1.0.0.2976",
           "pattern_counts": {
             "not_found": 0,
             "total": 0
           },
-          "status": "nopatterns"
+          "places": 0,
+          "status": "outdated"
         },
         "1.0.0.3732": {
-          "check": "no_patterns",
+          "check": "reviewed",
           "ids": {
             "found": 9,
             "total": 9
           },
+          "missing": 0,
+          "outdated": "only",
+          "outdated_for": "1.0.0.2976",
           "pattern_counts": {
             "not_found": 0,
             "total": 0
           },
-          "status": "nopatterns"
+          "places": 0,
+          "status": "outdated"
         }
       },
       "coverage": {
@@ -6306,28 +6342,36 @@
       "author": "13Somenumbers",
       "builds": {
         "1.0.0.3663": {
-          "check": "no_patterns",
+          "check": "reviewed",
           "ids": {
             "found": 1,
             "total": 1
           },
+          "missing": 0,
+          "outdated": "only",
+          "outdated_for": "1.0.0.2976",
           "pattern_counts": {
             "not_found": 0,
             "total": 0
           },
-          "status": "nopatterns"
+          "places": 0,
+          "status": "outdated"
         },
         "1.0.0.3732": {
-          "check": "no_patterns",
+          "check": "reviewed",
           "ids": {
             "found": 1,
             "total": 1
           },
+          "missing": 0,
+          "outdated": "only",
+          "outdated_for": "1.0.0.2976",
           "pattern_counts": {
             "not_found": 0,
             "total": 0
           },
-          "status": "nopatterns"
+          "places": 0,
+          "status": "outdated"
         }
       },
       "coverage": {
@@ -6592,16 +6636,19 @@
           "status": "nopatterns"
         },
         "1.0.0.3732": {
-          "check": "no_patterns",
+          "check": "reviewed",
           "ids": {
             "found": 22,
             "total": 22
           },
+          "missing": 17,
+          "outdated": "places",
           "pattern_counts": {
             "not_found": 0,
             "total": 0
           },
-          "status": "nopatterns"
+          "places": 0,
+          "status": "outdated"
         }
       },
       "coverage": {
@@ -6713,28 +6760,36 @@
       "author": "13Somenumbers",
       "builds": {
         "1.0.0.3663": {
-          "check": "no_patterns",
+          "check": "reviewed",
           "ids": {
             "found": 1,
             "total": 1
           },
+          "missing": 0,
+          "outdated": "only",
+          "outdated_for": "1.0.0.2976",
           "pattern_counts": {
             "not_found": 0,
             "total": 0
           },
-          "status": "nopatterns"
+          "places": 0,
+          "status": "outdated"
         },
         "1.0.0.3732": {
-          "check": "no_patterns",
+          "check": "reviewed",
           "ids": {
             "found": 1,
             "total": 1
           },
+          "missing": 0,
+          "outdated": "only",
+          "outdated_for": "1.0.0.2976",
           "pattern_counts": {
             "not_found": 0,
             "total": 0
           },
-          "status": "nopatterns"
+          "places": 0,
+          "status": "outdated"
         }
       },
       "coverage": {
@@ -6847,28 +6902,36 @@
       "author": "13Somenumbers",
       "builds": {
         "1.0.0.3663": {
-          "check": "no_patterns",
+          "check": "reviewed",
           "ids": {
             "found": 7,
             "total": 7
           },
+          "missing": 0,
+          "outdated": "only",
+          "outdated_for": "1.0.0.2976",
           "pattern_counts": {
             "not_found": 0,
             "total": 0
           },
-          "status": "nopatterns"
+          "places": 0,
+          "status": "outdated"
         },
         "1.0.0.3732": {
-          "check": "no_patterns",
+          "check": "reviewed",
           "ids": {
             "found": 7,
             "total": 7
           },
+          "missing": 0,
+          "outdated": "only",
+          "outdated_for": "1.0.0.2976",
           "pattern_counts": {
             "not_found": 0,
             "total": 0
           },
-          "status": "nopatterns"
+          "places": 0,
+          "status": "outdated"
         }
       },
       "coverage": {
@@ -6981,28 +7044,36 @@
       "author": "Gaidenre",
       "builds": {
         "1.0.0.3663": {
-          "check": "no_patterns",
+          "check": "reviewed",
           "ids": {
             "found": 1,
             "total": 1
           },
+          "missing": 0,
+          "outdated": "only",
+          "outdated_for": "1.0.0.2976",
           "pattern_counts": {
             "not_found": 0,
             "total": 0
           },
-          "status": "nopatterns"
+          "places": 0,
+          "status": "outdated"
         },
         "1.0.0.3732": {
-          "check": "no_patterns",
+          "check": "reviewed",
           "ids": {
             "found": 1,
             "total": 1
           },
+          "missing": 0,
+          "outdated": "only",
+          "outdated_for": "1.0.0.2976",
           "pattern_counts": {
             "not_found": 0,
             "total": 0
           },
-          "status": "nopatterns"
+          "places": 0,
+          "status": "outdated"
         }
       },
       "coverage": {
@@ -7060,16 +7131,19 @@
           "status": "nopatterns"
         },
         "1.0.0.3732": {
-          "check": "no_patterns",
+          "check": "reviewed",
           "ids": {
             "found": 1,
             "total": 1
           },
+          "missing": 1,
+          "outdated": "places",
           "pattern_counts": {
             "not_found": 0,
             "total": 0
           },
-          "status": "nopatterns"
+          "places": 0,
+          "status": "outdated"
         }
       },
       "coverage": {
@@ -7342,16 +7416,20 @@
           "status": "ok"
         },
         "1.0.0.3732": {
-          "check": "no_patterns",
+          "check": "reviewed",
           "ids": {
             "found": 2,
             "total": 2
           },
+          "missing": 0,
+          "outdated": "only",
+          "outdated_for": "1.0.0.3663",
           "pattern_counts": {
             "not_found": 0,
             "total": 0
           },
-          "status": "nopatterns"
+          "places": 0,
+          "status": "outdated"
         }
       },
       "coverage": {
@@ -8015,16 +8093,19 @@
           "status": "nopatterns"
         },
         "1.0.0.3732": {
-          "check": "no_patterns",
+          "check": "reviewed",
           "ids": {
             "found": 1,
             "total": 1
           },
+          "missing": 7,
+          "outdated": "places",
           "pattern_counts": {
             "not_found": 0,
             "total": 0
           },
-          "status": "nopatterns"
+          "places": 0,
+          "status": "outdated"
         }
       },
       "coverage": {
@@ -9091,16 +9172,19 @@
           "status": "nopatterns"
         },
         "1.0.0.3732": {
-          "check": "no_patterns",
+          "check": "reviewed",
           "ids": {
             "found": 1,
             "total": 1
           },
+          "missing": 5,
+          "outdated": "places",
           "pattern_counts": {
             "not_found": 0,
             "total": 0
           },
-          "status": "nopatterns"
+          "places": 0,
+          "status": "outdated"
         }
       },
       "coverage": {
@@ -9541,28 +9625,36 @@
       "author": "JaBalan",
       "builds": {
         "1.0.0.3663": {
-          "check": "no_patterns",
+          "check": "reviewed",
           "ids": {
             "found": 10,
             "total": 10
           },
+          "missing": 0,
+          "outdated": "only",
+          "outdated_for": "1.0.0.2976",
           "pattern_counts": {
             "not_found": 0,
             "total": 0
           },
-          "status": "nopatterns"
+          "places": 0,
+          "status": "outdated"
         },
         "1.0.0.3732": {
-          "check": "no_patterns",
+          "check": "reviewed",
           "ids": {
             "found": 10,
             "total": 10
           },
+          "missing": 0,
+          "outdated": "only",
+          "outdated_for": "1.0.0.2976",
           "pattern_counts": {
             "not_found": 0,
             "total": 0
           },
-          "status": "nopatterns"
+          "places": 0,
+          "status": "outdated"
         }
       },
       "coverage": {
@@ -11118,28 +11210,36 @@
       "author": "13Somenumbers",
       "builds": {
         "1.0.0.3663": {
-          "check": "no_patterns",
+          "check": "reviewed",
           "ids": {
             "found": 3,
             "total": 4
           },
+          "missing": 0,
+          "outdated": "only",
+          "outdated_for": "1.0.0.2976",
           "pattern_counts": {
             "not_found": 0,
             "total": 0
           },
-          "status": "nopatterns"
+          "places": 0,
+          "status": "outdated"
         },
         "1.0.0.3732": {
-          "check": "no_patterns",
+          "check": "reviewed",
           "ids": {
             "found": 3,
             "total": 4
           },
+          "missing": 0,
+          "outdated": "only",
+          "outdated_for": "1.0.0.2976",
           "pattern_counts": {
             "not_found": 0,
             "total": 0
           },
-          "status": "nopatterns"
+          "places": 0,
+          "status": "outdated"
         }
       },
       "coverage": {
@@ -12130,13 +12230,15 @@
       "author": "Naesia",
       "builds": {
         "1.0.0.3663": {
-          "check": "not_scanned",
+          "check": "reviewed",
           "ids": {
             "found": 1,
             "total": 1
           },
+          "missing": 0,
           "pattern_counts": null,
-          "status": "unchecked"
+          "places": 1,
+          "status": "ok"
         },
         "1.0.0.3732": {
           "check": "reviewed",
@@ -13642,28 +13744,36 @@
       "author": "13Somenumbers",
       "builds": {
         "1.0.0.3663": {
-          "check": "no_patterns",
+          "check": "reviewed",
           "ids": {
             "found": 3,
             "total": 3
           },
+          "missing": 0,
+          "outdated": "only",
+          "outdated_for": "1.0.0.2976",
           "pattern_counts": {
             "not_found": 0,
             "total": 0
           },
-          "status": "nopatterns"
+          "places": 0,
+          "status": "outdated"
         },
         "1.0.0.3732": {
-          "check": "no_patterns",
+          "check": "reviewed",
           "ids": {
             "found": 3,
             "total": 3
           },
+          "missing": 0,
+          "outdated": "only",
+          "outdated_for": "1.0.0.2976",
           "pattern_counts": {
             "not_found": 0,
             "total": 0
           },
-          "status": "nopatterns"
+          "places": 0,
+          "status": "outdated"
         }
       },
       "coverage": {
@@ -14776,7 +14886,7 @@
       "newest_code_upload": "2026-04-11T22:01:11Z",
       "newest_main_file_upload": "",
       "nexus": "https://www.nexusmods.com/crimsondesert/mods/1009",
-      "nexus_checked": "2026-11-25T09:21:13Z",
+      "nexus_checked": "2026-11-25T09:35:47Z",
       "nexus_updated": "2026-04-11T22:01:11Z",
       "supported": {
         "verdict": "unchecked"
@@ -15518,16 +15628,18 @@
           "status": "unchecked"
         },
         "1.0.0.3732": {
-          "check": "no_patterns",
+          "check": "reviewed",
           "ids": {
             "found": 3,
             "total": 3
           },
+          "missing": 0,
           "pattern_counts": {
             "not_found": 0,
             "total": 0
           },
-          "status": "nopatterns"
+          "places": 14,
+          "status": "ok"
         }
       },
       "coverage": {
@@ -16442,16 +16554,19 @@
           "status": "nopatterns"
         },
         "1.0.0.3732": {
-          "check": "no_patterns",
+          "check": "reviewed",
           "ids": {
             "found": 2,
             "total": 2
           },
+          "missing": 2,
+          "outdated": "places",
           "pattern_counts": {
             "not_found": 0,
             "total": 0
           },
-          "status": "nopatterns"
+          "places": 0,
+          "status": "outdated"
         }
       },
       "coverage": {
@@ -17217,13 +17332,15 @@
       "author": "seunggil",
       "builds": {
         "1.0.0.3663": {
-          "check": "not_scanned",
+          "check": "reviewed",
           "ids": {
             "found": 8,
             "total": 8
           },
+          "missing": 0,
           "pattern_counts": null,
-          "status": "unchecked"
+          "places": 8,
+          "status": "ok"
         },
         "1.0.0.3732": {
           "check": "reviewed",
@@ -17551,28 +17668,36 @@
       "author": "p0nx77",
       "builds": {
         "1.0.0.3663": {
-          "check": "no_patterns",
+          "check": "reviewed",
           "ids": {
             "found": 2,
             "total": 2
           },
+          "missing": 0,
+          "outdated": "only",
+          "outdated_for": "1.0.0.2976",
           "pattern_counts": {
             "not_found": 0,
             "total": 0
           },
-          "status": "nopatterns"
+          "places": 0,
+          "status": "outdated"
         },
         "1.0.0.3732": {
-          "check": "no_patterns",
+          "check": "reviewed",
           "ids": {
             "found": 2,
             "total": 2
           },
+          "missing": 0,
+          "outdated": "only",
+          "outdated_for": "1.0.0.2976",
           "pattern_counts": {
             "not_found": 0,
             "total": 0
           },
-          "status": "nopatterns"
+          "places": 0,
+          "status": "outdated"
         }
       },
       "coverage": {
@@ -17596,7 +17721,7 @@
       "newest_code_upload": "2026-09-23T17:05:42Z",
       "newest_main_file_upload": "",
       "nexus": "https://www.nexusmods.com/crimsondesert/mods/3562",
-      "nexus_checked": "2026-11-25T09:21:15Z",
+      "nexus_checked": "2026-11-25T09:35:49Z",
       "nexus_updated": "2026-09-23T17:05:58Z",
       "supported": {
         "addresses": {
@@ -17698,16 +17823,18 @@
           "status": "ok"
         },
         "1.0.0.3732": {
-          "check": "no_patterns",
+          "check": "reviewed",
           "ids": {
             "found": 4,
             "total": 4
           },
+          "missing": 4,
           "pattern_counts": {
             "not_found": 0,
             "total": 0
           },
-          "status": "nopatterns"
+          "places": 1,
+          "status": "partly"
         }
       },
       "coverage": {
@@ -17972,16 +18099,19 @@
           "status": "nopatterns"
         },
         "1.0.0.3732": {
-          "check": "no_patterns",
+          "check": "reviewed",
           "ids": {
             "found": 1,
             "total": 1
           },
+          "missing": 5,
+          "outdated": "places",
           "pattern_counts": {
             "not_found": 0,
             "total": 0
           },
-          "status": "nopatterns"
+          "places": 0,
+          "status": "outdated"
         }
       },
       "coverage": {
@@ -20919,16 +21049,20 @@
           "status": "ok"
         },
         "1.0.0.3732": {
-          "check": "no_patterns",
+          "check": "reviewed",
           "ids": {
             "found": 1,
             "total": 1
           },
+          "missing": 0,
+          "outdated": "only",
+          "outdated_for": "1.0.0.3663",
           "pattern_counts": {
             "not_found": 0,
             "total": 0
           },
-          "status": "nopatterns"
+          "places": 0,
+          "status": "outdated"
         }
       },
       "coverage": {
@@ -21353,7 +21487,7 @@
       "newest_code_upload": "2026-11-25T05:42:47Z",
       "newest_main_file_upload": "",
       "nexus": "https://www.nexusmods.com/crimsondesert/mods/3482",
-      "nexus_checked": "2026-11-25T09:21:19Z",
+      "nexus_checked": "2026-11-25T09:35:54Z",
       "nexus_updated": "2026-11-25T05:42:47Z",
       "supported": {
         "addresses": {
@@ -22456,7 +22590,7 @@
       "newest_code_upload": "2026-09-10T22:19:04Z",
       "newest_main_file_upload": "",
       "nexus": "https://www.nexusmods.com/crimsondesert/mods/3273",
-      "nexus_checked": "2026-11-25T09:21:21Z",
+      "nexus_checked": "2026-11-25T09:35:55Z",
       "nexus_updated": "2026-09-10T22:19:04Z",
       "supported": {
         "addresses": {
@@ -23484,28 +23618,36 @@
       "author": "13Somenumbers",
       "builds": {
         "1.0.0.3663": {
-          "check": "no_patterns",
+          "check": "reviewed",
           "ids": {
             "found": 6,
             "total": 6
           },
+          "missing": 0,
+          "outdated": "only",
+          "outdated_for": "1.0.0.2976",
           "pattern_counts": {
             "not_found": 0,
             "total": 0
           },
-          "status": "nopatterns"
+          "places": 0,
+          "status": "outdated"
         },
         "1.0.0.3732": {
-          "check": "no_patterns",
+          "check": "reviewed",
           "ids": {
             "found": 6,
             "total": 6
           },
+          "missing": 0,
+          "outdated": "only",
+          "outdated_for": "1.0.0.2976",
           "pattern_counts": {
             "not_found": 0,
             "total": 0
           },
-          "status": "nopatterns"
+          "places": 0,
+          "status": "outdated"
         }
       },
       "coverage": {
@@ -24198,11 +24340,11 @@
     "date": "2026-11-24",
     "game_version": "2.05.01",
     "ids": {
-      "found": 4899,
+      "found": 4897,
       "gone": 56,
       "held": 0,
       "lost": 1,
-      "total": 4899
+      "total": 4897
     },
     "lost_why": {
       "changed_meaning": 1,
@@ -24235,11 +24377,11 @@
     "scanned": {
       "broken": 31,
       "none": 8,
-      "nopatterns": 54,
-      "ok": 190,
-      "outdated": 24,
-      "partly": 57,
-      "unchecked": 1
+      "nopatterns": 30,
+      "ok": 193,
+      "outdated": 45,
+      "partly": 58,
+      "unchecked": 0
     }
   }
 }
