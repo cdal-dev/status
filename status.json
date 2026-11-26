@@ -204,9 +204,9 @@
     }
   ],
   "latest_game": {
-    "cdal_update_pending": false,
-    "patch_day": null,
-    "version": "1.0.0.3732"
+    "cdal_update_pending": true,
+    "patch_day": "running",
+    "version": "1.0.0.3840"
   },
   "mods": [
     {
