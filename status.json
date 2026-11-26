@@ -282,6 +282,7 @@
       "changed_meaning": 1,
       "held": 0,
       "not_found": 0,
+      "quarantined": 0,
       "removed": 0
     },
     "previous": "1.0.0.3663",

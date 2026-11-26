@@ -309,7 +309,8 @@
       var badgeCls = r[4] === "verified" || r[4] === "found" ? "ok" : (r[4] === "changed-meaning" ? "fail" : "warn");
       var addrCell = r[3] !== null ? "<code>0x" + esc(r[3]) + "</code>" : '<span style="color:var(--faint)">none</span>';
       html.push("<tr class='clickable-row' data-idrow='" + r[0] + "'><td class='num'>" + r[0] + "</td><td><code>" + esc(r[1]) + "</code></td><td>" +
-        esc(r[2]) + "</td><td>" + addrCell + "</td><td><span class='badge " + badgeCls + "'>" + esc(r[4]) + "</span></td></tr>");
+        esc(r[2]) + "</td><td>" + addrCell + "</td><td><span class='badge " + badgeCls + "'>" +
+        esc(r[4] === "quarantined" ? "quarantined (under review)" : r[4]) + "</span></td></tr>");
       if (expandedId === r[0]) {
         var snips = makeSnippets(r);
         html.push("<tr class='id-drawer'><td colspan='5'>" +
