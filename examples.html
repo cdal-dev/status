@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>Examples &amp; Cookbook - CDAL &amp; BSX Hub</title>
+<link rel="stylesheet" href="site.css">
+</head>
+<body>
+<div class="shell">
+  <header class="topbar">
+    <a class="brand" href="index.html">
+      <span class="brand-mark mark-light"><svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+<title id="title">CDAL: mark</title>
+<rect x="4" y="4" width="56" height="56" rx="5.00" fill="#0D1015"/><path fill="#FFFFFF" d="M19.91 41.66Q17.97 41.66 16.52 40.8Q15.07 39.94 14.29 38.36Q13.52 36.78 13.52 34.62Q13.52 32.39 14.32 30.79Q15.11 29.19 16.57 28.3Q18.03 27.42 20.02 27.42Q21.81 27.42 23.13 28.15Q24.44 28.88 25.21 30.21Q25.97 31.54 26.04 33.35H22.87Q22.59 32.02 21.85 31.29Q21.11 30.56 20 30.56Q18.56 30.56 17.74 31.62Q16.92 32.68 16.92 34.62Q16.92 36.47 17.72 37.49Q18.51 38.52 19.91 38.52Q20.89 38.52 21.58 37.91Q22.26 37.3 22.59 36.19H25.77Q25.64 37.87 24.87 39.1Q24.1 40.33 22.82 40.99Q21.54 41.66 19.91 41.66ZM33.34 41.59Q31.73 41.59 30.53 40.73Q29.33 39.87 28.67 38.29Q28.02 36.71 28.02 34.55Q28.02 32.37 28.67 30.79Q29.33 29.21 30.53 28.35Q31.73 27.49 33.34 27.49Q34.32 27.49 35.13 27.91Q35.94 28.34 36.33 29.1H37.14V22.75H40.67V41.25H37.14V39.98H36.33Q35.94 40.72 35.13 41.16Q34.32 41.59 33.34 41.59ZM34.39 38.45Q35.81 38.45 36.59 37.42Q37.38 36.38 37.38 34.53Q37.38 32.68 36.59 31.65Q35.81 30.63 34.39 30.63Q32.99 30.63 32.21 31.66Q31.42 32.7 31.42 34.55Q31.42 36.4 32.21 37.43Q32.99 38.45 34.39 38.45Z"/><rect x="43.94" y="22.75" width="6.54" height="18.49" fill="#D7263D"/>
+</svg></span>
+      <span class="brand-mark mark-dark"><svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+<title id="title">CDAL: mark</title>
+<rect x="4" y="4" width="56" height="56" rx="5.00" fill="#F1F2F4"/><path fill="#0D1015" d="M19.91 41.66Q17.97 41.66 16.52 40.8Q15.07 39.94 14.29 38.36Q13.52 36.78 13.52 34.62Q13.52 32.39 14.32 30.79Q15.11 29.19 16.57 28.3Q18.03 27.42 20.02 27.42Q21.81 27.42 23.13 28.15Q24.44 28.88 25.21 30.21Q25.97 31.54 26.04 33.35H22.87Q22.59 32.02 21.85 31.29Q21.11 30.56 20 30.56Q18.56 30.56 17.74 31.62Q16.92 32.68 16.92 34.62Q16.92 36.47 17.72 37.49Q18.51 38.52 19.91 38.52Q20.89 38.52 21.58 37.91Q22.26 37.3 22.59 36.19H25.77Q25.64 37.87 24.87 39.1Q24.1 40.33 22.82 40.99Q21.54 41.66 19.91 41.66ZM33.34 41.59Q31.73 41.59 30.53 40.73Q29.33 39.87 28.67 38.29Q28.02 36.71 28.02 34.55Q28.02 32.37 28.67 30.79Q29.33 29.21 30.53 28.35Q31.73 27.49 33.34 27.49Q34.32 27.49 35.13 27.91Q35.94 28.34 36.33 29.1H37.14V22.75H40.67V41.25H37.14V39.98H36.33Q35.94 40.72 35.13 41.16Q34.32 41.59 33.34 41.59ZM34.39 38.45Q35.81 38.45 36.59 37.42Q37.38 36.38 37.38 34.53Q37.38 32.68 36.59 31.65Q35.81 30.63 34.39 30.63Q32.99 30.63 32.21 31.66Q31.42 32.7 31.42 34.55Q31.42 36.4 32.21 37.43Q32.99 38.45 34.39 38.45Z"/><rect x="43.94" y="22.75" width="6.54" height="18.49" fill="#F04B60"/>
+</svg></span>
+      <span>
+        <div class="brand-title">CDAL &middot; BSX &middot; BSX Lua</div>
+        <div class="brand-sub">Runnable recipes and repository examples across BSX Lua, tweaks.json, and C/C++</div>
+      </span>
+    </a>
+    <div class="top-actions">
+      <span class="pill-stat num">Game <b>2.05.01</b> (<code>1.0.0.3732</code>)</span>
+      <span class="pill-stat num">CDAL IDs <b>4,758 / 4,814</b></span>
+      <span class="pill-stat num">Lua API <b>370</b> fn &middot; <b>42</b> ev</span>
+      <button type="button" id="theme-toggle">Theme</button>
+    </div>
+  </header>
+
+  <nav class="tabs" aria-label="Primary navigation">
+    <a href="index.html">Overview &amp; Guides</a><a href="lua-api.html">Lua API</a><a href="examples.html" aria-current="page">Examples &amp; Cookbook</a><a href="game-builds.html">Game Builds &amp; IDs</a><a href="mods.html">Enrolled Mods</a><span class="spacer"></span><a class="ext-link" href="https://ko-fi.com/ratrider" target="_blank" rel="noopener"><span class="heart">&#9829;</span>Support on Ko-fi</a>
+  </nav>
+
+  <main>
+    
+  <div class="notice">
+    <div><strong>Cookbook &amp; Examples:</strong> <strong>36 Cookbook recipes</strong> and <strong>87 repository examples</strong>. Searchable source across Lua, <code>tweaks.json</code>, INI, C, and C++23.</div>
+    <span class="badge accent">123 Total Entries</span>
+  </div>
+
+  <section class="grid-4">
+    <div class="card"><div class="kpi-label">Cookbook Recipes</div><div class="kpi-val">36</div><div class="kpi-sub">Multi-file starter scripts to adapt</div></div>
+    <div class="card"><div class="kpi-label">Safe &amp; Data-Only Lua</div><div class="kpi-val" style="color:var(--ok)">75</div><div class="kpi-sub">3 data-only <code>tweaks.json</code> packs</div></div>
+    <div class="card"><div class="kpi-label">Changes-Tier Lua</div><div class="kpi-val" style="color:var(--warn)">39</div><div class="kpi-sub">World, camera, toolkit &amp; studio mods</div></div>
+    <div class="card"><div class="kpi-label">Native C / C++ Plugins</div><div class="kpi-val">9</div><div class="kpi-sub">CDAL ASIs &amp; BSX ABI plugins</div></div>
+  </section>
+
+  <div class="toolbar">
+    <input type="search" id="ex-search" class="grow" placeholder="Search recipes &amp; examples by name, topic, API call, or code (e.g. mcm, items.search, Hook)...">
+    <select id="ex-cat" aria-label="Category">
+      <option value="">All categories (10)</option>
+      <option value="Cookbook Recipes">Cookbook Recipes</option><option value="Camera, Movement &amp; Flight">Camera, Movement &amp; Flight</option><option value="Items &amp; Inventory">Items &amp; Inventory</option><option value="UI &amp; Overlays">UI &amp; Overlays</option><option value="World, Time &amp; Exploration">World, Time &amp; Exploration</option><option value="Appearance &amp; Outfits">Appearance &amp; Outfits</option><option value="Combat &amp; Stats">Combat &amp; Stats</option><option value="BSX Core &amp; Diagnostics">BSX Core &amp; Diagnostics</option><option value="Data-Only Packs">Data-Only Packs</option><option value="Native C / C++">Native C / C++</option>
+    </select>
+    <div class="pill-row">
+      <button type="button" class="tab-pill" data-exf="all" aria-pressed="true">All (123)</button>
+      <button type="button" class="tab-pill" data-exf="recipes" aria-pressed="false">Recipes (36)</button>
+      <button type="button" class="tab-pill" data-exf="safe" aria-pressed="false">Safe Lua</button>
+      <button type="button" class="tab-pill" data-exf="changes" aria-pressed="false">Changes Lua</button>
+      <button type="button" class="tab-pill" data-exf="data_only" aria-pressed="false">Data-Only</button>
+      <button type="button" class="tab-pill" data-exf="native" aria-pressed="false">C / C++</button>
+    </div>
+  </div>
+
+  <div class="ex-layout">
+    <aside class="ex-list" id="ex-list" aria-label="Examples list"></aside>
+    <section class="ex-viewer" id="ex-viewer" aria-live="polite"></section>
+  </div>
+
+  </main>
+
+  <footer class="footer">
+    <div>CDAL 0.7.8 &middot; BSX 0.3.2 &middot; Crimson Desert Address Library &amp; Script Extender &middot; Data updated <time datetime="2026-11-24">2026-11-24</time></div>
+    <div class="footer-links">
+      <a href="https://discord.gg/Ucyp39ayUX" target="_blank" rel="noopener">Discord</a>
+      <a href="mods.html">Enroll a mod</a>
+    </div>
+  </footer>
+</div>
+<script src="common.js"></script>
+<script src="examples.js"></script>
+<script>
+(function () {
+  var LIST = window.CDAL_EXAMPLES || [];
+  var listEl = document.getElementById("ex-list");
+  var viewEl = document.getElementById("ex-viewer");
+  var searchEl = document.getElementById("ex-search");
+  var catEl = document.getElementById("ex-cat");
+  var filter = "all", activeId = "", activeFileIdx = 0;
+
+  function esc(s) {
+    return String(s || "").replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
+  }
+
+  function tierBadge(e) {
+    if (e.tier === "safe") return '<span class="badge ok">Safe Lua</span>';
+    if (e.tier === "data_only") return '<span class="badge ok">Data-Only</span>';
+    if (e.tier === "changes") return '<span class="badge warn">Changes</span>';
+    return '<span class="badge accent">C / C++</span>';
+  }
+
+  function filtered() {
+    var q = (searchEl.value || "").trim().toLowerCase();
+    var cat = catEl.value;
+    return LIST.filter(function (e) {
+      if (cat && e.category !== cat) return false;
+      if (filter === "recipes" && !e.featured) return false;
+      if (filter === "safe" && e.tier !== "safe") return false;
+      if (filter === "changes" && e.tier !== "changes") return false;
+      if (filter === "data_only" && e.tier !== "data_only") return false;
+      if (filter === "native" && e.kind !== "native_cpp") return false;
+      if (!q) return true;
+      return e.id.toLowerCase().indexOf(q) !== -1 ||
+             e.title.toLowerCase().indexOf(q) !== -1 ||
+             e.category.toLowerCase().indexOf(q) !== -1 ||
+             e.description.toLowerCase().indexOf(q) !== -1 ||
+             (e.uses || []).join(" ").toLowerCase().indexOf(q) !== -1 ||
+             e.files.some(function (f) { return f.code.toLowerCase().indexOf(q) !== -1; });
+    });
+  }
+
+  function renderViewer(item) {
+    if (!item) {
+      viewEl.innerHTML = '<div style="color:var(--muted)">No recipe or example matches your filter.</div>';
+      return;
+    }
+    if (activeFileIdx >= item.files.length) activeFileIdx = 0;
+    var f = item.files[activeFileIdx] || { name: "(empty)", lang: "txt", code: "" };
+    var usesHtml = (item.uses || []).map(function (u) { return '<span class="badge">uses: <code>' + esc(u) + '</code></span>'; }).join(" ");
+    var apiBadge = item.lua_api ? '<span class="badge">Lua API ' + item.lua_api + '</span>' : '<span class="badge">Native ABI</span>';
+    var recBadge = item.featured ? '<span class="badge accent">Cookbook Recipe</span>' : '';
+    var fTabs = item.files.map(function (file, i) {
+      return '<button type="button" class="tab-pill ex-ftab" data-fidx="' + i + '" aria-pressed="' +
+        (i === activeFileIdx ? "true" : "false") + '">' + esc(file.name) + '</button>';
+    }).join("");
+    var hlCode = window.cdalHighlight(f.code, f.lang);
+
+    viewEl.innerHTML =
+      '<div style="display:flex;justify-content:space-between;align-items:flex-start;gap:10px;flex-wrap:wrap">' +
+        '<div><h2 style="margin:0 0 3px">' + esc(item.title) + '</h2>' +
+        '<div style="font-size:12px;color:var(--muted)">' + esc(item.category) + ' &middot; <code>' + esc(item.path) + '</code></div></div>' +
+        '<div style="display:flex;gap:5px;flex-wrap:wrap">' + recBadge + tierBadge(item) + apiBadge + '</div>' +
+      '</div>' +
+      '<p style="margin:10px 0 8px;color:var(--muted)">' + esc(item.description) + '</p>' +
+      (usesHtml ? '<div style="display:flex;gap:5px;flex-wrap:wrap;margin-bottom:8px">' + usesHtml + '</div>' : '') +
+      '<div class="ex-files">' + fTabs + '</div>' +
+      '<div class="code-box">' +
+        '<div class="code-top"><div class="code-top-left"><span class="lang-pill">' + esc(f.lang.toUpperCase()) + '</span><span>' + esc(f.name) + '</span></div>' +
+        '<button type="button" id="ex-copy">Copy File</button></div>' +
+        '<pre>' + hlCode + '</pre>' +
+      '</div>';
+
+    viewEl.querySelectorAll(".ex-ftab").forEach(function (b) {
+      b.addEventListener("click", function () {
+        activeFileIdx = Number(b.getAttribute("data-fidx")) || 0;
+        renderViewer(item);
+      });
+    });
+    var copyBtn = document.getElementById("ex-copy");
+    if (copyBtn) copyBtn.addEventListener("click", function () { window.cdalCopyText(copyBtn, f.code); });
+  }
+
+  function render() {
+    var rows = filtered();
+    var current = null;
+    for (var i = 0; i < rows.length; i++) if (rows[i].id === activeId) { current = rows[i]; break; }
+    if (!current && rows.length) { current = rows[0]; activeId = current.id; activeFileIdx = 0; }
+
+    var html = [];
+    var lastCat = null;
+    rows.forEach(function (e) {
+      if (e.category !== lastCat) {
+        lastCat = e.category;
+        html.push('<div class="ex-cat-hdr">' + esc(lastCat) + '</div>');
+      }
+      var sub = (e.lua_api ? "API " + e.lua_api : "Native") + " &middot; " + e.files.length + " file" + (e.files.length === 1 ? "" : "s");
+      html.push('<button type="button" class="ex-item" data-eid="' + esc(e.id) + '" aria-current="' +
+        (current && current.id === e.id ? "true" : "false") + '">' +
+        '<div class="ex-item-title"><span>' + esc(e.title) + '</span>' + tierBadge(e) + '</div>' +
+        '<div class="ex-item-meta">' + sub + ' &middot; ' + esc(e.id) + '</div></button>');
+    });
+    listEl.innerHTML = html.join("") || '<div style="padding:10px;color:var(--muted);font-size:12.5px">No matches</div>';
+    listEl.querySelectorAll(".ex-item").forEach(function (btn) {
+      btn.addEventListener("click", function () {
+        activeId = btn.getAttribute("data-eid");
+        activeFileIdx = 0;
+        if (history.replaceState) history.replaceState(null, "", "#" + activeId);
+        render();
+      });
+    });
+    renderViewer(current);
+  }
+
+  function applyHash() {
+    var h = (window.location.hash || "").replace(/^#/, "");
+    if (!h) return;
+    for (var i = 0; i < LIST.length; i++) {
+      if (LIST[i].id === h) { activeId = h; activeFileIdx = 0; break; }
+    }
+  }
+
+  document.querySelectorAll("[data-exf]").forEach(function (b) {
+    b.addEventListener("click", function () {
+      filter = b.getAttribute("data-exf");
+      document.querySelectorAll("[data-exf]").forEach(function (o) { o.setAttribute("aria-pressed", o === b ? "true" : "false"); });
+      render();
+    });
+  });
+  catEl.addEventListener("change", render);
+  searchEl.addEventListener("input", render);
+  window.addEventListener("hashchange", function () { applyHash(); render(); });
+
+  applyHash();
+  if (!activeId && LIST.length) activeId = LIST[0].id;
+  render();
+})();
+</script>
+</body>
+</html>

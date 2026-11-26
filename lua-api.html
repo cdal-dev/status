@@ -1,0 +1,482 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>BSX Lua API - CDAL &amp; BSX Hub</title>
+<link rel="stylesheet" href="site.css">
+</head>
+<body>
+<div class="shell">
+  <header class="topbar">
+    <a class="brand" href="index.html">
+      <span class="brand-mark mark-light"><svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+<title id="title">CDAL: mark</title>
+<rect x="4" y="4" width="56" height="56" rx="5.00" fill="#0D1015"/><path fill="#FFFFFF" d="M19.91 41.66Q17.97 41.66 16.52 40.8Q15.07 39.94 14.29 38.36Q13.52 36.78 13.52 34.62Q13.52 32.39 14.32 30.79Q15.11 29.19 16.57 28.3Q18.03 27.42 20.02 27.42Q21.81 27.42 23.13 28.15Q24.44 28.88 25.21 30.21Q25.97 31.54 26.04 33.35H22.87Q22.59 32.02 21.85 31.29Q21.11 30.56 20 30.56Q18.56 30.56 17.74 31.62Q16.92 32.68 16.92 34.62Q16.92 36.47 17.72 37.49Q18.51 38.52 19.91 38.52Q20.89 38.52 21.58 37.91Q22.26 37.3 22.59 36.19H25.77Q25.64 37.87 24.87 39.1Q24.1 40.33 22.82 40.99Q21.54 41.66 19.91 41.66ZM33.34 41.59Q31.73 41.59 30.53 40.73Q29.33 39.87 28.67 38.29Q28.02 36.71 28.02 34.55Q28.02 32.37 28.67 30.79Q29.33 29.21 30.53 28.35Q31.73 27.49 33.34 27.49Q34.32 27.49 35.13 27.91Q35.94 28.34 36.33 29.1H37.14V22.75H40.67V41.25H37.14V39.98H36.33Q35.94 40.72 35.13 41.16Q34.32 41.59 33.34 41.59ZM34.39 38.45Q35.81 38.45 36.59 37.42Q37.38 36.38 37.38 34.53Q37.38 32.68 36.59 31.65Q35.81 30.63 34.39 30.63Q32.99 30.63 32.21 31.66Q31.42 32.7 31.42 34.55Q31.42 36.4 32.21 37.43Q32.99 38.45 34.39 38.45Z"/><rect x="43.94" y="22.75" width="6.54" height="18.49" fill="#D7263D"/>
+</svg></span>
+      <span class="brand-mark mark-dark"><svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+<title id="title">CDAL: mark</title>
+<rect x="4" y="4" width="56" height="56" rx="5.00" fill="#F1F2F4"/><path fill="#0D1015" d="M19.91 41.66Q17.97 41.66 16.52 40.8Q15.07 39.94 14.29 38.36Q13.52 36.78 13.52 34.62Q13.52 32.39 14.32 30.79Q15.11 29.19 16.57 28.3Q18.03 27.42 20.02 27.42Q21.81 27.42 23.13 28.15Q24.44 28.88 25.21 30.21Q25.97 31.54 26.04 33.35H22.87Q22.59 32.02 21.85 31.29Q21.11 30.56 20 30.56Q18.56 30.56 17.74 31.62Q16.92 32.68 16.92 34.62Q16.92 36.47 17.72 37.49Q18.51 38.52 19.91 38.52Q20.89 38.52 21.58 37.91Q22.26 37.3 22.59 36.19H25.77Q25.64 37.87 24.87 39.1Q24.1 40.33 22.82 40.99Q21.54 41.66 19.91 41.66ZM33.34 41.59Q31.73 41.59 30.53 40.73Q29.33 39.87 28.67 38.29Q28.02 36.71 28.02 34.55Q28.02 32.37 28.67 30.79Q29.33 29.21 30.53 28.35Q31.73 27.49 33.34 27.49Q34.32 27.49 35.13 27.91Q35.94 28.34 36.33 29.1H37.14V22.75H40.67V41.25H37.14V39.98H36.33Q35.94 40.72 35.13 41.16Q34.32 41.59 33.34 41.59ZM34.39 38.45Q35.81 38.45 36.59 37.42Q37.38 36.38 37.38 34.53Q37.38 32.68 36.59 31.65Q35.81 30.63 34.39 30.63Q32.99 30.63 32.21 31.66Q31.42 32.7 31.42 34.55Q31.42 36.4 32.21 37.43Q32.99 38.45 34.39 38.45Z"/><rect x="43.94" y="22.75" width="6.54" height="18.49" fill="#F04B60"/>
+</svg></span>
+      <span>
+        <div class="brand-title">CDAL &middot; BSX &middot; BSX Lua</div>
+        <div class="brand-sub">Searchable BSX Lua functions, events, payload structs &amp; manifest permissions</div>
+      </span>
+    </a>
+    <div class="top-actions">
+      <span class="pill-stat num">Game <b>2.05.01</b> (<code>1.0.0.3732</code>)</span>
+      <span class="pill-stat num">CDAL IDs <b>4,758 / 4,814</b></span>
+      <span class="pill-stat num">Lua API <b>370</b> fn &middot; <b>42</b> ev</span>
+      <button type="button" id="theme-toggle">Theme</button>
+    </div>
+  </header>
+
+  <nav class="tabs" aria-label="Primary navigation">
+    <a href="index.html">Overview &amp; Guides</a><a href="lua-api.html" aria-current="page">Lua API</a><a href="examples.html">Examples &amp; Cookbook</a><a href="game-builds.html">Game Builds &amp; IDs</a><a href="mods.html">Enrolled Mods</a><span class="spacer"></span><a class="ext-link" href="https://ko-fi.com/ratrider" target="_blank" rel="noopener"><span class="heart">&#9829;</span>Support on Ko-fi</a>
+  </nav>
+
+  <main>
+    
+  <div class="notice">
+    <div><strong>BSX Lua Reference:</strong> Parsed live from <code>bsx/lua/types/bsx.lua</code>: structured namespaces, parameter tables, call examples, manifest permissions, and documented limitations.</div>
+    <span class="badge num">370 functions &middot; 42 events &middot; 161 classes</span>
+  </div>
+
+  <div class="toolbar">
+    <div class="pill-row">
+      <button type="button" class="tab-pill" data-akind="functions" aria-pressed="true">Functions (370)</button>
+      <button type="button" class="tab-pill" data-akind="events" aria-pressed="false">Events (42)</button>
+      <button type="button" class="tab-pill" data-akind="classes" aria-pressed="false">Classes (161)</button>
+      <button type="button" class="tab-pill" data-akind="aliases" aria-pressed="false">Aliases (17)</button>
+    </div>
+    <input type="search" id="api-search" class="grow" placeholder="Search functions, events, classes, params (e.g. listbox, items.search, vfx, hit)...">
+  </div>
+
+  <div class="toolbar" id="api-fn-filters">
+    <div class="pill-row">
+      <button type="button" class="tab-pill" data-atier="" aria-pressed="true">All tiers</button>
+      <button type="button" class="tab-pill" data-atier="safe" aria-pressed="false">Safe</button>
+      <button type="button" class="tab-pill" data-atier="changes" aria-pressed="false">Changes</button>
+      <button type="button" class="tab-pill" data-atier="native" aria-pressed="false">Native</button>
+    </div>
+    <select id="api-minver" aria-label="Lua API version">
+      <option value="0">All Lua API versions</option>
+      <option value="3">Lua API 1-3</option>
+      <option value="5">Lua API 4-5</option>
+      <option value="7">Lua API 6-7</option>
+    </select>
+    <span class="num" id="api-showing" style="font-size:12px;color:var(--muted);margin-left:auto"></span>
+  </div>
+
+  <div class="api-layout">
+    <aside class="ns-side" aria-label="API Browser">
+      <div class="ns-title" id="ns-side-title">Namespaces</div>
+      <div id="ns-list"></div>
+    </aside>
+    <section id="api-results"></section>
+  </div>
+
+  </main>
+
+  <footer class="footer">
+    <div>CDAL 0.7.8 &middot; BSX 0.3.2 &middot; Crimson Desert Address Library &amp; Script Extender &middot; Data updated <time datetime="2026-11-24">2026-11-24</time></div>
+    <div class="footer-links">
+      <a href="https://discord.gg/Ucyp39ayUX" target="_blank" rel="noopener">Discord</a>
+      <a href="mods.html">Enroll a mod</a>
+    </div>
+  </footer>
+</div>
+<script src="common.js"></script>
+<script src="lua-api.js"></script>
+<script>
+(function () {
+  var API = window.CDAL_LUA_API || window.BSX_LUA_API || { counts: {}, categories: [], functions: [], events: [], classes: [], aliases: {} };
+  API.functions = API.functions || [];
+  API.events = API.events || [];
+  API.classes = API.classes || [];
+  API.aliases = API.aliases || {};
+  var kind = "functions", tier = "", ns = "", evGroup = "", clsGroup = "", minVer = 0, pageCap = 80;
+  var nsList = document.getElementById("ns-list");
+  var nsTitle = document.getElementById("ns-side-title");
+  var resEl = document.getElementById("api-results");
+  var searchEl = document.getElementById("api-search");
+  var showingEl = document.getElementById("api-showing");
+  var fnFilters = document.getElementById("api-fn-filters");
+  var verEl = document.getElementById("api-minver");
+
+  var classMap = {};
+  API.classes.forEach(function (c) { classMap[c.name] = c; });
+
+  var NS_GROUPS = [
+    { label: "Core & Lifecycle", list: ["bsx", "bsx.memory", "bsx.system", "bsx.fs", "bsx.save", "bsx.bus", "bsx.mods", "config", "json", "handle", "cdal"] },
+    { label: "UI, Overlay & Media", list: ["bsx.ui", "bsx.ui.panel", "bsx.draw", "bsx.audio", "bsx.tween", "game.ui", "game.input"] },
+    { label: "Player, Items & Combat", list: ["game", "game.items", "game.categories", "game.inventory", "game.equipment", "game.stats", "game.characters", "game.skills", "game.buffs", "game.hooks", "game.tweaks", "game.request"] },
+    { label: "World, Camera, VFX & Movement", list: ["game.world", "game.weather", "game.camera", "game.movement", "game.actors", "game.appearance", "game.vfx"] },
+    { label: "World Systems (API 6-7)", list: ["game.quests", "game.stores", "game.craft_tools", "game.recipes", "game.factions", "game.fishing", "game.pets", "game.mounts", "game.minigames", "game.interaction"] },
+    { label: "Low-Level / Native", list: ["mem", "pack", "rule", "game_hook"] }
+  ];
+  var nsOrder = {};
+  var orderIdx = 0;
+  NS_GROUPS.forEach(function (g) { g.list.forEach(function (n) { nsOrder[n] = orderIdx++; }); });
+
+  var orderedFunctions = API.functions.slice().sort(function (a, b) {
+    var oa = nsOrder.hasOwnProperty(a.category) ? nsOrder[a.category] : 999;
+    var ob = nsOrder.hasOwnProperty(b.category) ? nsOrder[b.category] : 999;
+    if (oa !== ob) return oa - ob;
+    return a.name.localeCompare(b.name);
+  });
+
+  var EV_GROUPS = {
+    "Lifecycle & Saves": { plugins_loaded:1, title_screen:1, frame:1, save_load:1, save_load_after:1, save_loaded:1, load_request:1, load_request_after:1, world_ready:1, movie:1, movie_after:1 },
+    "Combat & Stats": { hit:1, death:1, revive:1, battle_state:1, battle_state_after:1, stat_change:1, combat_damage:1 },
+    "Inventory & Equipment": { equip:1, equip_after:1, equip_applied:1, unequip:1, unequip_after:1, unequip_applied:1, weapon_swap:1, weapon_swap_after:1, quick_slot_use:1, quick_slot_use_after:1, loot_pickup:1 },
+    "World, Input & Systems": { key:1, gamepad:1, zone_changed:1, weather_changed:1, fishing_result:1, skill_learned:1, skill_reset:1, pet_summoned:1, quest_dialogue:1, journal_unlocked:1, minigame_record:1, boss_rush_event:1 }
+  };
+  function eventDomain(name) {
+    for (var k in EV_GROUPS) if (EV_GROUPS[k][name]) return k;
+    return "World, Input & Systems";
+  }
+
+  function classDomain(name) {
+    if (/Event$/.test(name)) return "Event Payloads";
+    if (/^Bsx(Ui|Draw|Audio|Tween|Handle|Panel)/.test(name) || /Theme|Panel/.test(name)) return "UI, Draw & Media";
+    if (/Item|Inventory|Equip|Stat|Actor|Player|Category|Character|Skill|Buff|Tweak|Rule|Mod|Fs|Save|Config|Bus|Json|Memory/.test(name)) return "Player, Items & Core";
+    return "World, Camera & Systems";
+  }
+
+  function esc(s) {
+    return String(s || "").replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
+  }
+
+  function tierBadge(t) {
+    if (t === "safe") return '<span class="badge ok">Safe</span>';
+    if (t === "changes") return '<span class="badge warn">Changes</span>';
+    return '<span class="badge fail">Native</span>';
+  }
+
+  var nsCounts = {};
+  API.functions.forEach(function (f) { nsCounts[f.category] = (nsCounts[f.category] || 0) + 1; });
+
+  function sampleArg(p) {
+    var n = (p.name || "").replace(/\?$/, "");
+    var t = (p.type || "").toLowerCase();
+    if (t.indexOf("fun(") !== -1) return "function(...) end";
+    if (t.indexOf("boolean") !== -1) return "true";
+    if (t.indexOf("integer") !== -1 || t.indexOf("number") !== -1) return "1";
+    if (t.indexOf("[]") !== -1) return '{ "item_1" }';
+    if (t.indexOf("table") !== -1 || t.indexOf("{") !== -1) return "{ }";
+    if (t.indexOf("string") !== -1) return '"' + (n || "value") + '"';
+    return n || "arg";
+  }
+
+  function makeFnSnippet(f) {
+    var args = (f.params || []).filter(function (p) { return (p.name || "").slice(-1) !== "?"; }).map(sampleArg);
+    var call = f.name + "(" + args.join(", ") + ")";
+    var hasRet = f.returns && f.returns.length;
+    if (!hasRet) return call;
+    var r0 = f.returns[0].name || "res";
+    var lhs = f.returns.length > 1 ? "local " + r0 + ", err" : "local " + r0;
+    return lhs + " = " + call;
+  }
+
+  function makeManifestSnippet(f) {
+    var req = f.requires || {};
+    var obj = { name: "My Mod", lua_api: req.minApi || 1 };
+    if (req.changes) obj.changes = true;
+    if (req.native) obj.native = true;
+    if (req.uses && req.uses.length) obj.uses = req.uses;
+    return JSON.stringify(obj, null, 2);
+  }
+
+  function renderParamTable(params, returns, isFields) {
+    if ((!params || !params.length) && (!returns || !returns.length)) return "";
+    var headCol = isFields ? "Field" : "Parameter / Return";
+    var rows = [];
+    (params || []).forEach(function (p) {
+      rows.push("<tr><td class='p-name'>" + esc(p.name) + "</td><td class='p-type'>" +
+        window.cdalHighlight(p.type || "any", "sig") + "</td><td class='p-doc'>" + esc(p.doc || "") + "</td></tr>");
+    });
+    (returns || []).forEach(function (r) {
+      rows.push("<tr><td class='p-ret'>&rarr; " + esc(r.name || "return") + "</td><td class='p-type'>" +
+        window.cdalHighlight(r.type || "any", "sig") + "</td><td class='p-doc'>" + esc(r.doc || "") + "</td></tr>");
+    });
+    return "<table class='param-tbl'><thead><tr><th>" + headCol + "</th><th>Type</th><th>Description</th></tr></thead><tbody>" +
+      rows.join("") + "</tbody></table>";
+  }
+
+  function renderSidebar() {
+    if (kind === "aliases") {
+      nsList.parentElement.style.display = "none";
+      document.querySelector(".api-layout").style.gridTemplateColumns = "1fr";
+      return;
+    }
+    nsList.parentElement.style.display = "";
+    document.querySelector(".api-layout").style.gridTemplateColumns = "";
+
+    var html = [];
+    if (kind === "functions") {
+      nsTitle.textContent = "Function Namespaces (" + Object.keys(nsCounts).length + ")";
+      html.push('<button type="button" class="ns-btn" data-ns="" aria-current="' + (ns === "" ? "true" : "false") +
+        '"><span>All namespaces</span><span class="cnt">' + API.functions.length + '</span></button>');
+      var seen = {};
+      NS_GROUPS.forEach(function (g) {
+        var btns = [];
+        g.list.forEach(function (n) {
+          if (!nsCounts[n]) return;
+          seen[n] = true;
+          btns.push('<button type="button" class="ns-btn" data-ns="' + esc(n) + '" aria-current="' +
+            (ns === n ? "true" : "false") + '"><span>' + esc(n) + '</span><span class="cnt">' + nsCounts[n] + '</span></button>');
+        });
+        if (btns.length) html.push('<div class="ns-group-title">' + esc(g.label) + '</div>' + btns.join(""));
+      });
+      var extras = Object.keys(nsCounts).filter(function (n) { return !seen[n]; }).sort();
+      if (extras.length) {
+        html.push('<div class="ns-group-title">Other</div>' + extras.map(function (n) {
+          return '<button type="button" class="ns-btn" data-ns="' + esc(n) + '" aria-current="' +
+            (ns === n ? "true" : "false") + '"><span>' + esc(n) + '</span><span class="cnt">' + nsCounts[n] + '</span></button>';
+        }).join(""));
+      }
+      nsList.innerHTML = html.join("");
+      nsList.querySelectorAll("[data-ns]").forEach(function (b) {
+        b.addEventListener("click", function () {
+          ns = b.getAttribute("data-ns");
+          pageCap = 80;
+          if (history.replaceState) history.replaceState(null, "", ns ? "#" + ns : "lua-api.html");
+          renderSidebar();
+          render();
+        });
+      });
+    } else if (kind === "events") {
+      nsTitle.textContent = "Event Groups";
+      var eCounts = {};
+      API.events.forEach(function (e) { var d = eventDomain(e.name); eCounts[d] = (eCounts[d] || 0) + 1; });
+      html.push('<button type="button" class="ns-btn" data-evg="" aria-current="' + (evGroup === "" ? "true" : "false") +
+        '"><span>All events</span><span class="cnt">' + API.events.length + '</span></button>');
+      Object.keys(EV_GROUPS).forEach(function (g) {
+        html.push('<button type="button" class="ns-btn" data-evg="' + esc(g) + '" aria-current="' +
+          (evGroup === g ? "true" : "false") + '"><span>' + esc(g) + '</span><span class="cnt">' + (eCounts[g] || 0) + '</span></button>');
+      });
+      nsList.innerHTML = html.join("");
+      nsList.querySelectorAll("[data-evg]").forEach(function (b) {
+        b.addEventListener("click", function () { evGroup = b.getAttribute("data-evg"); pageCap = 80; renderSidebar(); render(); });
+      });
+    } else {
+      nsTitle.textContent = "Type Groups";
+      var cCounts = {};
+      API.classes.forEach(function (c) { var d = classDomain(c.name); cCounts[d] = (cCounts[d] || 0) + 1; });
+      html.push('<button type="button" class="ns-btn" data-clsg="" aria-current="' + (clsGroup === "" ? "true" : "false") +
+        '"><span>All classes</span><span class="cnt">' + API.classes.length + '</span></button>');
+      ["Event Payloads", "UI, Draw & Media", "Player, Items & Core", "World, Camera & Systems"].forEach(function (g) {
+        html.push('<button type="button" class="ns-btn" data-clsg="' + esc(g) + '" aria-current="' +
+          (clsGroup === g ? "true" : "false") + '"><span>' + esc(g) + '</span><span class="cnt">' + (cCounts[g] || 0) + '</span></button>');
+      });
+      nsList.innerHTML = html.join("");
+      nsList.querySelectorAll("[data-clsg]").forEach(function (b) {
+        b.addEventListener("click", function () { clsGroup = b.getAttribute("data-clsg"); pageCap = 80; renderSidebar(); render(); });
+      });
+    }
+  }
+
+  function matchesVersion(minApi) {
+    if (!minVer) return true;
+    var v = minApi || 1;
+    if (minVer === 3) return v <= 3;
+    if (minVer === 5) return v >= 4 && v <= 5;
+    if (minVer === 7) return v >= 6;
+    return true;
+  }
+
+  function render() {
+    var q = (searchEl.value || "").trim().toLowerCase();
+    fnFilters.style.display = kind === "functions" ? "" : "none";
+
+    var items = [];
+    if (kind === "functions") {
+      items = orderedFunctions.filter(function (f) {
+        if (ns && f.category !== ns) return false;
+        if (tier && f.tier !== tier) return false;
+        if (!matchesVersion(f.requires && f.requires.minApi)) return false;
+        if (!q) return true;
+        return f.name.toLowerCase().indexOf(q) !== -1 ||
+               f.signature.toLowerCase().indexOf(q) !== -1 ||
+               (f.doc || "").toLowerCase().indexOf(q) !== -1;
+      });
+    } else if (kind === "events") {
+      items = API.events.filter(function (e) {
+        if (evGroup && eventDomain(e.name) !== evGroup) return false;
+        return !q || e.name.toLowerCase().indexOf(q) !== -1 || (e.doc || "").toLowerCase().indexOf(q) !== -1 || (e.payload || "").toLowerCase().indexOf(q) !== -1;
+      });
+    } else if (kind === "classes") {
+      items = API.classes.filter(function (c) {
+        if (clsGroup && classDomain(c.name) !== clsGroup) return false;
+        return !q || c.name.toLowerCase().indexOf(q) !== -1 || (c.doc || "").toLowerCase().indexOf(q) !== -1;
+      });
+    } else {
+      items = Object.keys(API.aliases).sort().map(function (k) { return { name: k, def: API.aliases[k] }; }).filter(function (a) {
+        return !q || a.name.toLowerCase().indexOf(q) !== -1 || a.def.toLowerCase().indexOf(q) !== -1;
+      });
+    }
+
+    var shown = items.slice(0, pageCap);
+    showingEl.textContent = "Showing " + shown.length + " / " + items.length;
+    var html = [];
+
+    if (!shown.length) {
+      resEl.innerHTML = '<div class="card" style="color:var(--muted)">No matching API entries for the current filters.</div>';
+      return;
+    }
+
+    if (kind === "functions") {
+      shown.forEach(function (f, i) {
+        var req = f.requires || {};
+        var minA = req.minApi || 1;
+        var reqs = ['<span class="badge">' + esc(f.category) + '</span>', '<span class="badge">Lua API ' + minA + '+</span>'];
+        if (req.uses && req.uses.length) reqs.push('<span class="badge">uses: <code>' + esc(req.uses.join(", ")) + '</code></span>');
+        if (req.ini && req.ini.length) reqs.push('<span class="badge">INI: <code>' + esc(req.ini.join(", ")) + '</code></span>');
+
+        var tblHtml = renderParamTable(f.params, f.returns, false);
+        var snip = makeFnSnippet(f);
+        var hasManifest = Boolean(req.changes || req.native || (req.uses && req.uses.length));
+        var manSwitch = hasManifest
+          ? '<div class="api-code-tabs">' +
+              '<button type="button" class="tab-pill fn-ctab" data-fidx="' + i + '" data-mode="lua" aria-pressed="true">Lua</button>' +
+              '<button type="button" class="tab-pill fn-ctab" data-fidx="' + i + '" data-mode="json" aria-pressed="false">script.json</button>' +
+            '</div>'
+          : '';
+        var codeBox = '<div class="code-box" style="margin-top:0">' +
+          '<div class="code-top"><div class="code-top-left"><span class="lang-pill" id="fn-pill-' + i + '">LUA</span><span>Example snippet</span></div>' +
+          '<div style="display:flex;align-items:center;gap:6px">' + manSwitch +
+          '<button type="button" class="copy-fn" data-fidx="' + i + '" style="padding:2px 8px;font-size:11.5px">Copy</button></div></div>' +
+          '<pre id="fn-pre-' + i + '">' + window.cdalHighlight(snip, "lua") + '</pre></div>';
+
+        var noteText = f.status_note || f.statusNote;
+        var isLimitation = f.status === "known_issue" && noteText;
+        var cavHtml = isLimitation ? '<div class="api-caveat"><strong>Known limitation:</strong> ' + esc(noteText) + '</div>' : '';
+        var noteBadge = isLimitation ? '<span class="badge warn">Note</span>' : '';
+
+        html.push('<article class="api-card">' +
+          '<div class="api-card-head"><span class="api-sig">' + window.cdalHighlight(f.signature, "sig") + '</span>' +
+          '<div class="api-badges">' + tierBadge(f.tier) + noteBadge + '</div></div>' +
+          '<div class="api-card-body">' +
+            '<p class="api-doc">' + esc(f.doc) + '</p>' + cavHtml +
+            '<div class="api-meta">' + reqs.join("") + '</div>' +
+            tblHtml + codeBox +
+          '</div></article>');
+      });
+    } else if (kind === "events") {
+      shown.forEach(function (e, i) {
+        var noteText = e.statusNote || e.status_note;
+        var isLimitation = e.status === "known_issue" && noteText;
+        var cav = isLimitation ? '<div class="api-caveat"><strong>Known limitation:</strong> ' + esc(noteText) + '</div>' : '';
+        var noteBadge = isLimitation ? '<span class="badge warn">Note</span>' : '';
+        var cls = classMap[e.payload];
+        var fHtml = cls && cls.fields && cls.fields.length ? renderParamTable(cls.fields, null, true) : "";
+        var evCode = 'bsx.on("' + e.name + '", function(e)\n  -- payload: ' + e.payload + '\nend)';
+        html.push('<article class="api-card">' +
+          '<div class="api-card-head"><span class="api-sig">' + window.cdalHighlight('bsx.on("' + e.name + '", handler)', "lua") + '</span>' +
+          '<div class="api-badges"><span class="badge">' + esc(eventDomain(e.name)) + '</span><span class="badge">' + window.cdalHighlight(e.payload, "sig") + '</span>' + noteBadge + '</div></div>' +
+          '<div class="api-card-body">' +
+            '<p class="api-doc">' + esc(e.doc) + '</p>' + cav + fHtml +
+            '<div class="code-box" style="margin-top:0"><div class="code-top"><div class="code-top-left"><span class="lang-pill">LUA</span><span>Event listener</span></div>' +
+            '<button type="button" class="copy-ev" data-eidx="' + i + '" style="padding:2px 8px;font-size:11.5px">Copy</button></div>' +
+            '<pre>' + window.cdalHighlight(evCode, "lua") + '</pre></div>' +
+          '</div></article>');
+      });
+    } else if (kind === "classes") {
+      shown.forEach(function (c) {
+        var fLen = c.fields ? c.fields.length : 0;
+        var fTbl = fLen ? renderParamTable(c.fields, null, true) : '<div style="font-size:12.5px;color:var(--muted)">No copied fields.</div>';
+        html.push('<article class="api-card">' +
+          '<div class="api-card-head"><span class="api-sig">' + window.cdalHighlight(c.name, "sig") + '</span>' +
+          '<div class="api-badges"><span class="badge">' + esc(classDomain(c.name)) + '</span><span class="badge">' + fLen + (fLen === 1 ? ' field' : ' fields') + '</span></div></div>' +
+          '<div class="api-card-body">' + (c.doc ? '<p class="api-doc">' + esc(c.doc) + '</p>' : '') + fTbl + '</div></article>');
+      });
+    } else {
+      shown.forEach(function (a) {
+        html.push('<article class="api-card">' +
+          '<div class="api-card-head"><span class="api-sig">' + window.cdalHighlight(a.name, "sig") + '</span></div>' +
+          '<div class="api-card-body"><pre class="mini-code" style="margin-top:0">' + window.cdalHighlight(a.def, "sig") + '</pre></div></article>');
+      });
+    }
+
+    if (items.length > pageCap) {
+      html.push('<button type="button" id="api-more">Show more (' + (items.length - pageCap) + ' remaining)</button>');
+    }
+    resEl.innerHTML = html.join("");
+
+    resEl.querySelectorAll(".fn-ctab").forEach(function (btn) {
+      btn.addEventListener("click", function () {
+        var i = Number(btn.getAttribute("data-fidx"));
+        var mode = btn.getAttribute("data-mode");
+        var f = shown[i];
+        if (!f) return;
+        resEl.querySelectorAll('.fn-ctab[data-fidx="' + i + '"]').forEach(function (o) {
+          o.setAttribute("aria-pressed", o === btn ? "true" : "false");
+        });
+        document.getElementById("fn-pill-" + i).textContent = mode === "json" ? "JSON" : "LUA";
+        document.getElementById("fn-pre-" + i).innerHTML = window.cdalHighlight(
+          mode === "json" ? makeManifestSnippet(f) : makeFnSnippet(f), mode
+        );
+      });
+    });
+    resEl.querySelectorAll(".copy-fn").forEach(function (btn) {
+      btn.addEventListener("click", function () {
+        var i = Number(btn.getAttribute("data-fidx"));
+        var f = shown[i];
+        var pre = document.getElementById("fn-pre-" + i);
+        if (f && pre) window.cdalCopyText(btn, pre.textContent);
+      });
+    });
+    resEl.querySelectorAll(".copy-ev").forEach(function (btn) {
+      btn.addEventListener("click", function () {
+        var e = shown[Number(btn.getAttribute("data-eidx"))];
+        if (e) window.cdalCopyText(btn, 'bsx.on("' + e.name + '", function(e)\nend)');
+      });
+    });
+    var mb = document.getElementById("api-more");
+    if (mb) mb.addEventListener("click", function () { pageCap += 100; render(); });
+  }
+
+  function applyHash() {
+    var h = decodeURIComponent((window.location.hash || "").replace(/^#/, ""));
+    if (!h) return;
+    if (h === "events" || h === "classes" || h === "aliases") {
+      kind = h;
+      document.querySelectorAll("[data-akind]").forEach(function (o) { o.setAttribute("aria-pressed", o.getAttribute("data-akind") === kind ? "true" : "false"); });
+    } else if (nsCounts[h]) {
+      kind = "functions";
+      ns = h;
+      document.querySelectorAll("[data-akind]").forEach(function (o) { o.setAttribute("aria-pressed", o.getAttribute("data-akind") === "functions" ? "true" : "false"); });
+    }
+    renderSidebar();
+  }
+
+  document.querySelectorAll("[data-akind]").forEach(function (b) {
+    b.addEventListener("click", function () {
+      kind = b.getAttribute("data-akind");
+      pageCap = 80;
+      document.querySelectorAll("[data-akind]").forEach(function (o) { o.setAttribute("aria-pressed", o === b ? "true" : "false"); });
+      renderSidebar();
+      render();
+    });
+  });
+  document.querySelectorAll("[data-atier]").forEach(function (b) {
+    b.addEventListener("click", function () {
+      tier = b.getAttribute("data-atier");
+      pageCap = 80;
+      document.querySelectorAll("[data-atier]").forEach(function (o) { o.setAttribute("aria-pressed", o === b ? "true" : "false"); });
+      render();
+    });
+  });
+  searchEl.addEventListener("input", function () { pageCap = 80; render(); });
+  verEl.addEventListener("change", function () { minVer = Number(verEl.value) || 0; pageCap = 80; render(); });
+  window.addEventListener("hashchange", function () { applyHash(); render(); });
+
+  applyHash();
+  renderSidebar();
+  render();
+})();
+</script>
+</body>
+</html>
