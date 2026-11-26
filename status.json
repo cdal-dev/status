@@ -653,10 +653,10 @@
         "verdict": "untested"
       },
       "name": "Action Skill Combat Collection (ASCC)",
-      "newest_code_upload": "2026-11-25T17:24:27Z",
+      "newest_code_upload": "2026-11-26T07:40:35Z",
       "newest_main_file_upload": "2026-11-25T18:12:03Z",
       "nexus": "https://www.nexusmods.com/crimsondesert/mods/4478",
-      "nexus_checked": "2026-11-26T08:09:45Z",
+      "nexus_checked": "2026-11-26T08:51:01Z",
       "nexus_updated": "2026-11-26T07:40:35Z",
       "supported": {
         "verdict": "unchecked"
@@ -2101,8 +2101,10 @@
         }
       },
       "coverage": {
+        "checked": "2026-11-26",
         "have": 0,
-        "level": "unrun",
+        "how": "patterns",
+        "level": "unseen",
         "missing": 0,
         "total": 0,
         "use": "unknown",
@@ -2803,7 +2805,7 @@
       "newest_code_upload": "2026-11-06T19:37:26Z",
       "newest_main_file_upload": "",
       "nexus": "https://www.nexusmods.com/crimsondesert/mods/4024",
-      "nexus_checked": "2026-11-26T08:10:53Z",
+      "nexus_checked": "2026-11-26T09:21:04Z",
       "nexus_updated": "2026-11-06T19:37:30Z",
       "supported": {
         "addresses": {
@@ -3115,10 +3117,10 @@
         "verdict": "ran"
       },
       "name": "Business HUD",
-      "newest_code_upload": "2026-11-20T00:22:37Z",
+      "newest_code_upload": "2026-11-26T02:20:09Z",
       "newest_main_file_upload": "2026-11-26T02:20:09Z",
       "nexus": "https://www.nexusmods.com/crimsondesert/mods/4286",
-      "nexus_checked": "2026-11-26T08:11:02Z",
+      "nexus_checked": "2026-11-26T08:51:00Z",
       "nexus_updated": "2026-11-26T02:20:09Z",
       "supported": {
         "addresses": {
@@ -5486,10 +5488,10 @@
         "verdict": "ran"
       },
       "name": "Crimson Desert Multiplayer - Co-op With A Room Code",
-      "newest_code_upload": "2026-11-25T05:25:24Z",
+      "newest_code_upload": "2026-11-25T23:55:13Z",
       "newest_main_file_upload": "2026-11-25T23:55:13Z",
       "nexus": "https://www.nexusmods.com/crimsondesert/mods/3814",
-      "nexus_checked": "2026-11-26T08:12:10Z",
+      "nexus_checked": "2026-11-26T08:51:03Z",
       "nexus_updated": "2026-11-25T23:55:13Z",
       "supported": {
         "addresses": {
@@ -5995,10 +5997,10 @@
         "verdict": "ran"
       },
       "name": "Crimson RPG",
-      "newest_code_upload": "2026-11-22T04:12:00Z",
+      "newest_code_upload": "2026-11-26T01:04:53Z",
       "newest_main_file_upload": "2026-11-26T01:04:53Z",
       "nexus": "https://www.nexusmods.com/crimsondesert/mods/4319",
-      "nexus_checked": "2026-11-26T08:12:26Z",
+      "nexus_checked": "2026-11-26T08:50:52Z",
       "nexus_updated": "2026-11-26T01:04:53Z",
       "supported": {
         "addresses": {
@@ -8496,10 +8498,10 @@
         "verdict": "untested"
       },
       "name": "Easy Flight",
-      "newest_code_upload": "2026-11-23T05:08:31Z",
+      "newest_code_upload": "2026-11-26T01:54:19Z",
       "newest_main_file_upload": "2026-11-26T01:54:19Z",
       "nexus": "https://www.nexusmods.com/crimsondesert/mods/4466",
-      "nexus_checked": "2026-11-26T08:13:38Z",
+      "nexus_checked": "2026-11-26T08:51:02Z",
       "nexus_updated": "2026-11-26T01:54:19Z",
       "supported": {
         "verdict": "unchecked"
@@ -11002,10 +11004,10 @@
         "verdict": "ran"
       },
       "name": "Hex Appeal",
-      "newest_code_upload": "2026-11-24T16:49:25Z",
+      "newest_code_upload": "2026-11-25T22:51:47Z",
       "newest_main_file_upload": "2026-11-25T22:51:47Z",
       "nexus": "https://www.nexusmods.com/crimsondesert/mods/4279",
-      "nexus_checked": "2026-11-26T08:14:55Z",
+      "nexus_checked": "2026-11-26T08:50:47Z",
       "nexus_updated": "2026-11-25T22:51:48Z",
       "supported": {
         "addresses": {
@@ -12454,8 +12456,8 @@
         "1.0.0.3663": {
           "check": "not_scanned",
           "ids": {
-            "found": 22,
-            "total": 22
+            "found": 26,
+            "total": 26
           },
           "pattern_counts": null,
           "status": "unchecked"
@@ -12463,22 +12465,22 @@
         "1.0.0.3732": {
           "check": "scanned",
           "ids": {
-            "found": 22,
-            "total": 22
+            "found": 26,
+            "total": 26
           },
           "pattern_counts": {
             "not_found": 10,
-            "total": 28
+            "total": 33
           },
           "status": "partly"
         }
       },
       "coverage": {
-        "have": 19,
-        "level": "full",
+        "have": 22,
+        "level": "some",
         "missing": 0,
-        "total": 19,
-        "use": "everything",
+        "total": 24,
+        "use": "ids_pack",
         "waiting": 0
       },
       "group": "scanned",
@@ -12491,25 +12493,25 @@
         "verdict": "ran"
       },
       "name": "KC - Kolv'ekya UI",
-      "newest_code_upload": "2026-11-25T06:57:14Z",
+      "newest_code_upload": "2026-11-25T23:05:43Z",
       "newest_main_file_upload": "2026-11-25T23:05:43Z",
       "nexus": "https://www.nexusmods.com/crimsondesert/mods/4378",
-      "nexus_checked": "2026-11-26T08:15:39Z",
+      "nexus_checked": "2026-11-26T08:50:55Z",
       "nexus_updated": "2026-11-25T23:05:43Z",
       "supported": {
         "addresses": {
-          "total": 19,
-          "with_id": 19
+          "total": 24,
+          "with_id": 22
         },
         "alone": false,
         "build": "1.0.0.3732",
         "cdal": "0.7.8",
         "date": "2026-11-22",
         "ids": {
-          "found": 22,
-          "total": 22
+          "found": 26,
+          "total": 26
         },
-        "verdict": "supported"
+        "verdict": "partly"
       }
     },
     {
@@ -13580,6 +13582,54 @@
       "nexus": "https://www.nexusmods.com/crimsondesert/mods/4465",
       "nexus_checked": "2026-11-26T08:16:13Z",
       "nexus_updated": "2026-11-23T04:57:26Z",
+      "supported": {
+        "verdict": "unchecked"
+      }
+    },
+    {
+      "author": "LucretziaMusic",
+      "builds": {
+        "1.0.0.3663": {
+          "check": "not_scanned",
+          "ids": {
+            "found": 6,
+            "total": 6
+          },
+          "pattern_counts": null,
+          "status": "unchecked"
+        },
+        "1.0.0.3732": {
+          "check": "scanned",
+          "ids": {
+            "found": 6,
+            "total": 6
+          },
+          "pattern_counts": {
+            "not_found": 2,
+            "total": 9
+          },
+          "status": "partly"
+        }
+      },
+      "coverage": {
+        "have": 5,
+        "level": "some",
+        "missing": 0,
+        "total": 7,
+        "use": "ids_pack",
+        "waiting": 0
+      },
+      "group": "scanned",
+      "key": "4535-Lucretzia-s-Grimoire-Familiars-And-Battle-Magic",
+      "lab": {
+        "verdict": "untested"
+      },
+      "name": "Lucretzia's Grimoire - Familiars And Battle Magic",
+      "newest_code_upload": "2026-11-26T05:21:24Z",
+      "newest_main_file_upload": "2026-11-26T06:14:31Z",
+      "nexus": "https://www.nexusmods.com/crimsondesert/mods/4535",
+      "nexus_checked": "2026-11-26T08:51:11Z",
+      "nexus_updated": "2026-11-26T06:14:31Z",
       "supported": {
         "verdict": "unchecked"
       }
@@ -14976,7 +15026,7 @@
       "newest_code_upload": "2026-04-11T22:01:11Z",
       "newest_main_file_upload": "",
       "nexus": "https://www.nexusmods.com/crimsondesert/mods/1009",
-      "nexus_checked": "2026-11-26T08:16:56Z",
+      "nexus_checked": "2026-11-26T09:21:14Z",
       "nexus_updated": "2026-04-11T22:01:11Z",
       "supported": {
         "verdict": "unchecked"
@@ -15973,8 +16023,8 @@
         "1.0.0.3663": {
           "check": "not_scanned",
           "ids": {
-            "found": 29,
-            "total": 29
+            "found": 37,
+            "total": 37
           },
           "pattern_counts": null,
           "status": "unchecked"
@@ -15982,21 +16032,21 @@
         "1.0.0.3732": {
           "check": "scanned",
           "ids": {
-            "found": 29,
-            "total": 29
+            "found": 37,
+            "total": 37
           },
           "pattern_counts": {
             "not_found": 14,
-            "total": 58
+            "total": 72
           },
           "status": "partly"
         }
       },
       "coverage": {
-        "have": 22,
+        "have": 29,
         "level": "full",
         "missing": 0,
-        "total": 22,
+        "total": 29,
         "use": "everything",
         "waiting": 0
       },
@@ -16010,23 +16060,23 @@
         "verdict": "ran"
       },
       "name": "Phase Mod (Local Teleportation)",
-      "newest_code_upload": "2026-11-23T05:03:42Z",
+      "newest_code_upload": "2026-11-26T01:11:04Z",
       "newest_main_file_upload": "2026-11-26T01:11:04Z",
       "nexus": "https://www.nexusmods.com/crimsondesert/mods/2650",
-      "nexus_checked": "2026-11-26T08:17:28Z",
+      "nexus_checked": "2026-11-26T08:50:53Z",
       "nexus_updated": "2026-11-26T01:11:04Z",
       "supported": {
         "addresses": {
-          "total": 22,
-          "with_id": 22
+          "total": 29,
+          "with_id": 29
         },
         "alone": false,
         "build": "1.0.0.3732",
         "cdal": "0.7.8",
         "date": "2026-11-22",
         "ids": {
-          "found": 29,
-          "total": 29
+          "found": 37,
+          "total": 37
         },
         "verdict": "supported"
       }
@@ -17080,10 +17130,10 @@
         "verdict": "ran"
       },
       "name": "Pywel Board Game",
-      "newest_code_upload": "2026-11-25T08:18:01Z",
+      "newest_code_upload": "2026-11-26T07:06:28Z",
       "newest_main_file_upload": "2026-11-26T07:06:28Z",
       "nexus": "https://www.nexusmods.com/crimsondesert/mods/4403",
-      "nexus_checked": "2026-11-26T08:18:00Z",
+      "nexus_checked": "2026-11-26T08:51:09Z",
       "nexus_updated": "2026-11-26T07:06:28Z",
       "supported": {
         "addresses": {
@@ -17145,10 +17195,10 @@
         "verdict": "ran"
       },
       "name": "Pywel Casino(gambling)",
-      "newest_code_upload": "2026-11-25T08:15:47Z",
+      "newest_code_upload": "2026-11-26T07:04:13Z",
       "newest_main_file_upload": "2026-11-26T07:04:13Z",
       "nexus": "https://www.nexusmods.com/crimsondesert/mods/4200",
-      "nexus_checked": "2026-11-26T08:18:02Z",
+      "nexus_checked": "2026-11-26T08:50:56Z",
       "nexus_updated": "2026-11-26T07:04:13Z",
       "supported": {
         "addresses": {
@@ -17279,10 +17329,10 @@
         "verdict": "ran"
       },
       "name": "Pywel Dominion(Stock Trading)",
-      "newest_code_upload": "2026-11-25T08:13:20Z",
+      "newest_code_upload": "2026-11-26T07:03:02Z",
       "newest_main_file_upload": "2026-11-26T07:03:02Z",
       "nexus": "https://www.nexusmods.com/crimsondesert/mods/4122",
-      "nexus_checked": "2026-11-26T08:18:06Z",
+      "nexus_checked": "2026-11-26T08:50:54Z",
       "nexus_updated": "2026-11-26T07:03:02Z",
       "supported": {
         "addresses": {
@@ -17344,10 +17394,10 @@
         "verdict": "ran"
       },
       "name": "Pywel mini game",
-      "newest_code_upload": "2026-11-25T08:16:49Z",
+      "newest_code_upload": "2026-11-26T07:05:36Z",
       "newest_main_file_upload": "2026-11-26T07:05:36Z",
       "nexus": "https://www.nexusmods.com/crimsondesert/mods/4249",
-      "nexus_checked": "2026-11-26T08:18:08Z",
+      "nexus_checked": "2026-11-26T08:51:06Z",
       "nexus_updated": "2026-11-26T07:05:36Z",
       "supported": {
         "addresses": {
@@ -17404,10 +17454,10 @@
         "verdict": "untested"
       },
       "name": "Pywel Real Estate",
-      "newest_code_upload": "2026-11-25T12:58:05Z",
+      "newest_code_upload": "2026-11-26T06:48:55Z",
       "newest_main_file_upload": "2026-11-26T06:48:55Z",
       "nexus": "https://www.nexusmods.com/crimsondesert/mods/4488",
-      "nexus_checked": "2026-11-26T08:18:10Z",
+      "nexus_checked": "2026-11-26T08:51:07Z",
       "nexus_updated": "2026-11-26T06:48:55Z",
       "supported": {
         "verdict": "unchecked"
@@ -17855,7 +17905,7 @@
       "newest_code_upload": "2026-09-23T17:05:42Z",
       "newest_main_file_upload": "",
       "nexus": "https://www.nexusmods.com/crimsondesert/mods/3562",
-      "nexus_checked": "2026-11-26T08:18:24Z",
+      "nexus_checked": "2026-11-26T09:21:16Z",
       "nexus_updated": "2026-09-23T17:05:58Z",
       "supported": {
         "addresses": {
@@ -19794,10 +19844,10 @@
         "verdict": "ran"
       },
       "name": "Simple Cinematic Travel",
-      "newest_code_upload": "2026-11-24T01:36:32Z",
+      "newest_code_upload": "2026-11-26T01:59:11Z",
       "newest_main_file_upload": "2026-11-26T01:59:11Z",
       "nexus": "https://www.nexusmods.com/crimsondesert/mods/4071",
-      "nexus_checked": "2026-11-26T08:19:20Z",
+      "nexus_checked": "2026-11-26T08:50:49Z",
       "nexus_updated": "2026-11-26T01:59:11Z",
       "supported": {
         "addresses": {
@@ -21097,10 +21147,10 @@
         "verdict": "ran"
       },
       "name": "Storage HUD",
-      "newest_code_upload": "2026-11-20T00:21:08Z",
+      "newest_code_upload": "2026-11-26T02:17:34Z",
       "newest_main_file_upload": "2026-11-26T02:17:34Z",
       "nexus": "https://www.nexusmods.com/crimsondesert/mods/4265",
-      "nexus_checked": "2026-11-26T08:20:01Z",
+      "nexus_checked": "2026-11-26T08:51:04Z",
       "nexus_updated": "2026-11-26T02:17:34Z",
       "supported": {
         "addresses": {
@@ -21573,7 +21623,7 @@
       "newest_code_upload": "2026-11-25T17:26:05Z",
       "newest_main_file_upload": "",
       "nexus": "https://www.nexusmods.com/crimsondesert/mods/3482",
-      "nexus_checked": "2026-11-26T08:20:14Z",
+      "nexus_checked": "2026-11-26T09:21:21Z",
       "nexus_updated": "2026-11-25T17:26:05Z",
       "supported": {
         "addresses": {
@@ -21595,38 +21645,32 @@
       "author": "dukusmaximus",
       "builds": {
         "1.0.0.3663": {
-          "check": "searches",
+          "check": "not_scanned",
           "ids": {
-            "found": 1,
-            "total": 1
+            "found": 26,
+            "total": 26
           },
-          "pattern_counts": {
-            "not_found": 0,
-            "total": 0
-          },
-          "places": 1,
-          "status": "ok"
+          "pattern_counts": null,
+          "status": "unchecked"
         },
         "1.0.0.3732": {
-          "check": "reviewed",
+          "check": "scanned",
           "ids": {
-            "found": 1,
-            "total": 1
+            "found": 26,
+            "total": 26
           },
-          "missing": 1,
           "pattern_counts": {
-            "not_found": 0,
-            "total": 0
+            "not_found": 12,
+            "total": 52
           },
-          "places": 1,
           "status": "partly"
         }
       },
       "coverage": {
-        "have": 1,
+        "have": 20,
         "level": "full",
         "missing": 0,
-        "total": 1,
+        "total": 20,
         "use": "everything",
         "waiting": 0
       },
@@ -21640,23 +21684,23 @@
         "verdict": "ran"
       },
       "name": "Super Jump",
-      "newest_code_upload": "2026-05-24T01:55:34Z",
+      "newest_code_upload": "2026-11-26T01:27:13Z",
       "newest_main_file_upload": "2026-11-26T01:27:13Z",
       "nexus": "https://www.nexusmods.com/crimsondesert/mods/2572",
-      "nexus_checked": "2026-11-26T08:20:16Z",
+      "nexus_checked": "2026-11-26T08:50:51Z",
       "nexus_updated": "2026-11-26T01:27:14Z",
       "supported": {
         "addresses": {
-          "total": 1,
-          "with_id": 1
+          "total": 20,
+          "with_id": 20
         },
         "alone": false,
         "build": "1.0.0.3732",
         "cdal": "0.7.8",
         "date": "2026-11-22",
         "ids": {
-          "found": 1,
-          "total": 1
+          "found": 26,
+          "total": 26
         },
         "verdict": "supported"
       }
@@ -21724,6 +21768,54 @@
           "total": 2
         },
         "verdict": "supported"
+      }
+    },
+    {
+      "author": "King Herru",
+      "builds": {
+        "1.0.0.3663": {
+          "check": "not_scanned",
+          "ids": {
+            "found": 523,
+            "total": 523
+          },
+          "pattern_counts": null,
+          "status": "unchecked"
+        },
+        "1.0.0.3732": {
+          "check": "scanned",
+          "ids": {
+            "found": 523,
+            "total": 523
+          },
+          "pattern_counts": {
+            "not_found": 123,
+            "total": 790
+          },
+          "status": "partly"
+        }
+      },
+      "coverage": {
+        "have": 667,
+        "level": "full",
+        "missing": 0,
+        "total": 667,
+        "use": "everything",
+        "waiting": 0
+      },
+      "group": "scanned",
+      "key": "4358-Super-SSJ-Transformation",
+      "lab": {
+        "verdict": "untested"
+      },
+      "name": "Super SSJ Transformation",
+      "newest_code_upload": "2026-11-26T05:45:39Z",
+      "newest_main_file_upload": "2026-11-26T05:14:30Z",
+      "nexus": "https://www.nexusmods.com/crimsondesert/mods/4358",
+      "nexus_checked": "2026-11-26T08:51:19Z",
+      "nexus_updated": "2026-11-26T07:12:01Z",
+      "supported": {
+        "verdict": "unchecked"
       }
     },
     {
@@ -22676,7 +22768,7 @@
       "newest_code_upload": "2026-09-10T22:19:04Z",
       "newest_main_file_upload": "",
       "nexus": "https://www.nexusmods.com/crimsondesert/mods/3273",
-      "nexus_checked": "2026-11-26T08:20:46Z",
+      "nexus_checked": "2026-11-26T09:21:23Z",
       "nexus_updated": "2026-09-10T22:19:04Z",
       "supported": {
         "addresses": {
@@ -24022,10 +24114,10 @@
         "verdict": "ran"
       },
       "name": "Weapon's Pot (Storage)",
-      "newest_code_upload": "2026-11-22T20:38:54Z",
+      "newest_code_upload": "2026-11-26T05:44:25Z",
       "newest_main_file_upload": "2026-11-26T05:44:25Z",
       "nexus": "https://www.nexusmods.com/crimsondesert/mods/4320",
-      "nexus_checked": "2026-11-26T08:21:25Z",
+      "nexus_checked": "2026-11-26T08:50:57Z",
       "nexus_updated": "2026-11-26T05:44:25Z",
       "supported": {
         "addresses": {
@@ -24447,8 +24539,8 @@
     }
   },
   "pattern_mods": {
-    "total": 367,
-    "with": 151
+    "total": 369,
+    "with": 154
   },
   "summary": {
     "enrolled": {
@@ -24466,7 +24558,7 @@
       "nopatterns": 34,
       "ok": 191,
       "outdated": 45,
-      "partly": 58,
+      "partly": 60,
       "unchecked": 0
     }
   }
