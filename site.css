@@ -298,11 +298,9 @@ tbody tr:hover td { background: var(--side); }
 .clickable-row { cursor: pointer; }
 .id-drawer td { background: var(--side); padding: 12px 14px; }
 
-/* Quickstart & Excluded details */
+/* Quickstart */
 .qs-body { display: none; }
 .qs-body.active { display: block; }
-details.excluded-authors { margin-top: 18px; border: 1px solid var(--line); border-radius: var(--radius); background: var(--side); padding: 10px 14px; font-size: 13px; color: var(--muted); }
-details.excluded-authors summary { cursor: pointer; font-weight: 600; color: var(--text); }
 
 /* Footer */
 .footer { margin-top: 32px; padding-top: 14px; border-top: 1px solid var(--line); display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 10px; font-size: 12.5px; color: var(--muted); }
