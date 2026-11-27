@@ -1,11 +1,11 @@
 {
   "builds": [
     {
-      "build": "1.0.0.3732",
-      "date": "2026-11-24"
+      "build": "1.0.0.3840",
+      "date": "2026-11-27"
     },
     {
-      "build": "1.0.0.3663",
+      "build": "1.0.0.3732",
       "date": "2026-11-24"
     }
   ],
@@ -15,6 +15,23 @@
     "ipey"
   ],
   "game_builds": [
+    {
+      "added": "2026-11-27",
+      "build": "1.0.0.3840",
+      "exe_sha256": "ea2d84d947521332b002359818960ffd97765f37b447503d8a1efad4040269c8",
+      "exe_size": 327148952,
+      "game_version": "2.06.00",
+      "game_version_from": "game files",
+      "ids": {
+        "found": 3555,
+        "gone": 0,
+        "held": 0,
+        "total": 4953
+      },
+      "pe_timestamp": "0x6B07E5E9",
+      "size_of_image": "0x13D05000",
+      "steam_build_id": "26949954"
+    },
     {
       "added": "2026-11-19",
       "build": "1.0.0.3732",
@@ -204,25 +221,14 @@
     }
   ],
   "latest_game": {
-    "cdal_update_pending": true,
-    "patch_day": "finished",
+    "cdal_update_pending": false,
+    "patch_day": null,
     "version": "1.0.0.3840"
   },
   "mods": [
     {
       "author": "ratrider",
       "builds": {
-        "1.0.0.3663": {
-          "features": {
-            "available": 2,
-            "total": 2
-          },
-          "ids": {
-            "found": 32,
-            "total": 32
-          },
-          "status": "ok"
-        },
         "1.0.0.3732": {
           "features": {
             "available": 2,
@@ -233,24 +239,31 @@
             "total": 32
           },
           "status": "ok"
+        },
+        "1.0.0.3840": {
+          "features": {
+            "available": 1,
+            "total": 2
+          },
+          "ids": {
+            "found": 28,
+            "total": 32
+          },
+          "status": "broken"
         }
       },
       "coverage": {
         "features": true,
-        "have": 2,
-        "level": "full",
+        "have": 1,
+        "level": "some",
         "missing": 0,
         "total": 2,
-        "use": "everything"
+        "use": "ids_pack"
       },
       "group": "enrolled",
       "key": "crimson-fastload",
       "lab": {
-        "alone": false,
-        "build": "1.0.0.3732",
-        "cdal": "0.7.8",
-        "date": "2026-11-22",
-        "verdict": "problem"
+        "verdict": "untested"
       },
       "name": "Crimson FastLoad",
       "newest_code_upload": "2026-10-22T11:01:30Z",
@@ -259,46 +272,42 @@
       "nexus_checked": "2026-11-25T20:50:52Z",
       "nexus_updated": "2026-11-25T11:22:44Z",
       "supported": {
-        "alone": false,
-        "build": "1.0.0.3732",
-        "cdal": "0.7.8",
-        "date": "2026-11-22",
-        "verdict": "problem"
+        "verdict": "unchecked"
       }
     }
   ],
   "patch": {
-    "build": "1.0.0.3732",
-    "date": "2026-11-24",
-    "game_version": "2.05.01",
+    "build": "1.0.0.3840",
+    "date": "2026-11-27",
+    "game_version": "2.06.00",
     "ids": {
-      "found": 4897,
-      "gone": 56,
+      "found": 3555,
+      "gone": 0,
       "held": 0,
-      "lost": 1,
-      "total": 4897
+      "lost": 1344,
+      "total": 4953
     },
     "lost_why": {
-      "changed_meaning": 1,
+      "changed_meaning": 0,
       "held": 0,
       "not_found": 0,
-      "quarantined": 0,
+      "quarantined": 1344,
       "removed": 0
     },
-    "previous": "1.0.0.3663",
-    "previous_game_version": "2.05.00",
+    "previous": "1.0.0.3732",
+    "previous_game_version": "2.05.01",
     "rescue": {
-      "fixable": 12,
-      "needs_ids": 4,
+      "fixable": 0,
+      "needs_ids": 0,
       "other": 0
     }
   },
   "summary": {
     "enrolled": {
-      "broken": 0,
+      "broken": 1,
       "none": 0,
       "nopatterns": 0,
-      "ok": 1,
+      "ok": 0,
       "outdated": 0,
       "partly": 0,
       "unchecked": 0

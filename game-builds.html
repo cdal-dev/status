@@ -25,8 +25,8 @@
       </span>
     </a>
     <div class="top-actions">
-      <span class="pill-stat num">Game <b>2.05.01</b> (<code>1.0.0.3732</code>)</span>
-      <span class="pill-stat num">CDAL IDs <b>4,897 / 4,897</b></span>
+      <span class="pill-stat num">Game <b>2.06.00</b> (<code>1.0.0.3840</code>)</span>
+      <span class="pill-stat num">CDAL IDs <b>3,555 / 4,953</b></span>
       <span class="pill-stat num">Lua API <b>370</b> fn &middot; <b>42</b> ev</span>
       <button type="button" id="theme-toggle">Theme</button>
     </div>
@@ -50,6 +50,14 @@
         </tr>
       </thead>
       <tbody id="builds-tbody"><tr>
+          <td><strong>2.06.00</strong></td>
+          <td><code>1.0.0.3840</code></td>
+          <td class="num">26949954</td>
+          <td>2026-11-27</td>
+          <td><code>0x6B07E5E9</code> / <code>0x13D05000</code></td>
+          <td><code title="ea2d84d947521332b002359818960ffd97765f37b447503d8a1efad4040269c8">ea2d84d94752...</code></td>
+          <td class="num"><strong>3,555</strong> / 4,953</td>
+        </tr><tr>
           <td><strong>2.05.01</strong></td>
           <td><code>1.0.0.3732</code></td>
           <td class="num">26776744</td>
@@ -81,7 +89,7 @@
           <td><code>0x6AEA07A6</code> / <code>0x13EB2000</code></td>
           <td><span style="color:var(--faint)">Not recorded</span></td>
           <td class="num"><strong>1,992</strong> / 4,953</td>
-        </tr><tr>
+        </tr><tr class="extra-build">
           <td><strong>2.04.05*</strong></td>
           <td><code>1.0.0.3479</code></td>
           <td class="num">26361232</td>
@@ -141,16 +149,16 @@
     </table>
   </div>
   <div class="toolbar">
-    <button type="button" id="toggle-builds">Show all 11 builds</button>
+    <button type="button" id="toggle-builds">Show all 12 builds</button>
     <span style="font-size:12px;color:var(--muted)">* Version matched by Steam patch date when not read directly from game files.</span>
   </div>
 
   <div class="section-head">
-    <h2>CDAL ID Explorer &middot; 4,897 Symbols Across 1,616 Namespaces</h2>
+    <h2>CDAL ID Explorer &middot; 4,953 Symbols Across 1,616 Namespaces</h2>
     <span class="sub num" id="id-count-status">Loading IDs...</span>
   </div>
   <div class="kind-strip" aria-label="Filter by ID kind">
-    <button type="button" class="kind-chip" data-kindchip="" aria-pressed="true">All Kinds <b>4,897</b></button>
+    <button type="button" class="kind-chip" data-kindchip="" aria-pressed="true">All Kinds <b>4,953</b></button>
     <button type="button" class="kind-chip" data-kindchip="function" aria-pressed="false">Functions <b>2,848</b></button>
     <button type="button" class="kind-chip" data-kindchip="code" aria-pressed="false">Code Hooks <b>1,500</b></button>
     <button type="button" class="kind-chip" data-kindchip="offset" aria-pressed="false">Struct Offsets <b>237</b></button>
@@ -159,7 +167,7 @@
   </div>
   <div class="toolbar">
     <input type="search" id="id-search" class="grow" placeholder="Search ID name, number (e.g. 269), or hex address (0x...). Click any row for C++/Lua snippets">
-    <select id="id-build"><option value="1.0.0.3732">2.05.01 (1.0.0.3732)</option><option value="1.0.0.3663">2.05.00 (1.0.0.3663)</option><option value="1.0.0.3576">2.04.08 (1.0.0.3576)</option><option value="1.0.0.3527">2.04.06 (1.0.0.3527)</option><option value="1.0.0.3479">2.04.05 (1.0.0.3479)</option><option value="1.0.0.3462">2.04.04 (1.0.0.3462)</option><option value="1.0.0.3460">2.04.03 (1.0.0.3460)</option><option value="1.0.0.3446">2.04.02 (1.0.0.3446)</option><option value="1.0.0.3424">2.04.00 (1.0.0.3424)</option><option value="1.0.0.3392">2.04.00 (1.0.0.3392)</option><option value="1.0.0.2976">2.03.01 and 2.03.02 (1.0.0.2976)</option></select>
+    <select id="id-build"><option value="1.0.0.3840">2.06.00 (1.0.0.3840)</option><option value="1.0.0.3732">2.05.01 (1.0.0.3732)</option><option value="1.0.0.3663">2.05.00 (1.0.0.3663)</option><option value="1.0.0.3576">2.04.08 (1.0.0.3576)</option><option value="1.0.0.3527">2.04.06 (1.0.0.3527)</option><option value="1.0.0.3479">2.04.05 (1.0.0.3479)</option><option value="1.0.0.3462">2.04.04 (1.0.0.3462)</option><option value="1.0.0.3460">2.04.03 (1.0.0.3460)</option><option value="1.0.0.3446">2.04.02 (1.0.0.3446)</option><option value="1.0.0.3424">2.04.00 (1.0.0.3424)</option><option value="1.0.0.3392">2.04.00 (1.0.0.3392)</option><option value="1.0.0.2976">2.03.01 and 2.03.02 (1.0.0.2976)</option></select>
     <select id="id-kind">
       <option value="">All kinds</option>
       <option value="function">function</option>
@@ -191,7 +199,7 @@
   </main>
 
   <footer class="footer">
-    <div>CDAL 0.7.8 &middot; BSX 0.3.2 &middot; Crimson Desert Address Library &amp; Script Extender &middot; Data updated <time datetime="2026-11-24">2026-11-24</time></div>
+    <div>CDAL 0.7.8 &middot; BSX 0.3.2 &middot; Crimson Desert Address Library &amp; Script Extender &middot; Data updated <time datetime="2026-11-27">2026-11-27</time></div>
     <div class="footer-links">
       <a href="https://discord.gg/Ucyp39ayUX" target="_blank" rel="noopener">Discord</a>
       <a href="mods.html">Enroll a mod</a>
