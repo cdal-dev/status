@@ -18,10 +18,10 @@
       "game_version": "2.06.00",
       "game_version_from": "game files",
       "ids": {
-        "found": 3841,
-        "gone": 6,
+        "found": 3844,
+        "gone": 5,
         "held": 3,
-        "total": 4944
+        "total": 4945
       },
       "pe_timestamp": "0x6B07E5E9",
       "size_of_image": "0x13D05000",
@@ -238,23 +238,23 @@
         },
         "1.0.0.3840": {
           "features": {
-            "available": 1,
+            "available": 2,
             "total": 2
           },
           "ids": {
-            "found": 31,
+            "found": 32,
             "total": 32
           },
-          "status": "broken"
+          "status": "ok"
         }
       },
       "coverage": {
         "features": true,
-        "have": 1,
-        "level": "some",
+        "have": 2,
+        "level": "full",
         "missing": 0,
         "total": 2,
-        "use": "ids_pack"
+        "use": "everything"
       },
       "group": "enrolled",
       "key": "crimson-fastload",
@@ -277,17 +277,17 @@
     "date": "2026-11-27",
     "game_version": "2.06.00",
     "ids": {
-      "found": 3841,
-      "gone": 6,
+      "found": 3844,
+      "gone": 5,
       "held": 3,
-      "lost": 1058,
-      "total": 4944
+      "lost": 1055,
+      "total": 4945
     },
     "lost_why": {
-      "changed_meaning": 6,
+      "changed_meaning": 5,
       "held": 3,
       "not_found": 0,
-      "quarantined": 1049,
+      "quarantined": 1047,
       "removed": 0
     },
     "previous": "1.0.0.3732",
@@ -298,14 +298,14 @@
       "needs_ids": 0,
       "other": 0
     },
-    "under_review": 1049
+    "under_review": 1047
   },
   "summary": {
     "enrolled": {
-      "broken": 1,
+      "broken": 0,
       "none": 0,
       "nopatterns": 0,
-      "ok": 0,
+      "ok": 1,
       "outdated": 0,
       "partly": 0,
       "unchecked": 0
