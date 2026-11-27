@@ -24,9 +24,9 @@
       "game_version_from": "game files",
       "ids": {
         "found": 3663,
-        "gone": 0,
-        "held": 0,
-        "total": 4953
+        "gone": 4,
+        "held": 3,
+        "total": 4946
       },
       "pe_timestamp": "0x6B07E5E9",
       "size_of_image": "0x13D05000",
@@ -223,6 +223,7 @@
   "latest_game": {
     "cdal_update_pending": false,
     "patch_day": null,
+    "repairs_in_progress": true,
     "version": "1.0.0.3840"
   },
   "mods": [
@@ -282,25 +283,27 @@
     "game_version": "2.06.00",
     "ids": {
       "found": 3663,
-      "gone": 0,
-      "held": 0,
+      "gone": 4,
+      "held": 3,
       "lost": 1236,
-      "total": 4953
+      "total": 4946
     },
     "lost_why": {
-      "changed_meaning": 0,
-      "held": 0,
+      "changed_meaning": 4,
+      "held": 3,
       "not_found": 0,
-      "quarantined": 1236,
+      "quarantined": 1229,
       "removed": 0
     },
     "previous": "1.0.0.3732",
     "previous_game_version": "2.05.01",
+    "repairs_open": false,
     "rescue": {
       "fixable": 0,
       "needs_ids": 0,
       "other": 0
-    }
+    },
+    "under_review": 1229
   },
   "summary": {
     "enrolled": {
