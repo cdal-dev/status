@@ -23,10 +23,10 @@
       "game_version": "2.06.00",
       "game_version_from": "game files",
       "ids": {
-        "found": 3663,
-        "gone": 4,
+        "found": 3841,
+        "gone": 6,
         "held": 3,
-        "total": 4946
+        "total": 4944
       },
       "pe_timestamp": "0x6B07E5E9",
       "size_of_image": "0x13D05000",
@@ -282,17 +282,17 @@
     "date": "2026-11-27",
     "game_version": "2.06.00",
     "ids": {
-      "found": 3663,
-      "gone": 4,
+      "found": 3841,
+      "gone": 6,
       "held": 3,
-      "lost": 1236,
-      "total": 4946
+      "lost": 1058,
+      "total": 4944
     },
     "lost_why": {
-      "changed_meaning": 4,
+      "changed_meaning": 6,
       "held": 3,
       "not_found": 0,
-      "quarantined": 1229,
+      "quarantined": 1049,
       "removed": 0
     },
     "previous": "1.0.0.3732",
@@ -303,7 +303,7 @@
       "needs_ids": 0,
       "other": 0
     },
-    "under_review": 1229
+    "under_review": 1049
   },
   "summary": {
     "enrolled": {
