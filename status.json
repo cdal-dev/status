@@ -218,7 +218,7 @@
   "latest_game": {
     "cdal_update_pending": false,
     "patch_day": null,
-    "repairs_in_progress": true,
+    "repairs_in_progress": false,
     "version": "1.0.0.3840"
   },
   "mods": [
@@ -273,6 +273,7 @@
     }
   ],
   "patch": {
+    "background_under_review": 1047,
     "build": "1.0.0.3840",
     "date": "2026-11-27",
     "game_version": "2.06.00",
@@ -298,6 +299,7 @@
       "needs_ids": 0,
       "other": 0
     },
+    "tier0_under_review": 0,
     "under_review": 1047
   },
   "summary": {
