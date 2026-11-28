@@ -18,10 +18,10 @@
       "game_version": "2.06.00",
       "game_version_from": "game files",
       "ids": {
-        "found": 3898,
-        "gone": 5,
+        "found": 4508,
+        "gone": 44,
         "held": 9,
-        "total": 4939
+        "total": 4900
       },
       "pe_timestamp": "0x6B07E5E9",
       "size_of_image": "0x13D05000",
@@ -273,23 +273,23 @@
     }
   ],
   "patch": {
-    "background_under_review": 987,
+    "background_under_review": 338,
     "build": "1.0.0.3840",
     "date": "2026-11-28",
     "game_version": "2.06.00",
     "ids": {
-      "found": 3898,
-      "gone": 5,
+      "found": 4508,
+      "gone": 44,
       "held": 9,
-      "lost": 1001,
-      "total": 4939
+      "lost": 391,
+      "total": 4900
     },
     "lost_why": {
-      "changed_meaning": 5,
+      "changed_meaning": 35,
       "held": 9,
       "not_found": 0,
-      "quarantined": 987,
-      "removed": 0
+      "quarantined": 338,
+      "removed": 9
     },
     "previous": "1.0.0.3732",
     "previous_game_version": "2.05.01",
@@ -300,7 +300,7 @@
       "other": 0
     },
     "tier0_under_review": 0,
-    "under_review": 987
+    "under_review": 338
   },
   "summary": {
     "enrolled": {
